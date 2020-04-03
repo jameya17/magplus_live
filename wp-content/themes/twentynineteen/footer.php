@@ -89,7 +89,7 @@
                 <h2 class="form-block-title">Contact</h2>
                 <p>Feel free to contact us. We are willing to help you with any issues you may encounter with our products.<br />
                     Your privacy is important to us. We’ll never share your information</p>
-                <?php echo do_shortcode('[salesforce form="25"]'); ?>
+                <?php echo do_shortcode('[salesforce form="3"]'); ?>
             </div>
             <!---<form class="form-block" action="">
                 <h2 class="form-block-title">Contact</h2>
