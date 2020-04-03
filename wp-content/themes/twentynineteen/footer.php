@@ -63,6 +63,7 @@
             </div>
 
             <h6>Contact: <a href="tel:+91 80876 00106" title="tel:+91 80876 00106">+91 80876 00106</a></h6>
+            <?php echo do_shortcode('[do_widget id=wp_subscribe-3]'); ?>
         </div>
         <div class="mob-view">
             <div class="follow-us-block">
