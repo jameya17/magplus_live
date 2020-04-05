@@ -2027,6 +2027,8 @@ input:-webkit-autofill:focus {
   @media only screen and (max-width: 1024px) {
     .click-card-block.active {
       position: relative; } }
+.click-card-block .card {
+  min-height: 365px; }
 
 .card-text {
   font-size: 16px;
