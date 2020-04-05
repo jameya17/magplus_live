@@ -548,10 +548,10 @@ function generate_case_studies_html() {
       $thumb = get_bloginfo('template_directory').'/images/case-study-temp3.png';
     }
     $output .=  '<div class="g-col offset_default">  
-                      <a href="'.get_the_permalink().'" class="one-half image-block" data-aos="fade-right">
+                      <a href="'.get_the_permalink().'" class="one-half image-block">
 	                       <img src="'.$thumb.'">
 	                  </a> 
-                      <div class="one-half" data-aos="fade-left">
+                      <div class="one-half">
                           <h3 class="sec-title">'.get_the_title().'</h3>
                           <p class="block-ellipsis">'.get_the_excerpt().'</p>
                           <a href="'.get_the_permalink().'" title="View Case Study +" class="text-link"> View Case Study +</a>

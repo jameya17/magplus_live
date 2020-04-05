@@ -54,16 +54,16 @@
         <div class="foot-col subscription-sec">
             <h6>Subscribe</h6>
             <p class="small">At half-past eight the door opened, the policeman appeared.</p>
-            <div class="subscription-form">
+            <?php echo do_shortcode('[do_widget id=wp_subscribe-3]'); ?>
+            <!-- <div class="subscription-form">
                 <div class="inline-form error-block">
                     <input type="email" id="email" placeholder="Enter your email" name="email">
                     <button type="button" id="btnClick" alt="newsletter-submit" class="btn"></button>
                     <span class="error"></span>
                 </div>
-            </div>
+            </div> -->
 
             <h6>Contact: <a href="tel:+91 80876 00106" title="tel:+91 80876 00106">+91 80876 00106</a></h6>
-            <?php echo do_shortcode('[do_widget id=wp_subscribe-3]'); ?>
         </div>
         <div class="mob-view">
             <div class="follow-us-block">
@@ -138,7 +138,7 @@
                     </a>
                 </div>
             </form>-->
-            <span id="close-popup"></span>
+            <span id="close-popup" class="close-popup"></span>
         </div>
     </div>
 </div>
@@ -290,7 +290,7 @@
         jQuery('.contact-us').on('click', function() {
             jQuery(this).closest('.drawer-head').next('.drawer-body').addClass('active');
         });
-        jQuery('#close-popup').on('click', function() {
+        jQuery('.close-popup').on('click', function() {  
             jQuery(this).closest('.drawer-body').removeClass('active');
         });
         jQuery('.card-deck a').fancybox({
@@ -311,14 +311,23 @@
                 jQuerythis.next().slideToggle(350);
             }
         });
-        jQuery('.click-card-block').click(function(e) {
-            e.preventDefault();
-            if (jQuery(this).hasClass('active')) {
-                jQuery(this).removeClass('active');
+        jQuery('.card-listing .click-card-block').click(function(e) {
+            e.preventDefault();  
+            if (jQuery('.click-card-block').hasClass('active')) {  
+                jQuery('.click-card-block').removeClass('active');  
+                //jQuery(this).addClass('active'); 
             } else {
-                jQuery(this).addClass('active');
-            }
+                jQuery(this).addClass('active');  
+            } 
         });
+        // jQuery('.click-card-block').click(function(e) {
+        //     e.preventDefault();
+        //     if (jQuery(this).hasClass('active')) {
+        //         jQuery(this).removeClass('active');
+        //     } else {
+        //         jQuery(this).addClass('active');
+        //     }
+        // });
         jQuery(".js-anchor-link").click(function(e) {
             e.preventDefault();
             var target = jQuery(jQuery(this).attr("href"));

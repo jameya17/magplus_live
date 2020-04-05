@@ -103,7 +103,7 @@ get_header();
 
                     <div class="video-section">
                         <a href="https://youtu.be/QiknaxhsVqo" target="_blank" rel="noopener noreferrer" data-fancybox>
-                            <img src="<?php bloginfo('template_directory'); ?>/images/temp-schedule-demo.svg" alt="" />        
+                            <img src="<?php bloginfo('template_directory'); ?>/images/temp-schedule-demo.png" alt="" />        
                             <span class="video-play-btn">
                             </span>
                         </a>    
@@ -129,14 +129,16 @@ get_header();
 
                     <div class="card-section" style="overflow: hidden;">
                         <div class="card-listing">
-                            <div data-aos="fade-right" class="card click-card-block">
-                                <div class="card-body">
-                                    <div class="card-icon">
-                                        <img src="<?php bloginfo('template_directory'); ?>/images/icons/create-content-icon.svg" alt="Create Content" />
+                            <div class="click-card-block">
+                                <div data-aos="fade-right" class="card">
+                                    <div class="card-body">
+                                        <div class="card-icon">
+                                            <img src="<?php bloginfo('template_directory'); ?>/images/icons/create-content-icon.svg" alt="Create Content" />
+                                        </div>
+                                        <h4 class="card-title">Create Content</h4>
+                                        <p class="card-text">Create highly interactive, multimedia layouts that are native to the touchscreens by using our powerful plug-in for Adobe InDesign, the most popular design software in the world.</p>
+                                        <a href="#" class="btn-link" title="Read More +">Read More +</a>
                                     </div>
-                                    <h4 class="card-title">Create Content</h4>
-                                    <p class="card-text">Create highly interactive, multimedia layouts that are native to the touchscreens by using our powerful plug-in for Adobe InDesign, the most popular design software in the world. </p>
-                                    <a href="#" class="btn-link" title="Read More +">Read More +</a>
                                 </div>
                                 <div class="card-popup-content popup-content-block">
                                     <div class="card-icon">
@@ -146,15 +148,17 @@ get_header();
                                     <p class="card-text">Create highly interactive, multimedia layouts that are native to the touchscreens by using our powerful plug-in for Adobe InDesign, the most popular design software in the world. </p>
                                     <a href="" id="close-popup"></a>
                                 </div>
-                            </div>
-                            <div data-aos="fade-left" class="card click-card-block">
-                                <div class="card-body">
-                                    <div class="card-icon">
-                                        <img src="<?php bloginfo('template_directory'); ?>/images/icons/publish-content-icon.svg" alt="Design your mobile app" />
+                            </div>  
+                            <div class="click-card-block">  
+                                <div data-aos="fade-left" class="card">
+                                    <div class="card-body">
+                                        <div class="card-icon">
+                                            <img src="<?php bloginfo('template_directory'); ?>/images/icons/publish-content-icon.svg" alt="Design your mobile app" />
+                                        </div>
+                                        <h4 class="card-title">Design your mobile app</h4>
+                                        <p class="card-text">Your mag+ powered mobile app is how users consume your content. Use our cloud-based web tools to create a branded app, fully integrated with analytics, messaging, and more, for public or internal use.</p>
+                                        <a href="#" class="btn-link" title="Read More +">Read More +</a>
                                     </div>
-                                    <h4 class="card-title">Design your mobile app</h4>
-                                    <p class="card-text">Your mag+ powered mobile app is how users consume your content. Use our cloud-based web tools to create a branded app, fully integrated with analytics, messaging, and more, for public or internal use.</p>
-                                    <a href="#" class="btn-link" title="Read More +">Read More +</a>
                                 </div>
                                 <div class="card-popup-content popup-content-block">
                                     <div class="card-icon">
@@ -164,15 +168,17 @@ get_header();
                                     <p class="card-text">Your mag+ powered mobile app is how users consume your content. Use our cloud-based web tools to create a branded app, fully integrated with analytics, messaging, and more, for public or internal use.</p>
                                     <a href="" id="close-popup"></a>
                                 </div>
-                            </div>
-                            <div data-aos="fade-right" class="card click-card-block">
-                                <div class="card-body">
-                                    <div class="card-icon">
-                                        <img src="<?php bloginfo('template_directory'); ?>/images/icons/manage-apps-icon.svg" alt="Publish content" />
+                            </div>    
+                            <div class="click-card-block">
+                                <div data-aos="fade-right" class="card">
+                                    <div class="card-body">
+                                        <div class="card-icon">
+                                            <img src="<?php bloginfo('template_directory'); ?>/images/icons/manage-apps-icon.svg" alt="Publish content" />
+                                        </div>
+                                        <h4 class="card-title">Publish content</h4>
+                                        <p class="card-text">Once your app is on your users’ smart-devices, publishing your content—magazines, brochures, push notifications, or live feeds—is as simple as uploading a file and pushing a button.</p>
+                                        <a href="#" class="btn-link" title="Read More +">Read More +</a>
                                     </div>
-                                    <h4 class="card-title">Publish content</h4>
-                                    <p class="card-text">Once your app is on your users’ smart-devices, publishing your content—magazines, brochures, push notifications, or live feeds—is as simple as uploading a file and pushing a button.</p>
-                                    <a href="#" class="btn-link" title="Read More +">Read More +</a>
                                 </div>
                                 <div class="card-popup-content popup-content-block">
                                     <div class="card-icon">
@@ -182,26 +188,28 @@ get_header();
                                     <p class="card-text">Once your app is on your users’ smart-devices, publishing your content—magazines, brochures, push notifications, or live feeds—is as simple as uploading a file and pushing a button.</p>
                                     <a href="" id="close-popup"></a>
                                 </div>
-                            </div>
-                            <div data-aos="fade-left" class="card click-card-block">
-                                <div class="card-body">
-                                    <div class="card-icon">
-                                        <img src="<?php bloginfo('template_directory'); ?>/images/icons/monitise-apps-icons.svg" alt="Monitise Apps" />
+                            </div> 
+                            <div class="click-card-block">
+                                <div data-aos="fade-left" class="card">
+                                    <div class="card-body">
+                                        <div class="card-icon">
+                                            <img src="<?php bloginfo('template_directory'); ?>/images/icons/monitise-apps-icons.svg" alt="Monitise Apps" />
+                                        </div>
+                                        <h4 class="card-title">Monitise Apps</h4>
+                                        <p class="card-text">Use in-app purchases or user subscriptions to monetize the content in your app. Additionally, use 3rd party platforms like Admob, AdMarvel to monetize using in-app advertisements.</p>
+                                        <a href="#" class="btn-link" title="Read More +">Read More +</a>
                                     </div>
-                                    <h4 class="card-title">Monitise Apps</h4>
-                                    <p class="card-text">Use in-app purchases or user subscriptions to monetize the content in your app. Additionally, use 3rd party platforms like Admob, AdMarvel to monetize using in-app advertisements</p>
-                                    <a href="#" class="btn-link" title="Read More +">Read More +</a>
                                 </div>
                                 <div class="card-popup-content popup-content-block">
                                     <div class="card-icon">
                                         <img src="<?php bloginfo('template_directory'); ?>/images/icons/create-content-icon.svg" alt="Monetize your app" />
                                     </div>
                                     <h4 class="card-title">Monitise Apps</h4>
-                                    <p class="card-text">Use in-app purchases or user subscriptions to monetize the content in your app. Additionally, use 3rd party platforms like Admob, AdMarvel to monetize using in-app advertisements</p>
+                                    <p class="card-text">Use in-app purchases or user subscriptions to monetize the content in your app. Additionally, use 3rd party platforms like Admob, AdMarvel to monetize using in-app advertisements.</p>
                                     <a href="" id="close-popup"></a>
                                 </div> 
-                            </div>
-                        </div>    
+                            </div>    
+                        </div>        
                     </div>
                 </div>    
             </div>

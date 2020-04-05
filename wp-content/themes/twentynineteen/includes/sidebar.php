@@ -50,7 +50,7 @@
         <h3 class="sec-title">Share</h3>
         <?php echo do_shortcode("[do_widget id=a2a_share_save_widget-2]"); ?>
     </div>
-    <div class="sidebar-section-listing">
+    <!-- <div class="sidebar-section-listing">
         <h3 class="sec-title">Share</h3>
         <ul class="sidebar-listing follow-us-listing" id="social-share">
             <li><a href="javascript:void(0);" title="Slack"><img src="<?php bloginfo('template_directory'); ?>/images/icons/grey-slack.svg" alt="Slack"></a></li>
@@ -59,11 +59,11 @@
             <li><a href="" title="G+"><img src="<?php bloginfo('template_directory'); ?>/images/icons/grey-gplus.svg" alt="G+"></a></li>
             <li><a href="" title="Instagram"><img src="<?php bloginfo('template_directory'); ?>/images/icons/grey-instagram.svg" alt="Instagram"></a></li> 
         </ul>
-    </div> 
+    </div>  -->
     <div class="sidebar-section-listing">
         <?php echo do_shortcode("[do_widget id=wp_subscribe-2]"); ?>
     </div>
-    <div class="sidebar-section-listing">
+    <!-- <div class="sidebar-section-listing">
         <div class="get-update-ces">
             <h3 class="sec-title">Get Updates</h3>      
             <p>Subscribe to our mailing list and get latest product updates, insights, and tips in your inbox. </p>      
@@ -86,5 +86,5 @@
 
             <h6>Contact: <a href="tel:+91 80876 00106" title="tel:+91 80876 00106">+91 80876 00106</a></h6>
         </div>
-    </div>                                             
+    </div>                                              -->
 </div>

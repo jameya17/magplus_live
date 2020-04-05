@@ -239,3 +239,41 @@
 
     }
 }
+
+.post-sidebar{
+    .sidebar-section-listing{
+        .widget.wp_subscribe.amr_widget{
+            background-color: #ECECEC;
+            padding: 60px 20px;
+            border-radius: 8px; 
+            .wp-subscribe-wrap{
+                text-align: left; 
+                h4.title{
+                    font-size: 32px;
+                    line-height: 44.07px;
+                    color: #414141;
+                    font-weight: bold;
+                    letter-spacing: -0.7px; 
+                    text-transform: none; 
+                }
+                p.text, p.footer-text{  
+                    font-size: 11px;
+                    line-height: 14px !important; 
+                    color: #8D8788 !important;
+                }
+                p.footer-text{
+                    margin-bottom: 0;   
+                }
+                .wps-consent-wrapper label{ 
+                    font-size: 10px;
+                    line-height: 12px;
+                    color: #4F5362;
+                    border: 0;
+                    margin: 0;
+                    //padding-left: 25px; 
+                }
+            }
+
+        }
+    }
+} 

@@ -311,6 +311,7 @@ footer{
     height: 24px;
     border-radius: 50%;
     background: $white-col url('../../images/icons/close-icon.svg') no-repeat center center;
+    cursor: pointer; 
 } 
 
 .mob-view{
@@ -437,3 +438,87 @@ footer{
 .salesforce_w2l_lead.sf_one_column, .sf_form_salesforce_w2l_lead_25{
     width: 100%;  
 }
+
+
+//ger updated
+.wp-subscribe-form.wp-subscribe-mailchimp{
+    position: relative;  
+}
+.wp-subscribe-wrap p.text{
+    margin: 0; 
+}
+.wp-subscribe-wrap{
+    background: transparent !important;  
+    padding: 0 !important;
+}
+.wp-subscribe-wrap input.email-field{
+    display: block;
+    position: relative;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    border: 1px solid #fff;
+    border-radius: 3px 0 0 3px;
+    color: #333333 !important;
+    padding: 0;
+    width: auto;
+    background: #ffff!important; 
+    outline: 0;
+    min-height: 45px;
+    margin: 0;
+    text-align: left;
+    min-width: 218px;
+    padding: 0 5px 0 0;
+}
+.wps-consent-wrapper{
+    //display: none;
+}
+.wp-subscribe-wrap p.footer-text{
+    font-size: 11px;
+    line-height: 16px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0;
+    margin: 15px 0;
+    text-align: left; 
+}
+.wp-subscribe-wrap input.submit{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20.5px;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px 40px;
+    background-color: #FF8616 !important; 
+    border: 1px solid #F36F21;
+    border-radius: 30.5px;
+    white-space: nowrap;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    margin: 0 !important;
+    text-indent: -9999px;
+    width: 58px;
+    padding: 0;
+    border-radius: 0 3px 3px 0;
+    background-image: url(../../images/icons/right-arrow.svg) !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important; 
+    right: 0px;
+    box-shadow: none !important; 
+    cursor: pointer; 
+}
+.wp-subscribe-wrap .wps-consent-wrapper label{
+    display: inline-block; 
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-align: left;
+    opacity: 1;
+    letter-spacing: .5px;
+}
+    
