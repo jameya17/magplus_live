@@ -66,7 +66,8 @@ $the_showcase_query = new WP_Query( $args );
                             ?>
                                 <div class="g-col offset_default">
                                     <a href="<?php the_permalink(); ?>" class="one-half image-block">
-                                        <img src="<?php echo $thumb; ?>">
+                                        <span style="display: inline-block; background: url('<?php echo $thumb; ?>')no-repeat center center; background-size: cover; width: 100%; min-height: 360px; box-shadow: 0px 0px 6px 0 rgba(0, 0, 0, 0.2);background-color: #ddd; border-radius: 18px;"></span>
+                                        <!-- <img src="<?php echo $thumb; ?>"> -->
                                     </a>    
                                     <div class="one-half">
                                         <h3 class="sec-title"><?php the_title(); ?></h3>

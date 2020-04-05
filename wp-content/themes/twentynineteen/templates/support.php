@@ -106,7 +106,8 @@ get_header();
                             ?>
                                 <div class="item">
                                     <a href="<?php echo $video; ?>" target="_blank" rel="" class="item-image" data-fancybox title="">
-                                        <img src="<?php echo $thumb; ?>" alt="" />        
+                                        <span style="display: inline-block; background: url('<?php echo $thumb; ?>')no-repeat center center; background-size: cover; width: 100%; min-height: 360px;border: 1px solid #979797; border-radius: 8px;"></span>         
+                                        <!-- <img src="<?php echo $thumb; ?>" alt="" /> -->
                                         <span class="video-play-btn">
                                         </span>
                                     </a>    
@@ -146,7 +147,8 @@ get_header();
                                     ?>
                                         <div class="g-col offset_default item">
                                             <div href="<?php the_permalink(); ?>" class="one-half image-block">
-                                                <img src="<?php echo $thumb; ?>" alt="App Update Services">  
+                                            <span style="display: inline-block; background: url('<?php echo $thumb; ?>')no-repeat center center; background-size: cover; width: 100%; min-height: 360px; box-shadow: 0px 0px 6px 0 rgba(0, 0, 0, 0.2);background-color: #ddd; border-radius: 18px;"></span>         
+                                                <!-- <img src="<?php echo $thumb; ?>" alt="App Update Services">   -->
                                             </div>
 
                                             <div class="one-half item-detail">

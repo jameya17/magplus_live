@@ -4030,8 +4030,8 @@ footer {
   .video-listing li a {
     position: relative;
     display: block;
-    margin-bottom: 5px;
-    border-radius: 8px; }
+    border-radius: 8px;
+    transition: all .1s ease-in-out; }
     .video-listing li a:hover::before {
       content: '';
       position: absolute;
@@ -4042,6 +4042,8 @@ footer {
       background-color: #FF8616;
       opacity: .8;
       border-radius: 8px; }
+    .video-listing li a:hover .play-text {
+      display: block; }
     .video-listing li a.active::before {
       content: '';
       position: absolute;
@@ -4097,7 +4099,8 @@ footer {
   left: 0;
   right: 0;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  display: none; }
 
 .close-btn {
   width: 48px;

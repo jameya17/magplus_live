@@ -185,7 +185,7 @@ get_header();
                             <p>Your plain content is converted into an engaging and creative digital story. The delivered content is publication-ready and can be instantly rendered to your preferred devices using the mobile app created using mag+.</p>
                         </div>    
                         <div class="one-half image-block">
-                            
+                            <img src="<?php bloginfo('template_directory'); ?>/images/outcome.png" alt="What will we deliver?">
                         </div>    
                     </div>    
                 </div>    

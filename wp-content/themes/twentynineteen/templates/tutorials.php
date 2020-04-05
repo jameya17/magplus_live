@@ -142,7 +142,8 @@ get_header();
                                         <?php } ?>
                                                 <li>
                                                     <a href="<?php echo $video; ?>" data-fancybox title="">
-                                                        <img src="<?php echo $thumb; ?>" alt="" class="card-img-top img-fluid"/>
+                                                        <span class="card-img-top img-fluid" style="display: block; background: url('<?php echo $thumb; ?>')no-repeat center center; background-size: cover; width: 100%; min-width: 250px; min-height: 182px; background-color: #ddd; border-radius: 8px;"></span>         
+                                                        <!-- <img src="<?php echo $thumb; ?>" alt="" class="card-img-top img-fluid"/> -->
                                                         <span class="video-play-btn"></span>
                                                         <span class="play-text">Watch Tutorial</span>
                                                     </a>

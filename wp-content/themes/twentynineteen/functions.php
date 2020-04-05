@@ -389,8 +389,8 @@ function generate_tutorials_html(){
       $output .= '<ul class="video-section video-listing">';
     }
       $output .= '<li>
-                        <a href="'.$video.'" title="" data-fancybox title="">
-                            <img src="'.$thumb.'" alt="" />
+						<a href="'.$video.'" title="" data-fancybox title="">
+							<span class="card-img-top img-fluid" style="display: block; background: url('.$thumb.')no-repeat center center; background-size: cover; width: 100%; min-width: 250px; min-height: 182px; background-color: #ddd; border-radius: 8px;"></span>         
                             <span class="video-play-btn"></span>
                             <span class="play-text">Watch Tutorial</span>
                         </a>
@@ -471,7 +471,7 @@ function generate_tutorials_checkbox_html(){
                         }
                           $output .= '<li>
                                       <a href="'.$video.'" title="" data-fancybox title="">
-                                          <img src="'.$thumb.'" alt="" />
+									  	<span class="card-img-top img-fluid" style="display: block; background: url('.$thumb.')no-repeat center center; background-size: cover; width: 100%; min-width: 250px; min-height: 182px; background-color: #ddd; border-radius: 8px;"></span>
                                           <span class="video-play-btn"></span>
                                           <span class="play-text">Watch Tutorial</span>
                                       </a>
@@ -548,8 +548,8 @@ function generate_case_studies_html() {
       $thumb = get_bloginfo('template_directory').'/images/case-study-temp3.png';
     }
     $output .=  '<div class="g-col offset_default">  
-                      <a href="'.get_the_permalink().'" class="one-half image-block">
-	                       <img src="'.$thumb.'">
+					  <a href="'.get_the_permalink().'" class="one-half image-block">
+					  		<span style="display: inline-block; background: url('.$thumb.')no-repeat center center; background-size: cover; width: 100%; min-height: 360px; box-shadow: 0px 0px 6px 0 rgba(0, 0, 0, 0.2);background-color: #ddd; border-radius: 18px;"></span>
 	                  </a> 
                       <div class="one-half">
                           <h3 class="sec-title">'.get_the_title().'</h3>
