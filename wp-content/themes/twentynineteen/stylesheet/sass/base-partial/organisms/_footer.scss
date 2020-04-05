@@ -443,6 +443,10 @@ footer{
 //ger updated
 .wp-subscribe-form.wp-subscribe-mailchimp{
     position: relative;  
+    @media only screen and (max-width: 1024px) {
+        width: 275px;
+        margin: 0 auto; 
+    }
 }
 .wp-subscribe-wrap p.text{
     margin: 0; 
@@ -481,6 +485,9 @@ footer{
     letter-spacing: 0;
     margin: 15px 0;
     text-align: left; 
+    @media only screen and (max-width: 1024px) {
+        text-align: center;
+    }
 }
 .wp-subscribe-wrap input.submit{
     display: inline-block;
