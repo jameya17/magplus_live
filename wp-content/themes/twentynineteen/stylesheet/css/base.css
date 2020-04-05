@@ -4023,7 +4023,8 @@ footer {
   margin: 0;
   margin-bottom: 15px;
   padding: 0;
-  min-height: auto; }
+  min-height: auto;
+  background: transparent; }
   .video-listing li a {
     position: relative;
     display: block;
@@ -4050,7 +4051,9 @@ footer {
       opacity: .8; }
   .video-listing li img {
     display: block;
-    border-radius: 8px; }
+    border-radius: 8px;
+    min-height: 202px;
+    background: #ddd; }
   .video-listing li .video-play-btn {
     width: 30px;
     height: 30px;
@@ -4108,6 +4111,15 @@ footer {
   display: flex;
   justify-content: center;
   cursor: pointer; }
+
+.video-listing-block {
+  position: relative; }
+  .video-listing-block .loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
 
 .entry-header .post-meta {
   margin-bottom: 35px; }
