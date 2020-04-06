@@ -3446,6 +3446,10 @@ footer {
   opacity: 1;
   letter-spacing: .5px; }
 
+@media only screen and (max-width: 1024px) {
+  .subscription-sec .con-info {
+    display: none; } }
+
 .white-bg {
   background-color: #fff; }
 
