@@ -20,7 +20,7 @@ jQuery(document).ready(function (){
             else{
                jQuery('#view-more-case-studies').hide();
             }
-            AOSrefresh();
+            //AOSrefresh();
             return false;
          }
       })   

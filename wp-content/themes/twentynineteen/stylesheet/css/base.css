@@ -2020,7 +2020,7 @@ input:-webkit-autofill:focus {
       padding: 20px;
       max-width: 100%;
       max-height: 100%;
-      min-height: 390px; } }
+      min-height: 410px; } }
 
 .click-card-block.active {
   z-index: 2;
@@ -2714,6 +2714,9 @@ input:-webkit-autofill:focus {
       color: #8D8788 !important; }
     .post-sidebar .sidebar-section-listing .widget.wp_subscribe.amr_widget .wp-subscribe-wrap p.footer-text {
       margin-bottom: 0; }
+      @media only screen and (max-width: 1024px) {
+        .post-sidebar .sidebar-section-listing .widget.wp_subscribe.amr_widget .wp-subscribe-wrap p.footer-text {
+          text-align: left; } }
     .post-sidebar .sidebar-section-listing .widget.wp_subscribe.amr_widget .wp-subscribe-wrap .wps-consent-wrapper label {
       font-size: 10px;
       line-height: 12px;
@@ -3355,8 +3358,13 @@ footer {
   position: relative; }
   @media only screen and (max-width: 1024px) {
     .wp-subscribe-form.wp-subscribe-mailchimp {
-      width: 275px;
-      margin: 0 auto; } }
+      width: 100%;
+      margin: 0 auto;
+      max-width: 258px; } }
+
+@media only screen and (max-width: 1024px) {
+  .sidebar-section-listing .wp-subscribe-form.wp-subscribe-mailchimp {
+    margin: 0; } }
 
 .wp-subscribe-wrap p.text {
   margin: 0; }
@@ -3383,6 +3391,9 @@ footer {
   text-align: left;
   min-width: 218px;
   padding: 0 5px 0 0; }
+  @media only screen and (max-width: 1024px) {
+    .wp-subscribe-wrap input.email-field {
+      min-width: 200px; } }
 
 .wp-subscribe-wrap p.footer-text {
   font-size: 11px;
@@ -3817,6 +3828,18 @@ footer {
     margin-bottom: 26px; }
   .privacy-pg .content-block span, .privacy-pg .content-block strong {
     display: block; }
+
+.case-studies-img-block {
+  display: inline-block;
+  width: 100%;
+  min-height: 360px;
+  border-radius: 18px;
+  background-size: cover;
+  box-shadow: 0px 0px 6px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ddd; }
+  @media only screen and (max-width: 1024px) {
+    .case-studies-img-block {
+      min-height: 268px; } }
 
 .pricing-pg p {
   margin-bottom: 50px; }

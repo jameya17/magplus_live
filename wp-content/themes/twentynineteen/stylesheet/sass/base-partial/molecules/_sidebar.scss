@@ -263,6 +263,9 @@
                 }
                 p.footer-text{
                     margin-bottom: 0;   
+                    @media only screen and (max-width: 1024px) {
+                        text-align: left;
+                    }
                 }
                 .wps-consent-wrapper label{ 
                     font-size: 10px;
