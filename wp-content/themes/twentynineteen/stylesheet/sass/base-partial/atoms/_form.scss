@@ -162,6 +162,10 @@
     -ms-user-select: none;
     user-select: none;
     cursor: pointer;
+    @media only screen and (max-width: 1024px) {
+        margin-right: 15px;
+        padding: 15px;
+    }
   }
   
   /* Hide the browser's default checkbox */

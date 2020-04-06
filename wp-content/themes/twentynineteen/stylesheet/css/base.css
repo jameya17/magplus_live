@@ -1260,6 +1260,10 @@ ol {
   -ms-user-select: none;
   user-select: none;
   cursor: pointer; }
+  @media only screen and (max-width: 1024px) {
+    .checkbox-container {
+      margin-right: 15px;
+      padding: 15px; } }
 
 /* Hide the browser's default checkbox */
 .checkbox-container input {
@@ -2515,7 +2519,7 @@ input:-webkit-autofill:focus {
     .sidebar {
       position: fixed;
       left: 0;
-      bottom: -260px;
+      bottom: -220px;
       background-color: #fff;
       width: 100%;
       padding: 0;
