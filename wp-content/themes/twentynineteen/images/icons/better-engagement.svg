@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="61px" viewBox="0 0 65 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M53.6203387,8.05527342 C39.7846218,-5.94287901 27.999575,0.423302016 25.9489049,11.0878962 C23.8982348,21.7524904 4.84872798,23.8818449 7.20076202,36.4783084 C9.55279606,49.0747718 35.1727162,41.5956217 35.1727162,53.0111667 C35.1727162,64.4267117 64.7945484,64.0330722 64.7945484,49.0747718 C64.7945484,34.1164715 67.4560557,22.0534258 53.6203387,8.05527342 Z" id="path-1"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05-Services---App-Updation-Services-LP" transform="translate(-752.000000, -1020.000000)">
+            <g id="VP-1" transform="translate(-1.000000, 66.000000)">
+                <g id="Key-Offerings" transform="translate(215.000000, 803.000000)">
+                    <g id="Offering-3" transform="translate(538.000000, 151.000000)">
+                        <g id="Icon">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="bgicon" fill="#ECEDEE" xlink:href="#path-1"></use>
+                            <g id="mobile-interaction" transform="translate(0.000000, 1.000000)" fill-rule="nonzero">
+                                <path d="M59,10 L48,10 L48,5 C48,2.243 45.757,0 43,0 L17,0 C14.243,0 12,2.243 12,5 L12,23 L1,23 C0.447,23 0,23.447 0,24 L0,34 C0,34.553 0.447,35 1,35 L12,35 L12,55 C12,57.757 14.243,60 17,60 L43,60 C45.757,60 48,57.757 48,55 L48,47 L55,47 C55.553,47 56,46.553 56,46 L56,31 C56,30.447 55.553,30 55,30 L48,30 L48,22 L59,22 C59.553,22 60,21.553 60,21 L60,11 C60,10.447 59.553,10 59,10 Z M17,2 L43,2 C44.654,2 46,3.346 46,5 L14,5 C14,3.346 15.346,2 17,2 Z M2,25 L24,25 L24,33 L20,33 C19.447,33 19,33.447 19,34 L19,35.919 L15.625,33.219 C15.447,33.077 15.228,33 15,33 L2,33 L2,25 Z M43,58 L17,58 C15.346,58 14,56.654 14,55 L46,55 C46,56.654 44.654,58 43,58 Z M54,45 L39,45 C38.772,45 38.553,45.077 38.375,45.219 L35,47.919 L35,46 C35,45.447 34.553,45 34,45 L30,45 L30,32 L54,32 L54,45 Z M46,30 L29,30 C28.447,30 28,30.447 28,31 L28,46 C28,46.553 28.447,47 29,47 L33,47 L33,50 C33,50.385 33.221,50.734 33.566,50.901 C33.705,50.968 33.853,51 34,51 C34.223,51 34.444,50.926 34.625,50.781 L39.351,47 L46,47 L46,53 L14,53 L14,35 L14.649,35 L19.375,38.781 C19.556,38.926 19.777,39 20,39 C20.147,39 20.296,38.968 20.434,38.901 C20.779,38.734 21,38.385 21,38 L21,35 L25,35 C25.553,35 26,34.553 26,34 L26,24 C26,23.447 25.553,23 25,23 L14,23 L14,7 L46,7 L46,10 L29,10 C28.447,10 28,10.447 28,11 L28,21 C28,21.553 28.447,22 29,22 L33,22 L33,25 C33,25.385 33.221,25.734 33.566,25.901 C33.705,25.968 33.853,26 34,26 C34.223,26 34.444,25.926 34.625,25.781 L39.351,22 L46,22 L46,30 Z M58,20 L39,20 C38.772,20 38.553,20.077 38.375,20.219 L35,22.919 L35,21 C35,20.447 34.553,20 34,20 L30,20 L30,12 L58,12 L58,20 Z" id="Shape" fill="#000000"></path>
+                                <rect id="Rectangle" fill="#F36F21" x="33" y="15" width="8" height="2"></rect>
+                                <rect id="Rectangle" fill="#F36F21" x="44" y="15" width="11" height="2"></rect>
+                                <rect id="Rectangle" fill="#F36F21" x="19" y="28" width="2" height="2"></rect>
+                                <rect id="Rectangle" fill="#F36F21" x="5" y="28" width="12" height="2"></rect>
+                                <rect id="Rectangle" fill="#F36F21" x="33" y="35" width="9" height="2"></rect>
+                                <rect id="Rectangle" fill="#F36F21" x="44" y="35" width="7" height="2"></rect>
+                                <rect id="Rectangle" fill="#F36F21" x="33" y="40" width="4" height="2"></rect>
+                                <rect id="Rectangle" fill="#F36F21" x="39" y="40" width="12" height="2"></rect>
+                                <rect id="Rectangle" fill="#000000" x="24" y="15" width="2" height="2"></rect>
+                                <rect id="Rectangle" fill="#000000" x="20" y="15" width="2" height="2"></rect>
+                                <rect id="Rectangle" fill="#000000" x="16" y="15" width="2" height="2"></rect>
+                                <rect id="Rectangle" fill="#000000" x="24" y="43" width="2" height="2"></rect>
+                                <rect id="Rectangle" fill="#000000" x="20" y="43" width="2" height="2"></rect>
+                                <rect id="Rectangle" fill="#000000" x="16" y="43" width="2" height="2"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

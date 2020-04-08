@@ -383,6 +383,23 @@
             } else {
                 jQuery(this).removeClass("active");
             }
+
+            var select = this.id; 
+            if (select == 'usd') {
+                jQuery('.pricing-chart').hide();
+                jQuery('.pricing-chart.usd').show();
+                
+            }else if (select == 'pound'){ 
+                jQuery('.pricing-chart').hide();
+                jQuery('.pricing-chart.pound').show();
+            }
+            else if (select == 'eur'){
+                jQuery('.pricing-chart').hide();
+                jQuery('.pricing-chart.eur').show();
+            }
+            else{ 
+                jQuery('.pricing-chart').hide();
+            }
         });
 
 
@@ -411,6 +428,7 @@
                 jQuery(this).removeClass("active");
             }
         });
+
         jQuery(".mob-select .options ul li a").click(function() {
             var select = this.id; 
             if (select == 'publish') {

@@ -43,14 +43,15 @@ get_header();
                                 </div>
                                 <div class="options">
                                     <ul>
-                                        <li><a href="javascript:void"><em class="currency">&#36;</em> Usd</a></li>
-                                        <li><a href="javascript:void"><em class="currency">&#163;</em> Pound</a></li>
-                                        <li><a href="javascript:void"><em class="currency">&#128;</em> EUR</a></li>
+                                        <li><a href="javascript:void" id="usd"><em class="currency">&#36;</em> Usd</a></li>
+                                        <li><a href="javascript:void" id="pound" ><em class="currency">&#163;</em> Pound</a></li>
+                                        <li><a href="javascript:void" id="eur"><em class="currency">&#128;</em> EUR</a></li>
                                     </ul>
                                 </div>    
                             </div>    
                         </div>    
-                        <div class="pricing-chart">
+
+                        <div class="pricing-chart usd">
                             <div id="monthly">
                                 <div class="pricing-chart-table">
                                     <div class="mob-view select-field">
@@ -93,7 +94,7 @@ get_header();
                                         <ul>
                                             <li class="plan-head">
                                                 <strong>Pay As you Publish</strong>
-                                                <strong class="plan-price">50$</strong>
+                                                <strong class="plan-price">50 &#36;</strong>
                                             </li>
                                             <li><span>1 Each</span></li>
                                             <li><span>1</span></li>
@@ -115,7 +116,7 @@ get_header();
                                             <li class="lbl-popular">Most Popular</li>
                                             <li class="plan-head">
                                                 <strong>Multi</strong>
-                                                <strong class="plan-price">90$</strong>
+                                                <strong class="plan-price">90 &#36;</strong>
                                             </li>
                                             <li>1 Each</li>
                                             <li>Unlimited</li>
@@ -136,7 +137,7 @@ get_header();
                                         <ul>
                                             <li class="plan-head">
                                                 <strong>Multi-Pro</strong>
-                                                <strong class="plan-price">250$</strong>
+                                                <strong class="plan-price">250 &#36;</strong>
                                             </li>
                                             <li>1 Each</li>
                                             <li>Unlimited</li>
@@ -157,7 +158,7 @@ get_header();
                                         <ul>
                                             <li class="plan-head">
                                                 <strong>Unlimited</strong>
-                                                <strong class="plan-price">500$</strong>
+                                                <strong class="plan-price">500 &#36;</strong>
                                             </li>
                                             <li>1 Each</li>
                                             <li>Unlimited</li>
@@ -177,6 +178,263 @@ get_header();
                                 </div>     
                             </div>
                         </div>  
+
+                        <div class="pricing-chart pound" style="display: none">
+                            <div id="monthly">
+                                <div class="pricing-chart-table">
+                                    <div class="mob-view select-field">
+                                        <div class="mob-select">
+                                            <div class="selected">
+                                                <a href="javascript:void"><span>Select</span></a>
+                                            </div>
+                                            <div class="options">
+                                                <ul>
+                                                    <li><a href="javascript:void" id="publish">Publish</a></li>
+                                                    <li><a href="javascript:void" id="multi">Multi</a></li>
+                                                    <li><a href="javascript:void" id="multi-pro">Multi-Pro</a></li>
+                                                    <li><a href="javascript:void" id="unlimited">Unlimited</a></li>
+                                                </ul>
+                                            </div>    
+                                        </div> 
+                                    </div>
+                                    <div class="plan-th">
+                                        <ul>
+                                            <li class="plan-head">
+                                                <strong>&nbsp;</strong>
+                                                <strong class="plan-price">&nbsp;</strong>
+                                            </li>
+                                            <li>Number of Apps for iOS, Android & Kindle</li>
+                                            <li>Number of Issues </li>
+                                            <li>Enterprise Builds for iOS </li>
+                                            <li>Publish Adobe Indesign Content </li>
+                                            <li>App Monetization </li>
+                                            <li>Analytics Support </li>
+                                            <li>Publish PDF Files </li>
+                                            <li>Publish HTML Content </li>
+                                            <li>Unlimited Push Notifications  </li>
+                                            <li>Publish AR Packages in iOS </li>
+                                            <li>User management/Role based access  </li>
+                                            <li>Customer Support </li>
+                                            <li class="btn-block">&nbsp;</li>
+                                        </ul>
+                                    </div>
+                                    <div class="plan-td publish" style="display: block;">
+                                        <ul>
+                                            <li class="plan-head">
+                                                <strong>Pay As you Publish</strong>
+                                                <strong class="plan-price">50 &#163;</strong>
+                                            </li>
+                                            <li><span>1 Each</span></li>
+                                            <li><span>1</span></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><span>Standard</span></li>
+                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="plan-td multi popular">
+                                        <ul>
+                                            <li class="lbl-popular">Most Popular</li>
+                                            <li class="plan-head">
+                                                <strong>Multi</strong>
+                                                <strong class="plan-price">90 &#163;</strong>
+                                            </li>
+                                            <li>1 Each</li>
+                                            <li>Unlimited</li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><span>Standard</span></li>
+                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="plan-td multi-pro">
+                                        <ul>
+                                            <li class="plan-head">
+                                                <strong>Multi-Pro</strong>
+                                                <strong class="plan-price">250 &#163;</strong>
+                                            </li>
+                                            <li>1 Each</li>
+                                            <li>Unlimited</li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><span>Standard</span></li>
+                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="plan-td unlimited">
+                                        <ul>
+                                            <li class="plan-head">
+                                                <strong>Unlimited</strong>
+                                                <strong class="plan-price">500 &#163;</strong>
+                                            </li>
+                                            <li>1 Each</li>
+                                            <li>Unlimited</li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><span>Standard</span></li>
+                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                        </ul>
+                                    </div>
+                                </div>     
+                            </div>
+                        </div>  
+
+                        <div class="pricing-chart eur" style="display: none">
+                            <div id="monthly">
+                                <div class="pricing-chart-table">
+                                    <div class="mob-view select-field">
+                                        <div class="mob-select">
+                                            <div class="selected">
+                                                <a href="javascript:void"><span>Select</span></a>
+                                            </div>
+                                            <div class="options">
+                                                <ul>
+                                                    <li><a href="javascript:void" id="publish">Publish</a></li>
+                                                    <li><a href="javascript:void" id="multi">Multi</a></li>
+                                                    <li><a href="javascript:void" id="multi-pro">Multi-Pro</a></li>
+                                                    <li><a href="javascript:void" id="unlimited">Unlimited</a></li>
+                                                </ul>
+                                            </div>    
+                                        </div> 
+                                    </div>
+                                    <div class="plan-th">
+                                        <ul>
+                                            <li class="plan-head">
+                                                <strong>&nbsp;</strong>
+                                                <strong class="plan-price">&nbsp;</strong>
+                                            </li>
+                                            <li>Number of Apps for iOS, Android & Kindle</li>
+                                            <li>Number of Issues </li>
+                                            <li>Enterprise Builds for iOS </li>
+                                            <li>Publish Adobe Indesign Content </li>
+                                            <li>App Monetization </li>
+                                            <li>Analytics Support </li>
+                                            <li>Publish PDF Files </li>
+                                            <li>Publish HTML Content </li>
+                                            <li>Unlimited Push Notifications  </li>
+                                            <li>Publish AR Packages in iOS </li>
+                                            <li>User management/Role based access  </li>
+                                            <li>Customer Support </li>
+                                            <li class="btn-block">&nbsp;</li>
+                                        </ul>
+                                    </div>
+                                    <div class="plan-td publish" style="display: block;">
+                                        <ul>
+                                            <li class="plan-head">
+                                                <strong>Pay As you Publish</strong>
+                                                <strong class="plan-price">50 &#128;</strong>
+                                            </li>
+                                            <li><span>1 Each</span></li>
+                                            <li><span>1</span></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><span>Standard</span></li>
+                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="plan-td multi popular">
+                                        <ul>
+                                            <li class="lbl-popular">Most Popular</li>
+                                            <li class="plan-head">
+                                                <strong>Multi</strong>
+                                                <strong class="plan-price">90 &#128;</strong>
+                                            </li>
+                                            <li>1 Each</li>
+                                            <li>Unlimited</li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><span>Standard</span></li>
+                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="plan-td multi-pro">
+                                        <ul>
+                                            <li class="plan-head">
+                                                <strong>Multi-Pro</strong>
+                                                <strong class="plan-price">250 &#128;</strong>
+                                            </li>
+                                            <li>1 Each</li>
+                                            <li>Unlimited</li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><span>Standard</span></li>
+                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="plan-td unlimited">
+                                        <ul>
+                                            <li class="plan-head">
+                                                <strong>Unlimited</strong>
+                                                <strong class="plan-price">500 &#128;</strong>
+                                            </li>
+                                            <li>1 Each</li>
+                                            <li>Unlimited</li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><span>Standard</span></li>
+                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                        </ul>
+                                    </div>
+                                </div>     
+                            </div>
+                        </div>  
+                        
                         <a href="/" class="primary-btn" title="Full Specs and Pricing">Full Specs and Pricing
                             <span class="span1">Full Specs and Pricing</span>
                             <span class="span2">Full Specs and Pricing</span>
