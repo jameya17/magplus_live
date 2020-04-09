@@ -37,12 +37,12 @@
 
             <nav class="sticky-nav-tabs">
                 <ul class="sticky-nav-tabs-container">
-                    <li class="<?php if($pageId == 22485 || $pageId == 9057){ ?>active<?php } ?> services">
+                    <li class="<?php if($pageId == 22485 || $pageId == 9057 || $pageId == 31538 || $pageId == 31540){ ?>active<?php } ?> services">
                         <a href="?page_id=22485" class="sticky-nav-tab">Services</a>
                         <ul class="sub-menu">
                             <li class="<?php if($pageId == 9057){ ?>active<?php } ?>"><a href="?page_id=9057" class="sticky-nav-tab" title="Creative Services">Creative Services</a></li>
-                            <li><a href="javascript:void(0)" class="sticky-nav-tab" title="App submission">App submission</a></li>
-                            <li><a href="javascript:void(0)" class="sticky-nav-tab" title="App Updation">App Updation</a></li> 
+                            <li class="<?php if($pageId == 31538){ ?>active<?php } ?>"><a href="?page_id=31538" class="sticky-nav-tab" title="App submission">App submission</a></li>
+                            <li class="<?php if($pageId == 31540){ ?>active<?php } ?>"><a href="?page_id=31540" class="sticky-nav-tab" title="App Updation">App Updation</a></li> 
                         </ul>
                     </li>
                     <li class="<?php if($pageId == 31519 || $pageId == 31525 || $pageId == 31523 || $pageId == 19){ ?>active<?php } ?> support">
