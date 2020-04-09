@@ -57,7 +57,7 @@
                     <li class="<?php if($pageId == 31528){ ?>active<?php } ?>"><a href="?page_id=31528" class="sticky-nav-tab">MagPlus Pro</a></li>
                     <li><a href="?page_id=31257" class="sticky-nav-tab mob-view">FAQs</a></li>
                     <li class="try-free-block">
-                        <a class="btn" id="navLoginBtn" href="javascript:void(0)" data-fancybox="" data-animation-duration="700" data-src="#try-for-free-popup">Try for free</a>
+                        <a class="btn" id="navLoginBtn" href="?page_id=31535">Try for free</a>
                         <ul class="sidebar-listing follow-us-listing mob-view">
                             <li><a href="" title="Twitter"><img src="<?php bloginfo('template_directory'); ?>/images/icons/grey-twitter.svg" alt="Twitter"></a></li>
                             <li><a href="" title="facebook"><img src="<?php bloginfo('template_directory'); ?>/images/icons/grey-facebook.svg" alt="facebook"></a></li>
