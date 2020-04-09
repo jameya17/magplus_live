@@ -81,7 +81,7 @@ get_header();
                     <h3>How it Works</h3>
                     <p class="small-wrap marB75">We streamline the entire process of creating and submitting your app to the app-stores of your choice. We create the app based on your requirements so that you can focus on what is most important to you, generating quality content to blow your customers away!</p>
                     <div class="mob-view">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/app-submission-how-it-works" alt=" How it Works"  class="how-it-works-img"/>
+                        <img src="<?php bloginfo('template_directory'); ?>/images/app-submission-how-it-works.png" alt=" How it Works"  class="how-it-works-img"/>
                     </div>
                     <div class="g-col">
                         <div class="one-third">
@@ -114,7 +114,7 @@ get_header();
                             </div>
                         </div>
                         <div class="one-third hide-and-seek">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/app-submission-how-it-works" alt=" How it Works" />
+                            <img src="<?php bloginfo('template_directory'); ?>/images/app-submission-how-it-works.png" alt=" How it Works" />
                         </div>
                         <div class="one-third">
                             <div class="card plain-card">
