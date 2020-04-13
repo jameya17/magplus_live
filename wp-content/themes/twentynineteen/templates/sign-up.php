@@ -82,12 +82,12 @@ get_header();
                         <label>First name</label>
                         <span class="error">Welcome to Magplus</span>
                     </div>
-                    <div class="styled-input error-block">
+                    <div class="styled-input">
                         <input type="text" name="registration[name]" required />
                         <label>Last name</label>
                         <span class="error">Welcome to Magplus</span>
                     </div>
-                    <div class="styled-input error-block">
+                    <div class="styled-input">
                         <input type="email" name="registration[email]" required />
                         <label>Email</label>
                         <span class="error">Welcome to Magplus</span>
@@ -96,8 +96,8 @@ get_header();
                         <div class="group-field hide">
                             <input type="password" id="registration_password" name="registration[password]" required autocomplete="off" />
                             <label>Password</label>
-                            <strong class="eye-icon show"><img src="images/icons/eye-icon-show.svg" alt=""></strong>
-                            <strong class="eye-icon hide"><img src="images/icons/eye-icon-hide.svg" alt=""></strong>
+                            <strong class="eye-icon hide"><img src="<?php bloginfo('template_directory'); ?>/images/icons/eye-icon-hide.svg" alt=""></strong>
+                            <strong class="eye-icon show"><img src="<?php bloginfo('template_directory'); ?>/images/icons/eye-icon-show.svg" alt=""></strong>
                         </div>    
                         <span class="error">Atleast 1 uppercase & numerical</span>
                     </div>
@@ -112,18 +112,29 @@ get_header();
                         <label>Company</label>
                         <span class="error">Please feed in the code you have</span>
                     </div>
-                    <div class="styled-input">
-                        <input type="checkbox" name="accept_terms_0" id="accept_terms_0" checked />
-                        <input name="registration[accept_terms]" id="accept_terms" type="hidden" type="text" value="true" />
-                        <label>By clicking “Sign Up” you agree to the <a href="/mega-plus/www/license-agreement.php" title="Terms of Service">Terms of Service</a></label>
-                        <span class="error">Please feed in the code you have</span>
+                    <div class="form-field-group">
+                        <div class="group-field">
+                            <label class="checkbox-container" for="accept_terms_0">
+                                <input type="checkbox" name="accept_terms_0" id="accept_terms_0" checked />
+                                <input name="registration[accept_terms]" id="accept_terms" type="hidden" type="text" value="true" />
+                                <span class="checkmark"></span>
+                                By clicking “Sign Up” you agree to the <a href="/mega-plus/www/license-agreement.php" title="Terms of Service">Terms of Service</a>
+                            </label>    
+                            <span class="error">Please feed in the code you have</span>
+                        </div>
+                    </div>    
+                    
+                    <div class="form-field-group">
+                        <div class="group-field">
+                            <label class="checkbox-container" for="gdpr_0">
+                                <input type="checkbox" name="gdpr_0" id="gdpr_0" checked />
+                                <input name="registration[gdpr]" id="gdpr" type="hidden" type="text" value="true" />
+                                <span class="checkmark"></span>Yes I would like mag+ to contact me based on the information provided
+                            </label>    
+                            <span class="error">Please feed in the code you have</span>
+                        </div>
                     </div>
-                    <div class="styled-input">
-                        <input type="checkbox" name="gdpr_0" id="gdpr_0" checked />
-                        <input name="registration[gdpr]" id="gdpr" type="hidden" type="text" value="true" />
-                        <label>Yes I would like mag+ to contact me based on the information provided</label>
-                        <span class="error">Please feed in the code you have</span>
-                    </div>
+                    
                     <div style="dispaly:none;">
                         <textarea  style="display:none;" id="sf_descriptions" name="registration[description]" placeholder=""> &nbsp;  &nbsp;</textarea>
                         <input type="hidden" id="sf_street" class="w2linput hidden street_sf" name="street" value="">
@@ -138,12 +149,12 @@ get_header();
                      </div>
 
                     <div class="btn-block align-center">
-                        <input name="commit" id="pr_button" class="primary-button" type="submit" value="Sign Up">
-                        <a href="/mega-plus/www/tutorials.php" class="primary-btn" title="Sign Up">
+                        <input name="commit" id="pr_button" class="form-btn" type="submit" value="Sign Up">
+                        <!-- <a href="#" class="primary-btn" title="Sign Up">
                             <span class="span1">Sign Up</span>
                             <span class="span2">Sign Up</span>
                             <span class="span3">Sign Up</span>
-                        </a>
+                        </a> -->
                     </div>
                     <p class="tmc-text">By clicking “Sign Up” you agree to the <a href="/mega-plus/www/license-agreement.php" title="Terms of Service">Terms of Service</a></p>
                 </form>

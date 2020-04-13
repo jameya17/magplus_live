@@ -46,41 +46,41 @@ get_header();
                             <div class="group-field hide">
                                 <input type="password" name="password" required autocomplete="off" />
                                 <label>password</label>
-                                <strong class="eye-icon show"><img src="images/icons/eye-icon-show.svg" alt=""></strong>
-                                <strong class="eye-icon hide"><img src="images/icons/eye-icon-hide.svg" alt=""></strong>
+                                <strong class="eye-icon show"><img src="<?php bloginfo('template_directory'); ?>/<?php bloginfo('template_directory'); ?>/images/icons/eye-icon-show.svg" alt=""></strong>
+                                <strong class="eye-icon hide"><img src="<?php bloginfo('template_directory'); ?>/<?php bloginfo('template_directory'); ?>/images/icons/eye-icon-hide.svg" alt=""></strong>
                             </div>    
                             <span class="error">Atleast 1 uppercase & numerical</span>
                         </div>
 
                         <div class="form-field-group">
                             <div class="group-field">
-                                <!--<label class="checkbox-container" for="remember-me">
+                                <label class="checkbox-container" for="remember-me">
                                     <input type="checkbox" id="remember-me">
                                     <span class="checkmark"></span>Remember Me
-                                </label>-->
+                                </label>
                                 <span class="error">Atleast 1 uppercase & numerical</span>
                             </div>    
-                            <a href="/mega-plus/www/forgot-password.php" class="forgot-password-link" title="Forgot Password?">Forgot Password?</a>    
+                            <a href="#" class="forgot-password-link" title="Forgot Password?">Forgot Password?</a>    
                         </div>
 
                         <div class="btn-block align-center">
                             <input type="hidden" name="origin" value="<?php echo $origin; ?>" />
-                            <input type="submit" name="commit" class="primary-button" value="Sign In" />
-                            <a href="/mega-plus/www/tutorials.php" class="primary-btn" title="Sign In">
+                            <input type="submit" name="commit" class="btn form-btn" value="Sign In" />
+                            <!-- <a href="#" class="primary-btn" title="Sign In">
                                 <span class="span1">Sign In</span>
                                 <span class="span2">Sign In</span>
                                 <span class="span3">Sign In</span>
-                            </a>
+                            </a> -->
                         </div>
                         <div class="form-field-group">
                             <span class="divider-text">Or, Sign In with</span>
                         </div>    
                         <div class="form-field-group">
-                            <a class="btn-link apple-link" href="https://www.magplus.com/social-login/microsoft/live_login.php" title="Sign In with Microsoft"><img src="images/icons/apple-icon.svg" alt=""> Sign In with Microsoft</a>
+                            <a class="btn-link apple-link" href="https://www.magplus.com/social-login/microsoft/live_login.php" title="Sign In with Microsoft"><img src="<?php bloginfo('template_directory'); ?>/images/icons/apple-icon.svg" alt=""> Sign In with Microsoft</a>
                         </div>    
                         <div class="form-field-group form-field-icon-group">
-                            <a href="https://www.magplus.com/social-login/google/google_login.php" title="Google" class="google-logo" ><img src="images/icons/google-logo.svg" alt="Google"></a>
-                            <a href="https://www.magplus.com/social-login/facebook/" title="Facebook" class="fb-logo"><img src="images/icons/fb-logo.svg" alt="Facebook"></a>
+                            <a href="https://www.magplus.com/social-login/google/google_login.php" title="Google" class="google-logo" ><img src="<?php bloginfo('template_directory'); ?>/images/icons/google-logo.svg" alt="Google"></a>
+                            <a href="https://www.magplus.com/social-login/facebook/" title="Facebook" class="fb-logo"><img src="<?php bloginfo('template_directory'); ?>/images/icons/fb-logo.svg" alt="Facebook"></a>
                         </div>    
                         <p class="tmc-text">Don’t have an account?  <a href="?page_id=31545" title="Sign Up">Sign Up</a></p>
                     </form>

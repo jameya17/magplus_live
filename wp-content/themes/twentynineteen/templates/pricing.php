@@ -39,7 +39,7 @@ get_header();
                         <div class="align-right">
                             <div class="drop-down">
                                 <div class="selected">
-                                    <a href="javascript:void"><span>Select</span></a>
+                                    <a href="javascript:void"><span>&#36;</em> Usd</span></a>
                                 </div>
                                 <div class="options">
                                     <ul>
