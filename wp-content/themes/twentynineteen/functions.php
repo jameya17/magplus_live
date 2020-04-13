@@ -325,6 +325,8 @@ require get_template_directory() . '/inc/template-tags.php';
 require get_template_directory() . '/inc/customizer.php';
 
 
+require_once(TEMPLATEPATH .'/logged-in/functions.php'); // loggin functions
+
 $inc_path = TEMPLATEPATH .'/inc/';
 $meta_path = $inc_path .'/metaboxes/';
 require_once($inc_path. 'posttypes.php');

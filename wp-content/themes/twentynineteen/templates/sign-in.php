@@ -69,7 +69,7 @@ get_header();
                             <a href="https://www.magplus.com/social-login/google/google_login.php" title="Google" class="google-logo" ><img src="images/icons/google-logo.svg" alt="Google"></a>
                             <a href="https://www.magplus.com/social-login/facebook/" title="Facebook" class="fb-logo"><img src="images/icons/fb-logo.svg" alt="Facebook"></a>
                         </div>    
-                        <p class="tmc-text">Don’t have an account?  <a href="/mega-plus/www/sign-up.php" title="Sign Up">Sign Up</a></p>
+                        <p class="tmc-text">Don’t have an account?  <a href="?page_id=31545" title="Sign Up">Sign Up</a></p>
                     </form>
                 </div>
             </div>    
