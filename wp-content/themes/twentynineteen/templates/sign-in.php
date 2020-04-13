@@ -8,6 +8,17 @@
  * @since 1.0.0
  */
 
+$args = array();
+
+$default = array(
+    'origin' => get_bloginfo('url') .'/my-magplus/?message=new-user',
+    'title' => '',
+    'text' => '',
+    'submit' => 'Login',
+    'class' => ''
+);
+extract(array_merge($default, $args));
+
 get_header();
 ?>
 
@@ -23,17 +34,17 @@ get_header();
                 </div>
                 <div class="form-section form-container sign-up-form">
                     <h5>You’re Just One Step away from Getting the Tools</h5>
-                    <form class="form-block">
+                    <form action="https://login.magplus.com/auth/identity/callback" method="post" class="form-block">
                         <h2 class="form-block-title">Sign In</h2>
 
                         <div class="styled-input">
-                            <input type="email" required />
+                            <input type="email" name="auth_key" required />
                             <label>Email</label>
                             <span class="error">Welcome to Magplus</span>
                         </div>
                         <div class="styled-input">
                             <div class="group-field hide">
-                                <input type="password" required autocomplete="off" />
+                                <input type="password" name="password" required autocomplete="off" />
                                 <label>password</label>
                                 <strong class="eye-icon show"><img src="images/icons/eye-icon-show.svg" alt=""></strong>
                                 <strong class="eye-icon hide"><img src="images/icons/eye-icon-hide.svg" alt=""></strong>
@@ -43,16 +54,18 @@ get_header();
 
                         <div class="form-field-group">
                             <div class="group-field">
-                                <label class="checkbox-container" for="remember-me">
+                                <!--<label class="checkbox-container" for="remember-me">
                                     <input type="checkbox" id="remember-me">
                                     <span class="checkmark"></span>Remember Me
-                                </label>
+                                </label>-->
                                 <span class="error">Atleast 1 uppercase & numerical</span>
                             </div>    
                             <a href="/mega-plus/www/forgot-password.php" class="forgot-password-link" title="Forgot Password?">Forgot Password?</a>    
                         </div>
 
                         <div class="btn-block align-center">
+                            <input type="hidden" name="origin" value="<?php echo $origin; ?>" />
+                            <input type="submit" name="commit" class="primary-button" value="Sign In" />
                             <a href="/mega-plus/www/tutorials.php" class="primary-btn" title="Sign In">
                                 <span class="span1">Sign In</span>
                                 <span class="span2">Sign In</span>

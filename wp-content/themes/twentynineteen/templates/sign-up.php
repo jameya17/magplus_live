@@ -8,7 +8,6 @@
  * @since 1.0.0
  */
 
-get_header();
 define('MAGPLUS_REGISTER_URL', "https://staging-publish.magplus.com/registration");
 define('MAGPLUS_REGISTER_REDIRECT', "https://www.magplus.com/thank-you-for-registering-with-magplus/");
 define('MAGPLUS_VERIFY_REDIRECT', "https://www.magplus.com/thank-you-for-registering-with-magplus/");
@@ -52,7 +51,7 @@ function country_select($country_code){
     return $out;
 }
 
-
+get_header();
 ?>
 
  <div class="container tutorialPg"> 
