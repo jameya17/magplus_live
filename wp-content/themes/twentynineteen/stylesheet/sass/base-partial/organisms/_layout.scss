@@ -266,6 +266,9 @@
             letter-spacing: 4.35px;
             color: $org-col; 
             font-weight: 500; 
+            &:hover{
+                color: #F36F21; 
+            }
         }
     }
 }

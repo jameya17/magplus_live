@@ -3737,6 +3737,8 @@ footer {
   letter-spacing: 4.35px;
   color: #FF8616;
   font-weight: 500; }
+  .casestudiesPg .case-studies-listing .text-link:hover {
+    color: #F36F21; }
 
 .case-studies-foot {
   display: inline-flex;
@@ -3837,6 +3839,8 @@ footer {
     font-weight: 400;
     letter-spacing: 0.5px;
     margin-bottom: 26px; }
+  .privacy-pg .content-block p strong {
+    font-weight: 600; }
   .privacy-pg .content-block span, .privacy-pg .content-block strong {
     display: block; }
 
@@ -3845,12 +3849,25 @@ footer {
   width: 100%;
   min-height: 360px;
   border-radius: 18px;
-  background-size: cover;
+  background-size: cover !important;
   box-shadow: 0px 0px 6px 0 rgba(0, 0, 0, 0.2);
   background-color: #ddd; }
   @media only screen and (max-width: 1024px) {
     .case-studies-img-block {
       min-height: 268px; } }
+
+.faq-pg ul li {
+  font-size: 12px;
+  line-height: 20px;
+  color: #8D8788;
+  margin-bottom: 0;
+  text-align: left;
+  margin-bottom: 5px; }
+.faq-pg .acc-ans strong {
+  color: #595656; }
+.faq-pg p a {
+  font-size: 12px;
+  line-height: 20px; }
 
 .pricing-pg p {
   margin-bottom: 50px; }

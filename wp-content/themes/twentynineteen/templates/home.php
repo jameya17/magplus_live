@@ -96,7 +96,7 @@ get_header();
                 <div class="g-col align-center">  
                     <h3>How it Works</h3>
                     <p class="small-wrap">Mag+ makes it easy to publish your content to your own mobile app. From text to video to interactive elements, no matter the source, the mag+ software lets you bring your content to life on tablets and phones with no coding and no hassles.</p>
-                    <a href="/" class="primary-btn" title="Schedule a Demo">Schedule a Demo
+                    <a href="https://youtu.be/QiknaxhsVqo" target="_blank" rel="noopener noreferrer" data-fancybox class="primary-btn" title="Schedule a Demo">Schedule a Demo
                         <span class="span1">Schedule a Demo</span>
                         <span class="span2">Schedule a Demo</span>
                     </a>
@@ -122,7 +122,7 @@ get_header();
                 <div class="g-col align-center">  
                     <h3>Why choose mag+?</h3>
                     <p class="small-wrap">mag+’s digital-publishing software covers every part of the app-publishing process. Design your content using simple tools, build your own branded mobile app on our Web portal, and distribute your designed content to that app for end users to experience on their mobile devices.</p>
-                    <a href="/" class="primary-btn" title="Contact Us">Contact Us
+                    <a href="javascript:void()" class="primary-btn home-contact-click" title="Contact Us">Contact Us
                         <span class="span1">Contact Us</span>
                         <span class="span2">Contact Us</span>
                     </a>
@@ -221,7 +221,7 @@ get_header();
                         <h3>Check out our all new Magplus Pro</h3>
                         <!-- <h3>Still confused on how to create an interactive magazine? Is the search for the right information weighing you down? Then, check out our all new mag+ NOW.</h3> -->
                         <p>An all-in-one solution to streamline your entire publishing process.</p>
-                        <a href="/" class="btn primary-btn secondary-btn" title="Contact Us">Check Now
+                        <a href="?page_id=31528" class="btn primary-btn secondary-btn" title="Check Now">Check Now
                             <span class="span1">Check Now</span>
                             <span class="span2">Check Now</span>
                         </a>    

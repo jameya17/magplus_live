@@ -80,8 +80,8 @@
 
 <div class="sticky-drawer-section">
     <div class="drawer-head">
-        <h4 class="contact-us">Contact Us</h4>
-        <span class="sharing-icon"></span>
+        <h4 class="contact-us contact-click">Contact Us</h4>
+        <!-- <span class="sharing-icon"></span> -->
     </div>
     <div class="drawer-body">
         <div class="form-section form-container sign-up-form contact-us-form">
@@ -287,8 +287,13 @@
             // return false;
 
         });
-        jQuery('.contact-us').on('click', function() {
+        jQuery('.contact-click').on('click', function() { 
             jQuery(this).closest('.drawer-head').next('.drawer-body').addClass('active');
+        });
+        //console.log(jQuery(this).find(".sticky-drawer-section .drawer-body").addClass('active'));
+        jQuery('.home-contact-click').on('click', function() { 
+           jQuery(this).find(".sticky-drawer-section .drawer-body").addClass('active');
+           console.log(jQuery(this).find(".sticky-drawer-section .drawer-body").addClass('active'));
         });
         jQuery('.close-popup').on('click', function() {  
             jQuery(this).closest('.drawer-body').removeClass('active');
