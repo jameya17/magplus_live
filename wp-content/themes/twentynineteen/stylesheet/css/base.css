@@ -1733,7 +1733,8 @@ input:-webkit-autofill:focus {
       width: 13px;
       height: 8px;
       background-image: url(../../images/icons/dropdown-arrow-ico.svg);
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      transform: rotate(180deg); }
     .drop-down .selected a span, .mob-select .selected a span {
       display: block;
       font-size: 12px;

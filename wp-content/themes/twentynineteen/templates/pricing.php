@@ -84,6 +84,7 @@ get_header();
                                             <li>Publish PDF Files </li>
                                             <li>Publish HTML Content </li>
                                             <li>Unlimited Push Notifications  </li>
+                                            <li>Social Sign-in</li>
                                             <li>Publish AR Packages in iOS </li>
                                             <li>User management/Role based access  </li>
                                             <li>Customer Support </li>
@@ -98,14 +99,15 @@ get_header();
                                             </li>
                                             <li><span>1 Each</span></li>
                                             <li><span>1</span></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
                                             <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
@@ -119,14 +121,15 @@ get_header();
                                                 <strong class="plan-price">90 &#36;</strong>
                                             </li>
                                             <li>1 Each</li>
-                                            <li>Unlimited</li>
+                                            <li>2 per month</li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
@@ -140,8 +143,7 @@ get_header();
                                                 <strong class="plan-price">250 &#36;</strong>
                                             </li>
                                             <li>1 Each</li>
-                                            <li>Unlimited</li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li>4 per month</li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
@@ -149,7 +151,9 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
                                             <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
                                         </ul>
@@ -162,7 +166,6 @@ get_header();
                                             </li>
                                             <li>1 Each</li>
                                             <li>Unlimited</li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
@@ -170,7 +173,9 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
                                             <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
                                         </ul>
@@ -212,6 +217,7 @@ get_header();
                                             <li>Publish PDF Files </li>
                                             <li>Publish HTML Content </li>
                                             <li>Unlimited Push Notifications  </li>
+                                            <li>Social Sign-in</li>
                                             <li>Publish AR Packages in iOS </li>
                                             <li>User management/Role based access  </li>
                                             <li>Customer Support </li>
@@ -226,14 +232,15 @@ get_header();
                                             </li>
                                             <li><span>1 Each</span></li>
                                             <li><span>1</span></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
                                             <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
@@ -247,14 +254,15 @@ get_header();
                                                 <strong class="plan-price">90 &#163;</strong>
                                             </li>
                                             <li>1 Each</li>
-                                            <li>Unlimited</li>
+                                            <li>2 per month</li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
@@ -268,8 +276,7 @@ get_header();
                                                 <strong class="plan-price">250 &#163;</strong>
                                             </li>
                                             <li>1 Each</li>
-                                            <li>Unlimited</li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li>4 per month</li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
@@ -277,7 +284,9 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
                                             <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
                                         </ul>
@@ -290,7 +299,6 @@ get_header();
                                             </li>
                                             <li>1 Each</li>
                                             <li>Unlimited</li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
@@ -298,7 +306,9 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
                                             <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
                                         </ul>
@@ -340,6 +350,7 @@ get_header();
                                             <li>Publish PDF Files </li>
                                             <li>Publish HTML Content </li>
                                             <li>Unlimited Push Notifications  </li>
+                                            <li>Social Sign-in</li>
                                             <li>Publish AR Packages in iOS </li>
                                             <li>User management/Role based access  </li>
                                             <li>Customer Support </li>
@@ -354,14 +365,15 @@ get_header();
                                             </li>
                                             <li><span>1 Each</span></li>
                                             <li><span>1</span></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
                                             <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
@@ -375,14 +387,15 @@ get_header();
                                                 <strong class="plan-price">90 &#128;</strong>
                                             </li>
                                             <li>1 Each</li>
-                                            <li>Unlimited</li>
+                                            <li>2 per month</li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
@@ -396,8 +409,7 @@ get_header();
                                                 <strong class="plan-price">250 &#128;</strong>
                                             </li>
                                             <li>1 Each</li>
-                                            <li>Unlimited</li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li>4 per month</li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
@@ -405,7 +417,9 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
                                             <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
                                         </ul>
@@ -418,7 +432,6 @@ get_header();
                                             </li>
                                             <li>1 Each</li>
                                             <li>Unlimited</li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
@@ -426,7 +439,9 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
-                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
+                                            <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
                                             <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
                                         </ul>
