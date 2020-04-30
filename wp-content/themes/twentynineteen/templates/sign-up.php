@@ -94,7 +94,7 @@ get_header();
                     </div>
                     <div class="styled-input">
                         <div class="group-field hide">
-                            <input type="password" id="registration_password" name="registration[password]" required autocomplete="off" />
+                            <input type="password" id="registration_password" name="registration[password]" pattern=".{6,}" required autocomplete="off" />
                             <label>Password</label>
                             <strong class="eye-icon hide"><img src="<?php bloginfo('template_directory'); ?>/images/icons/eye-icon-hide.svg" alt=""></strong>
                             <strong class="eye-icon show"><img src="<?php bloginfo('template_directory'); ?>/images/icons/eye-icon-show.svg" alt=""></strong>

@@ -1,4 +1,45 @@
 jQuery(document).ready(function (){
+
+
+   if(jQuery("#magplus_signup2").length == 1){
+      jQuery('#accept_terms_0').on('change', function(){
+         var currentvalue = jQuery('#accept_terms').val();
+         if(currentvalue =='true'){
+            jQuery('#accept_terms').val('false');
+         }
+         else{
+            jQuery('#accept_terms').val('true');
+         }
+      });
+
+       jQuery('#gdpr_0').on('change', function(){
+         var currentvalue =  jQuery('#gdpr').val();
+         if(currentvalue =='true'){
+            jQuery('#gdpr').val('false');
+         }
+         else{
+            jQuery('#gdpr').val('true');
+         }
+      });
+
+      setTimeout(function(){ 
+         var currentURL = window.location.href;
+         jQuery('#registration_url').val(jQuery('#registration_url').val()+currentURL );
+
+      }, 3000);  
+
+      jQuery.get("https://ipinfo.io", function (response) {
+         console.log(response);
+         jQuery(".00N7F00000HNBcC").val(" " + response.ip);
+         jQuery(".state_sf").val(" " + response.city + ", " + response.region);
+         jQuery(".city_sf").val(" " + response.city);
+         jQuery(".country_sf").val(" " + response.country);
+         jQuery(".zip_sf").val(" " + response.postal);
+         jQuery(".street_sf").val(" " + response.loc);
+         jQuery("#details").html(JSON.stringify(response, null, 4))
+      }, "jsonp");
+   }
+
   jQuery("#view-more-case-studies").click( function(e) {
       e.preventDefault(); 
       jQuery(this).hide();
