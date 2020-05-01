@@ -289,10 +289,11 @@
         });
         jQuery('.contact-click').on('click', function() { 
             jQuery(this).closest('.drawer-head').next('.drawer-body').addClass('active');
-        });
-        //console.log(jQuery(this).find(".sticky-drawer-section .drawer-body").addClass('active'));
+        }); 
+        
         jQuery('.home-contact-click').on('click', function() { 
-           jQuery(this).find(".sticky-drawer-section .drawer-body").addClass('active');
+           jQuery(this).find(".sticky-drawer-section .drawer-body");
+           jQuery('.drawer-body').addClass('active'); 
            console.log(jQuery(this).find(".sticky-drawer-section .drawer-body").addClass('active'));
         });
         jQuery('.close-popup').on('click', function() {  
@@ -415,8 +416,6 @@
                 jQuery(".drop-down .options ul").hide();
         });
 
-
-
         jQuery(".mob-select .selected a").click(function() {
             jQuery(".mob-select .options ul").toggle();
         });
@@ -464,6 +463,53 @@
             if (!jQueryclicked.parents().hasClass("mob-select"))
                 jQuery(".mob-select .options ul").hide();
         });
+
+
+        //Download version select 
+        jQuery(".download-ver-select .selected a").click(function() {
+            jQuery(".download-ver-select .options ul").toggle();
+        });
+
+        //SELECT OPTIONS AND HIDE OPTION AFTER SELECTION
+        jQuery(".download-ver-select .options ul li a").click(function() {
+            var text = jQuery(this).html();
+            var target = jQuery(jQuery(this).attr("href"));
+            jQuery(".download-ver-select .selected a span").html(text);
+            jQuery(".download-ver-select .options ul").hide();
+            if (target.length) {
+                jQuery(this).addClass("active");
+            } else {
+                jQuery(this).removeClass("active");
+            }
+        });
+
+        jQuery(".download-ver-select .options ul li a").click(function() {
+            var select = this.id; 
+            if (select == 'ver20') {
+                jQuery('.version-block').hide();
+                jQuery('.version-block.ver20').show();
+                
+            }else if (select == 'ver19'){ 
+                jQuery('.version-block').hide();
+                jQuery('.version-block.ver19').show();
+            }
+            else if (select == 'ver18'){
+                jQuery('.version-block').hide();
+                jQuery('.version-block.ver18').show(); 
+            }
+            else{
+                alert();
+                jQuery('.version-block').hide();
+            } 
+        });
+
+        //HIDE OPTIONS IF CLICKED ANYWHERE ELSE ON PAGE
+        jQuery(document).bind('click', function(e) {
+            var jQueryclicked = jQuery(e.target);
+            if (!jQueryclicked.parents().hasClass("download-ver-select"))
+                jQuery(".download-ver-select .options ul").hide();
+        });
+
     });
 
     

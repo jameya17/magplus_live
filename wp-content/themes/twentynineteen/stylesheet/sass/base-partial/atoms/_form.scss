@@ -206,7 +206,7 @@
   }
   
   /* Show the checkmark when checked */
-  .checkbox-container input:checked ~ .checkmark:after {
+  .checkbox-container input:checked ~ .checkmark:after, .checkbox-container input[type="radio"]:checked ~ .checkmark:after {
     display: block;
   }
   
@@ -769,6 +769,10 @@ input:-webkit-autofill:focus {
         }
     }       
 }
+
+.download-ver-select{
+    @extend .drop-down;   
+}
 //Con_us form
 .salesforce_w2l_lead .top-aligned .w2llabel{
     font-size: 15px;
@@ -867,3 +871,59 @@ input:-webkit-autofill:focus {
         }
     }
 } 
+
+//radio buttons css
+.radio-container {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    line-height: 20px;
+    color: #8D8788;
+    padding-left: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline-block; 
+    input { 
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 14px;
+        width: 14px;
+        background-color: #eee;
+        border-radius: 50%;
+        border: 1px solid #979797; 
+
+    }
+    &:hover input ~ .checkmark {
+        background-color: #ccc;
+    }
+    input:checked ~ .checkmark {
+        //background-color: #2196F3;
+    }
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+    input:checked ~ .checkmark:after {
+        display: block;
+    }
+    .checkmark:after {
+        top: 3px;
+        left: 3px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #333;
+    }
+    
+}

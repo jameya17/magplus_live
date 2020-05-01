@@ -61,7 +61,7 @@ get_header();
                 <div class="g-col align-center">  
                     <h3>Why choose mag+?</h3>
                     <p class="small-wrap">mag+’s digital-publishing software covers every part of the app-publishing process. Design your content using simple tools, build your own branded mobile app on our Web portal, and distribute your designed content to that app for end users to experience on their mobile devices.</p>
-                    <a href="javascript:void()" class="primary-btn contact-click" title="Contact Us">Contact Us
+                    <a href="javascript:void()" class="primary-btn home-contact-click" title="Contact Us">Contact Us
                         <span class="span1">Contact Us</span>
                         <span class="span2">Contact Us</span>
                     </a>

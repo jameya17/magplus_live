@@ -86,3 +86,75 @@
         }
     }
 }
+
+
+.downloal-page{
+    h3 {
+        font-size: 64px;
+        line-height: 70px;
+        letter-spacing: 0.5px;
+        margin-bottom: 30px;
+    }
+    .drop-down{
+        margin-bottom: 25px; 
+        .selected a{
+            width: 100%;
+            max-width: 390px;
+            line-height: 26px;
+            vertical-align: middle;
+            background-color: transparent;
+            height: 26px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            &::before{
+                top: 18px;
+            }
+        }
+        .options{
+            ul{
+                width: auto;
+                max-width: 420px;
+                top: 55px;
+                left: 0; 
+            }
+        }
+    } 
+    .radio-button-block{
+        margin-bottom: 30px;
+    }
+    .flex-start{
+        @include align-items(flex-start);
+    }
+    .tools-download-info-holder{
+        padding: 50px;
+        margin-bottom: 30px;  
+        border: 1px solid $org-col;
+    }
+    .link{
+        text-decoration: underline;
+        color: $org-col;
+        &:hover{
+            color: $dark-org-col;
+        }
+    }
+    .flex-start{
+        .tmc-text{
+            text-align: left; 
+        }
+    }
+    
+}
+.tools-download-info-block{
+    h5{
+        margin-bottom: 20px;
+    }
+    .bullet-list{
+        padding-left: 25px;
+        li{
+            font-size: 16px;
+            line-height: 24px;
+            color: #6B6D70;
+        }
+    }    
+}
