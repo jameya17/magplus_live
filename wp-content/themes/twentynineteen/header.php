@@ -55,8 +55,10 @@
                     </li>
                     <li class="<?php if($pageId == 27659){ ?>active<?php } ?>"><a href="?page_id=27659" class="sticky-nav-tab">Pricing</a></li>
                     <li class="<?php if($pageId == 31528){ ?>active<?php } ?>"><a href="?page_id=31528" class="sticky-nav-tab">MagPlus Pro</a></li>
+                    <!-- <li class=""><a href="" class="sticky-nav-tab">Logout</a></li> -->
                     <li><a href="?page_id=31257" class="sticky-nav-tab mob-view">FAQs</a></li>
                     <li class="try-free-block">
+                        <!-- <a class="btn" id="navLoginBtn" href="?page_id=31551">Download</a> -->
                         <a class="btn" id="navLoginBtn" href="?page_id=31549">Try for free</a>
                         <ul class="sidebar-listing follow-us-listing mob-view">
                             <li><a href="" title="Twitter"><img src="<?php bloginfo('template_directory'); ?>/images/icons/grey-twitter.svg" alt="Twitter"></a></li>
