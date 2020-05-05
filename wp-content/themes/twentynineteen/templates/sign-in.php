@@ -46,8 +46,7 @@ get_header();
                             <div class="group-field hide">
                                 <input type="password" name="password" required autocomplete="off" />
                                 <label>password</label>
-                                <strong class="eye-icon show"><img src="<?php bloginfo('template_directory'); ?>/<?php bloginfo('template_directory'); ?>/images/icons/eye-icon-show.svg" alt=""></strong>
-                                <strong class="eye-icon hide"><img src="<?php bloginfo('template_directory'); ?>/<?php bloginfo('template_directory'); ?>/images/icons/eye-icon-hide.svg" alt=""></strong>
+                                <strong class="eye-icon"></strong>
                             </div>    
                             <span class="error">Atleast 1 uppercase & numerical</span>
                         </div>

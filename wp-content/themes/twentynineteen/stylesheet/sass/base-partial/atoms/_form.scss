@@ -388,16 +388,15 @@ a{
 
 /* floating labels css */
 .form-container{
-    input[type=email]:focus ~ label, input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label, input[type=email]:valid ~ label, input[type=password]:valid ~ label, input[type=number]:valid ~ label, input[type=tel]:valid ~ label {
+    input[type=email]:focus ~ label, input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label, input[type=email]:valid ~ label, input[type=password]:valid ~ label, input[type=number]:valid ~ label, input[type=tel]:valid ~ label{ 
         font-size: 15px; 
         line-height: 19px;
-        color: #595656;
+        color: #595656;  
         font-weight: 700;
         top: -25px;
         -webkit-transition: all 0.125s ease;
         transition: all 0.125s ease;
     }
-
     .styled-input {
         position: relative;
         width: 100%;
@@ -416,6 +415,15 @@ a{
         transition: all 0.25s ease;
         pointer-events: none;
         text-transform: capitalize;
+        &.highlight{
+            font-size: 15px; 
+            line-height: 19px;
+            color: #595656;  
+            font-weight: 700;
+            top: -25px;
+            -webkit-transition: all 0.125s ease;
+            transition: all 0.125s ease;   
+        }   
     }
     .styled-input.wide { width: 100%; }
 
@@ -499,25 +507,24 @@ input:-webkit-autofill:focus {
 .group-field{
     position: relative;
     .eye-icon{
-        display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: absolute;
         right: 2px;
         top: 10px;
         cursor: pointer; 
+        width: 25px; 
+        height: 21px; 
+        opacity: 1;
+        background-position: center;
+        background-repeat: no-repeat;  
     }
-    &.show{
-        .eye-icon{
-            &.show{
-                display: block;
-            }
-        }
+    input[type="text"] + label + .eye-icon{
+        background-image: url(../../images/icons/eye-icon-show.svg);
     }
-    &.hide{
-        .eye-icon{
-            &.hide{ 
-                display: block;
-            }
-        }
+    input[type="password"] + label + .eye-icon{
+        background-image: url(../../images/icons/eye-icon-hide.svg); 
     }
 }
 .form-field-group{

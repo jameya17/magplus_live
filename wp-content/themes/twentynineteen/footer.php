@@ -326,14 +326,6 @@
                 jQuery(this).addClass('active');  
             } 
         });
-        // jQuery('.click-card-block').click(function(e) {
-        //     e.preventDefault();
-        //     if (jQuery(this).hasClass('active')) {
-        //         jQuery(this).removeClass('active');
-        //     } else {
-        //         jQuery(this).addClass('active');
-        //     }
-        // });
         jQuery(".js-anchor-link").click(function(e) {
             e.preventDefault();
             var target = jQuery(jQuery(this).attr("href"));
@@ -509,11 +501,20 @@
             if (!jQueryclicked.parents().hasClass("download-ver-select"))
                 jQuery(".download-ver-select .options ul").hide();
         });
-
     });
-
+    function focusfield(){
+        var isFormValid = true;
+        jQuery(".styled-input .input-field").each(function(){
+            if (jQuery(this).val().length > 0){     
+                jQuery(this).closest(".styled-input").find(".input-lbl").addClass("highlight");
+                jQuery(this).focus();
+            }else{
+                jQuery(this).closest(".styled-input").find(".input-lbl").removeClass("highlight");   
+            }  
+        });
+    } 
+    focusfield();       
     
-
     function tabNav(evt, tabHead) {
         var i, tabcontent, tablinks;
         tabcontent = document.getElementsByClassName("tabcontent");

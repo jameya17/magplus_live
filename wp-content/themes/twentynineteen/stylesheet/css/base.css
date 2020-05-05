@@ -1509,6 +1509,14 @@ a.apple-link {
   transition: all 0.25s ease;
   pointer-events: none;
   text-transform: capitalize; }
+  .form-container .styled-input label.highlight {
+    font-size: 15px;
+    line-height: 19px;
+    color: #595656;
+    font-weight: 700;
+    top: -25px;
+    -webkit-transition: all 0.125s ease;
+    transition: all 0.125s ease; }
 .form-container .styled-input.wide {
   width: 100%; }
 .form-container input,
@@ -1577,15 +1585,22 @@ input:-webkit-autofill:focus {
 .group-field {
   position: relative; }
   .group-field .eye-icon {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     right: 2px;
     top: 10px;
-    cursor: pointer; }
-  .group-field.show .eye-icon.show {
-    display: block; }
-  .group-field.hide .eye-icon.hide {
-    display: block; }
+    cursor: pointer;
+    width: 25px;
+    height: 21px;
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat; }
+  .group-field input[type="text"] + label + .eye-icon {
+    background-image: url(../../images/icons/eye-icon-show.svg); }
+  .group-field input[type="password"] + label + .eye-icon {
+    background-image: url(../../images/icons/eye-icon-hide.svg); }
 
 .form-field-group {
   width: 100%;

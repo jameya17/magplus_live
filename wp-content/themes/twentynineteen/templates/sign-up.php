@@ -78,38 +78,37 @@ get_header();
                     <h2 class="form-block-title">Sign Up</h2>
 
                     <div class="styled-input error-block">
-                        <input type="text" name="registration[first_name]" required pattern="[a-zA-Z]+" />
-                        <label>First name</label>
+                        <input class="input-field" type="text" name="registration[first_name]" required pattern="[a-zA-Z]+" />
+                        <label class="input-lbl">First name</label>
                         <span class="error">Welcome to Magplus</span>
                     </div>
                     <div class="styled-input">
-                        <input type="text" name="registration[name]" required pattern="[a-zA-Z]+" />
-                        <label>Last name</label>
+                        <input class="input-field" type="text" name="registration[name]" required pattern="[a-zA-Z]+" />
+                        <label class="input-lbl">Last name</label>
                         <span class="error">Welcome to Magplus</span>
                     </div>
                     <div class="styled-input">
-                        <input type="email" name="registration[email]" required />
-                        <label>Email</label>
+                        <input class="input-field" type="email" name="registration[email]" required />
+                        <label class="input-lbl email-filed">Email</label>
                         <span class="error">Welcome to Magplus</span>
                     </div>
                     <div class="styled-input">
                         <div class="group-field hide">
-                            <input type="password" id="registration_password" name="registration[password]" pattern=".{6,}[^' ']+" required autocomplete="off" />
-                            <label>Password</label>
-                            <strong class="eye-icon"><img src="<?php bloginfo('template_directory'); ?>/images/icons/eye-icon-hide.svg" alt=""></strong>
-                            <strong class="eye-icon hide"><img src="<?php bloginfo('template_directory'); ?>/images/icons/eye-icon-show.svg" alt=""></strong>
+                            <input class="input-field" type="password" id="registration_password" name="registration[password]" pattern=".{6,}[^' ']+" required autocomplete="off" />
+                            <label class="input-lbl">Password</label>
+                            <strong class="eye-icon"></strong>
                         </div>    
                         <span class="error">Atleast 1 uppercase & numerical</span>
                     </div>
                     <?php echo country_select($countryCode); ?>
                     <div class="styled-input">
-                        <input type="tel" name="registration[phone]" required autocomplete="off" pattern="[0-9]+"/>
-                        <label>Phone number</label>
+                        <input class="input-field" type="tel" name="registration[phone]" required autocomplete="off" pattern="[0-9]+"/>
+                        <label class="input-lbl">Phone number</label>
                         <span class="error">This is secure with us</span>
                     </div>
                     <div class="styled-input">
-                        <input type="text" name="registration[company]" required autocomplete="off"/>
-                        <label>Company</label>
+                        <input class="input-field" type="text" name="registration[company]" required autocomplete="off"/>
+                        <label class="input-lbl">Company</label>
                         <span class="error">Please feed in the code you have</span>
                     </div>
                     <div class="form-field-group">
