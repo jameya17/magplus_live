@@ -1,5 +1,16 @@
 jQuery(document).ready(function (){
 
+   jQuery(".eye-icon").click(function(){
+      jQuery(".eye-icon").addClass("hide");
+      jQuery(this).removeClass("hide");
+      var x = document.getElementById("registration_password");
+      if (x.type === "password") {
+         x.type = "text";
+      } else {
+         x.type = "password";
+      }
+      return false;
+   })
 
    if(jQuery("#magplus_signup2").length == 1){
       jQuery('#accept_terms_0').on('change', function(){
