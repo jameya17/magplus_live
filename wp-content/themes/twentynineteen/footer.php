@@ -502,6 +502,7 @@
                 jQuery(".download-ver-select .options ul").hide();
         });
     });
+    /*
     function focusfield(){
         var isFormValid = true;
         jQuery(".styled-input .input-field").each(function(){
@@ -513,7 +514,8 @@
             }  
         });
     } 
-    focusfield();       
+    focusfield();
+    */       
     
     function tabNav(evt, tabHead) {
         var i, tabcontent, tablinks;

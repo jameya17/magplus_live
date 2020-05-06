@@ -34,7 +34,7 @@ get_header();
                 </div>
                 <div class="form-section form-container sign-up-form">
                     <h5>You’re Just One Step away from Getting the Tools</h5>
-                    <form action="https://login.magplus.com/auth/identity/callback" method="post" class="form-block">
+                    <form action="https://login.magplus.com/auth/identity/callback" method="post" class="form-block" id="sign-in-form">
                         <h2 class="form-block-title">Sign In</h2>
 
                         <div class="styled-input">

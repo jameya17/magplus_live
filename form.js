@@ -1,5 +1,20 @@
 jQuery(document).ready(function (){
 
+   if(jQuery("#sign-in-form").length == 1){
+      jQuery("#sign-in-form input").change(function(){
+         var isFormValid = true;
+         jQuery(".styled-input .input-field").each(function(){
+            if (jQuery(this).val().length > 0){     
+                jQuery(this).closest(".styled-input").find(".input-lbl").addClass("highlight");
+                jQuery(this).focus();
+            }else{
+                jQuery(this).closest(".styled-input").find(".input-lbl").removeClass("highlight");   
+            }  
+         });
+      });
+
+   }
+
    jQuery(".eye-icon").click(function(){
       jQuery(".eye-icon").addClass("hide");
       jQuery(this).removeClass("hide");
@@ -13,6 +28,19 @@ jQuery(document).ready(function (){
    })
 
    if(jQuery("#magplus_signup2").length == 1){
+
+      jQuery("#magplus_signup2 input").change(function(){
+         var isFormValid = true;
+         jQuery(".styled-input .input-field").each(function(){
+            if (jQuery(this).val().length > 0){     
+                jQuery(this).closest(".styled-input").find(".input-lbl").addClass("highlight");
+                jQuery(this).focus();
+            }else{
+                jQuery(this).closest(".styled-input").find(".input-lbl").removeClass("highlight");   
+            }  
+         });
+      });
+
       jQuery('#accept_terms_0').on('change', function(){
          var currentvalue = jQuery('#accept_terms').val();
          if(currentvalue =='true'){
