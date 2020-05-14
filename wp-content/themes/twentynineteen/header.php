@@ -14,7 +14,44 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="">
+    <meta name="medium" content="mult">
+    <meta name="title" content="">
+    <meta name="robots" content="noindex,follow">
+
+    <meta property="og:title" content="">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="<?php bloginfo('template_directory'); ?>/images/og-image.png>">
+    <meta property="og:type" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:locale" content="en_US">
+
+    <meta itemprop="name" content="">
+    <meta itemprop="url" content="">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="<?php bloginfo('template_directory'); ?>/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="<?php bloginfo('template_directory'); ?>/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php bloginfo('template_directory'); ?>/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="<?php bloginfo('template_directory'); ?>/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php bloginfo('template_directory'); ?>/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="<?php bloginfo('template_directory'); ?>/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="<?php bloginfo('template_directory'); ?>/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="<?php bloginfo('template_directory'); ?>/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('template_directory'); ?>/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="<?php bloginfo('template_directory'); ?>/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo('template_directory'); ?>/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="<?php bloginfo('template_directory'); ?>/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo('template_directory'); ?>/images/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+   
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
 	<?php wp_head(); ?>
 	<?php include("includes/css-js.php"); ?> 

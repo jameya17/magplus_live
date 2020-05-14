@@ -15,7 +15,7 @@ get_header();
             <div class="l-section-wrap" data-aos="fade-up">
                 <div class="g-col">
                     <div class="one-half">
-                        <h1>Create & Publish interactive content to your mobile app</h1>
+                        <h1>What is <img style="display:block;" src="<?php bloginfo('template_directory'); ?>/images/megaplus-now.svg" alt="Megaplus Now" title="Megaplus Now"></h1>
                         <p>Mag+ NOW empowers you to author HTML content and upgrade PDFs for touch enabled smart devices.</p>
                         <a href="/" class="primary-btn" title="Know More">Know More
                             <span class="span1">Know More</span>
@@ -23,7 +23,7 @@ get_header();
                         </a>
                     </div>    
                     <div class="one-half image-block">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/what-is-magplus-pro.svg" alt="What is Magplus Pro?" />
+                        <img src="<?php bloginfo('template_directory'); ?>/images/what-is-magplus-now.svg" alt="What is Magplus Now?" />
                     </div>    
                 </div>    
             </div>

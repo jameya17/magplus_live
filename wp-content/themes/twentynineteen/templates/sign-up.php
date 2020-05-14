@@ -77,7 +77,7 @@ get_header();
                     
                     <h2 class="form-block-title">Sign Up</h2>
 
-                    <div class="styled-input error-block">
+                    <div class="styled-input">
                         <input class="input-field" type="text" name="registration[first_name]" required pattern="[a-zA-Z]+" />
                         <label class="input-lbl">First name</label>
                         <span class="error">Welcome to Magplus</span>

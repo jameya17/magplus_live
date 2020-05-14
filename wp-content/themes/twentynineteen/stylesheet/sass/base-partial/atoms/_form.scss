@@ -400,7 +400,7 @@ a{
     .styled-input {
         position: relative;
         width: 100%;
-        margin-bottom: 35px;
+        margin-bottom: 40px;
     }
     .styled-input label {
         font-size: 16px;
@@ -860,7 +860,7 @@ input:-webkit-autofill:focus {
     letter-spacing: 1.4px;
     text-transform: uppercase;
     text-decoration: none;
-    width: auto !important;
+    width: auto !important; 
     margin: 0 auto !important;  
     &:hover{
         color: #FF8616;
@@ -933,4 +933,19 @@ input:-webkit-autofill:focus {
         background: #333;
     }
     
+}
+.btn-link{
+    .btn-link-ico{
+        display: inline-block;
+        min-width: 22px;
+        text-align: left;
+        margin-right: 8px;
+        img{
+            margin: 0; 
+        }
+    }
+    .btn-link-text{
+        min-width: 170px;
+        text-align: left;   
+    }
 }

@@ -1495,7 +1495,7 @@ a.apple-link {
 .form-container .styled-input {
   position: relative;
   width: 100%;
-  margin-bottom: 35px; }
+  margin-bottom: 40px; }
 .form-container .styled-input label {
   font-size: 16px;
   line-height: 20px;
@@ -1946,6 +1946,17 @@ input:-webkit-autofill:focus {
     height: 8px;
     border-radius: 50%;
     background: #333; }
+
+.btn-link .btn-link-ico {
+  display: inline-block;
+  min-width: 22px;
+  text-align: left;
+  margin-right: 8px; }
+  .btn-link .btn-link-ico img {
+    margin: 0; }
+.btn-link .btn-link-text {
+  min-width: 170px;
+  text-align: left; }
 
 .card-section {
   margin: 100px 0 0 0; }
