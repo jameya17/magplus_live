@@ -8,12 +8,26 @@
  * @since 1.0.0
  */
 
+$devEnvironments = array("d3v.magplus.com", "www.magplus.dev");
+if(in_array($_SERVER['SERVER_NAME'], $devEnvironments)){
 define('MAGPLUS_REGISTER_URL', "https://staging-publish.magplus.com/registration");
+//define('MAGPLUS_REGISTER_REDIRECT', "http://d3v.magplus.com/my-magplus/");
+//define('MAGPLUS_VERIFY_REDIRECT', "https://d3v.magplus.com/my-magplus/");
 define('MAGPLUS_REGISTER_REDIRECT', "https://www.magplus.com/thank-you-for-registering-with-magplus/");
 define('MAGPLUS_VERIFY_REDIRECT', "https://www.magplus.com/thank-you-for-registering-with-magplus/");
+
 define('MAGPLUS_FAILED_REDIRECT', "http://d3v.magplus.com/signup/");
 define('MAGPLUS_DOWNLOAD_URL', "https://download.magplus.com/");
-
+}else{
+//define('MAGPLUS_REGISTER_URL', "https://alpha-publish.magplus.com/registration");
+define('MAGPLUS_REGISTER_URL', "https://publish.magplus.com/registration");
+//define('MAGPLUS_REGISTER_REDIRECT', "https://www.magplus.com/my-magplus/?message=new-user");
+//define('MAGPLUS_VERIFY_REDIRECT', "https://www.magplus.com/my-magplus/?message=new-user");
+define('MAGPLUS_REGISTER_REDIRECT', "https://www.magplus.com/thank-you-for-registering-with-magplus/");
+define('MAGPLUS_VERIFY_REDIRECT', "https://www.magplus.com/thank-you-for-registering-with-magplus/");
+define('MAGPLUS_FAILED_REDIRECT', "https://www.magplus.com/signup/");
+define('MAGPLUS_DOWNLOAD_URL', "https://download.magplus.com/");
+}
 
 $ipaddress = $_SERVER['REMOTE_ADDR'];
 
