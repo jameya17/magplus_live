@@ -48,7 +48,7 @@
             <ul class="inner foot-link-block">
                 <li><a href="javascript:void(0)" class="foot-link" title="About Us">About Us</a></li>
                 <li><a href="javascript:void(0)" class="foot-link" title="Events ">Events </a></li>
-                <li><a href="javascript:void(0)" class="foot-link" title="Try For Free ">Try For Free </a></li>
+                <li><a href="?page_id=31549" class="foot-link" title="Try For Free ">Try For Free </a></li>
             </ul>
         </div>
         <div class="foot-col subscription-sec">

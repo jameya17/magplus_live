@@ -525,6 +525,7 @@ input:-webkit-autofill:focus {
     }
     input[type="password"] + label + .eye-icon{
         background-image: url(../../images/icons/eye-icon-hide.svg); 
+        background-position: 0px 1px;
     }
 }
 .form-field-group{

@@ -757,8 +757,8 @@ ol {
     border: 1px solid #FF8616; }
   @media only screen and (max-width: 1024px) {
     .btn, .primary-btn, .form-container .form-btn {
-      padding: 15px 30px;
-      font-size: 10px;
+      padding: 10px 20px;
+      font-size: 12px;
       line-height: 14px; } }
 
 .button-focus {
@@ -1600,7 +1600,8 @@ input:-webkit-autofill:focus {
   .group-field input[type="text"] + label + .eye-icon {
     background-image: url(../../images/icons/eye-icon-show.svg); }
   .group-field input[type="password"] + label + .eye-icon {
-    background-image: url(../../images/icons/eye-icon-hide.svg); }
+    background-image: url(../../images/icons/eye-icon-hide.svg);
+    background-position: 0px 1px; }
 
 .form-field-group {
   width: 100%;
@@ -3164,7 +3165,7 @@ footer {
     .foot-link-block {
       display: none; } }
   .foot-link-block li {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 14px;
     margin-bottom: 15px; }
     .foot-link-block li:last-child {
@@ -3173,7 +3174,7 @@ footer {
       .foot-link-block li {
         margin-bottom: 0; } }
   .foot-link-block .foot-link {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 14px;
     color: #fff;
     font-weight: 400;
@@ -3181,7 +3182,7 @@ footer {
     @media only screen and (max-width: 1024px) {
       .foot-link-block .foot-link {
         display: block;
-        font-size: 10px;
+        font-size: 12px;
         line-height: 14px;
         color: rgba(255, 255, 255, 0.7);
         opacity: .5;
