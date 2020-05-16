@@ -71,7 +71,7 @@ get_header();
                                 <span class="span3">Sign In</span>
                             </a> -->
                         </div>
-                        <div class="form-field-group">
+                        <!-- <div class="form-field-group">
                             <span class="divider-text">Or, Sign In with</span>
                         </div>    
                         <div class="form-field-group">
@@ -80,8 +80,8 @@ get_header();
                         <div class="form-field-group form-field-icon-group">
                             <a href="https://www.magplus.com/social-login/google/google_login.php" title="Google" class="google-logo" ><img src="<?php bloginfo('template_directory'); ?>/images/icons/google-logo.svg" alt="Google"></a>
                             <a href="https://www.magplus.com/social-login/facebook/" title="Facebook" class="fb-logo"><img src="<?php bloginfo('template_directory'); ?>/images/icons/fb-logo.svg" alt="Facebook"></a>
-                        </div>    
-                        <p class="tmc-text">Don’t have an account?  <a href="?page_id=31545" title="Sign Up">Sign Up</a></p>
+                        </div>     -->
+                        <p class="tmc-text">Don’t have an account?  <a href="?page_id=31549" title="Sign Up">Sign Up</a></p>
                     </form>
                 </div>
             </div>    

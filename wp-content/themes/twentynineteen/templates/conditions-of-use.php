@@ -30,7 +30,7 @@ get_header();
                     </ul>
                 </div>
                 <div class="content-block">
-                    <h3 class="sec-title">Conditions of Use</h3>
+                    <h3 class="sec-title">Terms of Use</h3>
                     <span>Last updated: September 29, 2017</span>
                     
                     <p>Welcome to MPS North America LLC and/or its affiliates (d/b/a “mag+“). mag+ permits your access and use of this website subject to the following conditions. If you visit or shop at www.magplus.com, you accept these Conditions of Use. Please read these Conditions of Use carefully. In addition, when you purchase, access or use any specific product (whether software or hardware) offered by mag+, you will also be subject to the guidelines, terms and agreements (“Terms“) applicable to such product. If these Conditions of Use are inconsistent with such Terms, the Terms will control.</p>

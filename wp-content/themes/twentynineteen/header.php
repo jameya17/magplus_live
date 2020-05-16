@@ -33,7 +33,7 @@
     <meta itemprop="description" content="">
     <meta itemprop="image" content="">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo('template_directory'); ?>/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo('template_directory'); ?>/images/magplus-favicon.png">
     <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -79,7 +79,7 @@
                         </ul>
                     </li>
                     <li class="<?php if($pageId == 27659){ ?>active<?php } ?>"><a href="?page_id=27659" class="sticky-nav-tab">Pricing</a></li>
-                    <li class="<?php if($pageId == 31528){ ?>active<?php } ?>"><a href="?page_id=31528" class="sticky-nav-tab">MagPlus Pro</a></li>
+                    <li class="<?php if($pageId == 31528){ ?>active<?php } ?>"><a href="?page_id=31528" class="sticky-nav-tab">Mag+ Now</a></li>
                     <!-- <li class=""><a href="" class="sticky-nav-tab">Logout</a></li> -->
                     <li><a href="?page_id=31257" class="sticky-nav-tab mob-view">FAQs</a></li>
                     <li class="try-free-block">

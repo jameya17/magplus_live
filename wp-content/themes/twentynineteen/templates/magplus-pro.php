@@ -15,7 +15,7 @@ get_header();
             <div class="l-section-wrap" data-aos="fade-up">
                 <div class="g-col">
                     <div class="one-half">
-                        <h1>What is <img style="display:block;" src="<?php bloginfo('template_directory'); ?>/images/megaplus-now.svg" alt="Megaplus Now" title="Megaplus Now"></h1>
+                        <h1>What is <img style="display:block;" src="<?php bloginfo('template_directory'); ?>/images/megaplus-now.svg" alt="Megplus Now" title="Megplus Now"></h1>
                         <p>Mag+ NOW empowers you to author HTML content and upgrade PDFs for touch enabled smart devices.</p>
                         <a href="/" class="primary-btn" title="Know More">Know More
                             <span class="span1">Know More</span>
