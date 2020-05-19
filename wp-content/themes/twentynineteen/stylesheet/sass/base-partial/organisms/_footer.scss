@@ -373,6 +373,26 @@ footer{
         width: 90%;
         margin: 0; 
     }
+    @media only screen and (max-width: 1024px) { 
+        width: 100%; 
+    }
+    &.sf_field_Consent{
+        vertical-align: baseline;
+        @media only screen and (max-width: 1024px) {  
+            width: 80%;
+            margin: 0;
+        }   
+    }
+    .g-recaptcha{
+        width: 100% !important; 
+        & > div{  
+            width: 100% !important;  
+        }
+        iframe{
+            width: 100%; 
+        }
+    }
+
 }
 .sf_field_checkbox1__c{
     // @include flexbox; 

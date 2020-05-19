@@ -3381,6 +3381,21 @@ footer {
   .sf_field .w2linput.text {
     width: 90%;
     margin: 0; }
+  @media only screen and (max-width: 1024px) {
+    .sf_field {
+      width: 100%; } }
+  .sf_field.sf_field_Consent {
+    vertical-align: baseline; }
+    @media only screen and (max-width: 1024px) {
+      .sf_field.sf_field_Consent {
+        width: 80%;
+        margin: 0; } }
+  .sf_field .g-recaptcha {
+    width: 100% !important; }
+    .sf_field .g-recaptcha > div {
+      width: 100% !important; }
+    .sf_field .g-recaptcha iframe {
+      width: 100%; }
 
 .sf_field_checkbox1__c {
   display: inline-block;
@@ -3724,6 +3739,29 @@ footer {
       padding: 30px 15px; } }
   .sec-pad p {
     margin-bottom: 20px; }
+
+.magplus-pro .sec-pad {
+  height: 578px;
+  padding: 0; }
+  @media only screen and (max-width: 1024px) {
+    .magplus-pro .sec-pad {
+      height: auto;
+      padding: 30px 15px; } }
+  .magplus-pro .sec-pad .image-block {
+    display: flex;
+    align-items: flex-end;
+    height: 578px; }
+    @media only screen and (max-width: 1024px) {
+      .magplus-pro .sec-pad .image-block {
+        align-items: flex-start;
+        justify-content: center;
+        height: auto; } }
+.magplus-pro .megplus-now-img {
+  display: block; }
+  @media only screen and (max-width: 1024px) {
+    .magplus-pro .megplus-now-img {
+      max-width: 220px;
+      margin: 0 auto; } }
 
 .magplus-pro-section .g-col {
   max-width: 830px;

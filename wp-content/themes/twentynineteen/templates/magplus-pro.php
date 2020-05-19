@@ -10,19 +10,19 @@
 
 get_header();
 ?>
-    <div class="container">
-        <section class="l-section sec-pad white-bg" style="background-image: url('<?php bloginfo('template_directory'); ?>/images/easily-create-your-next-magazine-bg.svg'); background-repeat: no-repeat; background-position: top right">
+    <div class="container magplus-pro">
+        <section class="l-section sec-pad white-bg" style="background-image: url('<?php bloginfo('template_directory'); ?>/images/easily-create-your-next-magazine-bg.svg'); background-repeat: no-repeat; background-position: top right;">
             <div class="l-section-wrap" data-aos="fade-up">
                 <div class="g-col">
                     <div class="one-half">
-                        <h1>What is <img style="display:block;" src="<?php bloginfo('template_directory'); ?>/images/megaplus-now.svg" alt="Megplus Now" title="Megplus Now"></h1>
+                        <h1>What is <img class="megplus-now-img" src="<?php bloginfo('template_directory'); ?>/images/megaplus-now.svg" alt="Megplus Now" title="Megplus Now"></h1>
                         <p>Mag+ NOW empowers you to author HTML content and upgrade PDFs for touch enabled smart devices.</p>
                         <a href="/" class="primary-btn" title="Know More">Know More
                             <span class="span1">Know More</span>
                             <span class="span2">Know More</span>
                         </a>
                     </div>    
-                    <div class="one-half image-block">
+                    <div class="one-half image-block"> 
                         <img src="<?php bloginfo('template_directory'); ?>/images/what-is-magplus-now.svg" alt="What is Magplus Now?" />
                     </div>    
                 </div>    

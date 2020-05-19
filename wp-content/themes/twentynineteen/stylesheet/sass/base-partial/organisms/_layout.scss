@@ -163,7 +163,33 @@
         margin-bottom: 20px;
     }
 }
-
+.magplus-pro{
+    .sec-pad{
+        height: 578px;
+        padding: 0;
+        @media only screen and (max-width: 1024px) {
+            height: auto;
+            padding: 30px 15px;
+        }
+        .image-block{
+            display: flex;
+            align-items: flex-end; 
+            height: 578px;
+            @media only screen and (max-width: 1024px) {
+                align-items: flex-start;
+                justify-content: center;
+                height: auto;
+            }
+        }
+    }
+    .megplus-now-img{
+        display: block;
+        @media only screen and (max-width: 1024px) {
+            max-width: 220px; 
+            margin: 0 auto; 
+        }
+    }
+}
 //Custom css
 .magplus-pro-section{
     .g-col{
