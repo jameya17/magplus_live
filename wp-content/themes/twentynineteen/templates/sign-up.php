@@ -80,7 +80,7 @@ get_header();
             </div>
             <div class="form-section form-container sign-up-form">
                 <h5>You’re Just One Step away from Getting the Tools</h5>
-                <form class="form-block magform magplus-half-form magplus-signup" autocomplete="off" id="magplus_signup2" action="<?php echo MAGPLUS_REGISTER_URL ?>" method="post">
+                <form class="form-block magform magplus-half-form magplus-signup" autocomplete="off" id="magplus_signup2" action="<?php echo MAGPLUS_REGISTER_URL ?>" onsubmit="return validateSignUpForm();" method="post">
                     <input type="hidden" name="utf8" value="âœ“">
                     <input type="hidden" id="redirect_to" name="redirect_to" value="<?php echo MAGPLUS_REGISTER_REDIRECT ?>">
                     <input type="hidden" id="verify_redirect_to" name="verify_redirect_to" value="<?php echo MAGPLUS_VERIFY_REDIRECT ?>">
@@ -92,23 +92,23 @@ get_header();
                     <h2 class="form-block-title">Sign Up</h2>
 
                     <div class="styled-input">
-                        <input class="input-field" type="text" name="registration[first_name]" required pattern="[a-zA-Z]+" />
+                        <input class="input-field" type="text" name="registration[first_name]" id="firstName" />
                         <label class="input-lbl">First name</label>
                         <span class="error">Welcome to Magplus</span>
                     </div>
                     <div class="styled-input">
-                        <input class="input-field" type="text" name="registration[name]" required pattern="[a-zA-Z]+" />
+                        <input class="input-field" type="text" name="registration[name]" id="lastName" />
                         <label class="input-lbl">Last name</label>
                         <span class="error">Welcome to Magplus</span>
                     </div>
                     <div class="styled-input">
-                        <input class="input-field" type="email" name="registration[email]" required />
+                        <input class="input-field" type="text" name="registration[email]" id="email" />
                         <label class="input-lbl email-filed">Email</label>
                         <span class="error">Welcome to Magplus</span>
                     </div>
                     <div class="styled-input">
                         <div class="group-field hide">
-                            <input class="input-field" type="password" id="registration_password" name="registration[password]" pattern=".{6,}[^' ']+" required autocomplete="off" />
+                            <input class="input-field" type="password" id="registration_password" name="registration[password]" autocomplete="off" />
                             <label class="input-lbl">Password</label>
                             <strong class="eye-icon"></strong>
                         </div>    
@@ -116,12 +116,12 @@ get_header();
                     </div>
                     <?php echo country_select($countryCode); ?>
                     <div class="styled-input">
-                        <input class="input-field" type="tel" name="registration[phone]" required autocomplete="off" pattern="[0-9]+"/>
+                        <input class="input-field" type="tel" name="registration[phone]" autocomplete="off" id="phone" />
                         <label class="input-lbl">Phone number</label>
                         <span class="error">This is secure with us</span>
                     </div>
                     <div class="styled-input">
-                        <input class="input-field" type="text" name="registration[company]" required autocomplete="off"/>
+                        <input class="input-field" type="text" name="registration[company]" autocomplete="off" id="company" />
                         <label class="input-lbl">Company</label>
                         <span class="error">Please feed in the code you have</span>
                     </div>

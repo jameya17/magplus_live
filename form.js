@@ -1,3 +1,118 @@
+function validateSignUpForm(){
+   var firstName = lastName = email = password = phone = company = "";
+
+   firstName = jQuery("#firstName").val();
+   lastName = jQuery("#lastName").val();
+   email = jQuery("#email").val();
+   password = jQuery("#registration_password").val();
+   phone = jQuery("#phone").val();
+   company = jQuery("#company").val();
+   var namePattern = /^[a-zA-Z]+$/;
+   var emailPattern = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i;
+   var passwordPattern = /^.{6,}[^' ']+/;
+   var phonePattern = /^[0-9]+$/;
+   var isValid = true;
+   
+   if(firstName == ""){
+      showError("#firstName", "Required");
+      isValid = false;
+   }
+   else
+   if(!namePattern.test(firstName)){
+      showError("#firstName", "Only alphabets are allowed");
+      isValid = false;
+   }
+   else{
+      removeError("#firstName");
+   }
+
+   if(lastName == ""){
+      showError("#lastName", "Required");
+      isValid = false;
+   }
+   else
+   if(!namePattern.test(lastName)){
+      showError("#lastName", "Only alphabets are allowed");
+      isValid = false;
+   }
+   else{
+      removeError("#lastName");
+   }
+
+   if(email == ""){
+      showError("#email", "Required");
+      isValid = false;
+   }
+   else
+   if(!emailPattern.test(email)){
+      showError("#email", "Invalid email id");
+      isValid = false;
+   }
+   else{
+      removeError("#email");
+   }
+
+   if(password == ""){
+      showError("#registration_password", "Required");
+      isValid = false;
+   }
+   else
+   if(!passwordPattern.test(password)){
+      showError("#registration_password", "Password must be greater than 6 characters. No space allowed");
+      isValid = false;
+   }
+   else{
+      removeError("#registration_password");
+   }
+
+
+   if(phone == ""){
+      showError("#phone", "Required");
+      isValid = false;
+   }
+   else
+   if(!phonePattern.test(phone)){
+      showError("#phone", "Invalid phone number");
+      isValid = false;
+   }
+   else{
+      removeError("#phone");
+   }
+
+   if(company == ""){
+      showError("#company", "Required");
+      isValid = false;
+   }
+   else
+   if(!namePattern.test(company)){
+      showError("#company", "Only alphabets are allowed");
+      isValid = false;
+   }
+   else{
+      removeError("#company");
+   }
+
+
+   if(isValid){
+      alert("Success");
+      return false;
+   }
+   else{
+      return false;
+   }
+   
+}
+
+function showError(id, msg){
+   jQuery(id).closest(".styled-input").addClass("error-block");
+   jQuery(id).closest(".styled-input").find(".error").text(msg);
+}
+
+function removeError(id){
+   jQuery(id).closest(".styled-input").removeClass("error-block");
+}
+
+
 jQuery(document).ready(function (){
 
    if(jQuery("#sign-in-form").length == 1){
@@ -28,7 +143,6 @@ jQuery(document).ready(function (){
    })
 
    if(jQuery("#magplus_signup2").length == 1){
-
       jQuery("#magplus_signup2 input").change(function(){
          var isFormValid = true;
          jQuery(".styled-input .input-field").each(function(){
