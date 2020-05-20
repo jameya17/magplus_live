@@ -254,7 +254,7 @@ jQuery(document).ready(function (){
 
    jQuery(document).on('click','.pagination li', function(e){
       e.preventDefault();
-      jQuery('.loading-spinner').show();
+      jQuery('.loader').show();
       var current_page = 0;
       var new_page = 0;
       var pageId = 0;
@@ -296,7 +296,7 @@ jQuery(document).ready(function (){
          url : myAjax.ajaxurl,
          data : {action: "generate_tutorials_html",offset:offset,termId:termId},
          success: function(response) {
-            jQuery('.loading-spinner').hide();
+            jQuery('.loader').hide(); 
             if(jQuery.trim(response) != ""){
                jQuery('.video-container').html('');
                jQuery('.video-container').append(response);
