@@ -492,6 +492,10 @@ function generate_tutorials_checkbox_html(){
                 
             $output .= '</div>'; 
 
+            $output .= '<div class="loader" style="display: none;">
+                        <div class="loading-spinner"></div>    
+                    	</div>';
+
             $output .= '<ul class="pagination pagination-bottom">
                 <li class="page-item" id="previous-page"><a class="page-link" href="javascript:void(0)"><img src="'.get_bloginfo('template_directory').'/images/icons/pagination-prev.svg" alt=""></a></li>';
             

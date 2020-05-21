@@ -1,3 +1,47 @@
+function validateSignInForm(){
+   var email = password = "";
+   var emailPattern = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i;
+   var passwordPattern = /^.{6,}[^' ']+/;
+   var isValid = true;
+   
+   email = jQuery("#email").val();
+   password = jQuery("#registration_password").val();
+
+   if(email == ""){
+      showError("#email", "Required");
+      isValid = false;
+   }
+   else
+   if(!emailPattern.test(email)){
+      showError("#email", "Invalid email id");
+      isValid = false;
+   }
+   else{
+      removeError("#email");
+   }
+
+   if(password == ""){
+      showError("#registration_password", "Required");
+      isValid = false;
+   }
+   else
+   if(!passwordPattern.test(password)){
+      showError("#registration_password", "Password must be greater than 6 characters. No space allowed");
+      isValid = false;
+   }
+   else{
+      removeError("#registration_password");
+   }
+
+   if(isValid){
+      return true;
+   }
+   else{
+      return false;
+   }
+
+}
+
 function validateSignUpForm(){
    var firstName = lastName = email = password = phone = company = "";
 
@@ -94,8 +138,7 @@ function validateSignUpForm(){
 
 
    if(isValid){
-      alert("Success");
-      return false;
+      return true;
    }
    else{
       return false;
@@ -309,7 +352,7 @@ jQuery(document).ready(function (){
 
    jQuery('.checkboxTutorials').change(function(){
       var termId = "";
-      jQuery('.loading-spinner').show();
+      jQuery('.loader').show();
       if(jQuery(this).is(':checked')){
          if(jQuery(this).hasClass("allTutorials")){
             jQuery('.checkboxTutorials').prop("checked", false);
@@ -339,7 +382,7 @@ jQuery(document).ready(function (){
          url : myAjax.ajaxurl,
          data : {action: "generate_tutorials_checkbox_html",termId:termId},
          success: function(response) {
-            jQuery('.loading-spinner').hide();
+            jQuery('.loader').hide();
             if(jQuery.trim(response) != ""){
                jQuery('.video-listing-block').html('');
                jQuery('.video-listing-block').append(response);

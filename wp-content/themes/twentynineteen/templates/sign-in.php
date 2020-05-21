@@ -34,17 +34,17 @@ get_header();
                 </div>
                 <div class="form-section form-container sign-up-form">
                     <h5>You’re Just One Step away from Getting the Tools</h5>
-                    <form action="https://login.magplus.com/auth/identity/callback" method="post" class="form-block" id="sign-in-form">
+                    <form action="https://login.magplus.com/auth/identity/callback" onsubmit="return validateSignInForm();" method="post" class="form-block" id="sign-in-form">
                         <h2 class="form-block-title">Sign In</h2>
 
                         <div class="styled-input">
-                            <input type="email" name="auth_key" required />
+                            <input type="text" name="auth_key" id="email" />
                             <label>Email</label>
                             <span class="error">Welcome to Magplus</span>
                         </div>
                         <div class="styled-input">
                             <div class="group-field hide">
-                                <input type="password" name="password" required autocomplete="off" />
+                                <input type="password" name="password" autocomplete="off" id="registration_password" />
                                 <label>password</label>
                                 <strong class="eye-icon"></strong>
                             </div>    

@@ -24,8 +24,8 @@ get_header();
                     <ul>
                         <li class="breadcrumb-item"><a href="#">Magpplus</a></li>
                         <li class="breadcrumb-item"><a href="#">Support</a></li>
-                        <li class="breadcrumb-item"><a href="#">Case Studies</a></li>
-                        <li class="breadcrumb-item"><a href="">Maserati</a></li>
+                        <li class="breadcrumb-item"><a href="#">Blog</a></li>
+                        <li class="breadcrumb-item"><a href=""><?php the_title(); ?></a></li>
                     </ul>
                 </div>
                 <div class="g-col offset_default">
@@ -42,7 +42,7 @@ get_header();
                                         }
                                     ?>
                                     <span class="publish-details">
-                                        <time class="dt-published" datetime="19-09-12"><?php the_time('F d, Y'); ?></time>, by <span class="author vcard h-card p-author"><?php the_author_meta( 'user_nicename' , $author_id ); ?>, </span> 
+                                        <time class="dt-published" datetime="19-09-12"><?php the_time('F d, Y'); ?></time>, by <span class="author vcard h-card p-author"><?php the_author(); ?>, </span> 
                                     </span>
                                 </div> 
                                 <h1 class="entry-title"><?php the_title(); ?></h1>  
