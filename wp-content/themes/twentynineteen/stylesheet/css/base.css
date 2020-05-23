@@ -485,11 +485,6 @@ a {
   cursor: pointer;
   text-decoration: none; }
 
-a,
-a:visited {
-  text-decoration: none;
-  color: #fff; }
-
 a:hover {
   text-decoration: none;
   color: #FF8616; }
@@ -1569,8 +1564,11 @@ a.apple-link {
   left: 0;
   bottom: -25px;
   font-size: 9px;
-  color: #595656;
+  color: #EB3300;
   font-weight: 300; }
+
+.error-block input {
+  border-color: #EB3300; }
 
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 50px white inset;
@@ -1647,11 +1645,11 @@ input:-webkit-autofill:focus {
   .form-field-group a.forgot-password-link {
     font-size: 12px;
     line-height: 17px;
-    color: #595656;
+    color: #EB3300;
     font-weight: 400;
     letter-spacing: 1px; }
     .form-field-group a.forgot-password-link:hover {
-      color: #F36F21; }
+      color: #231F20; }
   .form-field-group.form-field-icon-group {
     -webkit-justify-content: center;
     -moz-justify-content: center;
@@ -2124,12 +2122,13 @@ input:-webkit-autofill:focus {
       text-align: center; } }
 
 .how-it-works-sec .card {
-  max-width: 230px; }
-  .how-it-works-sec .card:first-child {
-    margin-bottom: 75px; }
-    @media only screen and (max-width: 1024px) {
-      .how-it-works-sec .card:first-child {
-        margin-bottom: 30px; } }
+  max-width: 230px;
+  margin-bottom: 75px; }
+  @media only screen and (max-width: 1024px) {
+    .how-it-works-sec .card {
+      margin-bottom: 30px; } }
+  .how-it-works-sec .card:last-child {
+    margin-bottom: 0; }
   @media only screen and (max-width: 1024px) {
     .how-it-works-sec .card {
       max-width: 100%;

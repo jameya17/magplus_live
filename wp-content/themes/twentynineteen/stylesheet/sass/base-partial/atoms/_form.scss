@@ -491,8 +491,13 @@ a{
         left: 0;
         bottom: -25px;
         font-size: 9px;
-        color: #595656;
+        color:$red-col;
         font-weight: 300;
+    }
+}
+.error-block{
+    input{
+        border-color:$red-col;
     }
 }
 input:-webkit-autofill {
@@ -564,11 +569,11 @@ input:-webkit-autofill:focus {
     a.forgot-password-link{
         font-size: 12px;
         line-height: 17px;
-        color: #595656;
+        color: #EB3300;
         font-weight: 400;
         letter-spacing: 1px;
         &:hover{
-            color: $dark-org-col;
+            color: $black-col;
         }
     }
     &.form-field-icon-group{
