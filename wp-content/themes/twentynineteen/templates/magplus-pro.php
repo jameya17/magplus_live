@@ -11,7 +11,7 @@
 get_header();
 ?>
     <div class="container magplus-pro">
-        <section class="l-section sec-pad white-bg" style="background-image: url('<?php bloginfo('template_directory'); ?>/images/easily-create-your-next-magazine-bg.svg'); background-repeat: no-repeat; background-position: top right;">
+        <section class="l-section sec-pad white-bg intro-sec" style="background-image: url('<?php bloginfo('template_directory'); ?>/images/megaplus-now-bg.svg'); background-repeat: no-repeat; background-position: top right;">
             <div class="l-section-wrap" data-aos="fade-up">
                 <div class="g-col">
                     <div class="one-half">

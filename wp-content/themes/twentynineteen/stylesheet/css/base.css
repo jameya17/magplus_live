@@ -3738,22 +3738,40 @@ footer {
   .sec-pad p {
     margin-bottom: 20px; }
 
-.magplus-pro .sec-pad {
-  height: 578px;
-  padding: 0; }
+.magplus-pro .sec-pad.intro-sec {
+  padding: 60px 0; }
   @media only screen and (max-width: 1024px) {
-    .magplus-pro .sec-pad {
-      height: auto;
-      padding: 30px 15px; } }
-  .magplus-pro .sec-pad .image-block {
-    display: flex;
-    align-items: flex-end;
-    height: 578px; }
+    .magplus-pro .sec-pad.intro-sec {
+      padding: 30px 0; } }
+  .magplus-pro .sec-pad.intro-sec .one-half {
+    width: 40%; }
     @media only screen and (max-width: 1024px) {
-      .magplus-pro .sec-pad .image-block {
-        align-items: flex-start;
-        justify-content: center;
-        height: auto; } }
+      .magplus-pro .sec-pad.intro-sec .one-half {
+        width: 90%;
+        margin: 0 auto; } }
+  .magplus-pro .sec-pad.intro-sec .image-block {
+    position: relative;
+    width: 60%; }
+    @media only screen and (max-width: 1024px) {
+      .magplus-pro .sec-pad.intro-sec .image-block {
+        width: 100%; } }
+    .magplus-pro .sec-pad.intro-sec .image-block img {
+      position: absolute;
+      bottom: -60px;
+      right: -70px;
+      width: 100%; }
+      @media only screen and (max-width: 1024px) {
+        .magplus-pro .sec-pad.intro-sec .image-block img {
+          position: static; } }
+.magplus-pro .sec-pad .image-block {
+  display: flex;
+  align-items: flex-end;
+  height: 578px; }
+  @media only screen and (max-width: 1024px) {
+    .magplus-pro .sec-pad .image-block {
+      align-items: flex-start;
+      justify-content: center;
+      height: auto; } }
 .magplus-pro .megplus-now-img {
   display: block; }
   @media only screen and (max-width: 1024px) {
