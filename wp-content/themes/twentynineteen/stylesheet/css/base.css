@@ -1563,13 +1563,15 @@ a.apple-link {
   position: relative; }
   .sign-up-form .error-block .error {
     display: block; }
+  .sign-up-form .error-block input {
+    border-color: #FF0000; }
 .sign-up-form .error {
   display: none;
   position: absolute;
   left: 0;
   bottom: -25px;
   font-size: 9px;
-  color: #595656;
+  color: #FF0000;
   font-weight: 300; }
 
 input:-webkit-autofill {

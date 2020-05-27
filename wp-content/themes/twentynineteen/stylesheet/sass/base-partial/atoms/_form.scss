@@ -431,7 +431,7 @@ a{
     textarea {
         font-size: 15px;
         line-height: 19px;
-        color: #595656;
+        color: #595656; 
         font-weight: 400;
         letter-spacing: -0.2px;
         padding: 10px 0;
@@ -483,6 +483,10 @@ a{
         position: relative;
         .error{
             display: block; 
+            	
+        }
+        input{
+            border-color: #FF0000;   
         }
     }
     .error {
@@ -491,7 +495,7 @@ a{
         left: 0;
         bottom: -25px;
         font-size: 9px;
-        color: #595656;
+        color: #FF0000; 
         font-weight: 300;
     }
 }
