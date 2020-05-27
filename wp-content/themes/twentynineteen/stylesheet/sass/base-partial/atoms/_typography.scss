@@ -104,8 +104,8 @@ a{
     cursor: pointer;
     text-decoration: none;
 }
-a,
-a:visited   {   text-decoration: none; color: $white-col;  }
+// a,
+// a:visited   {   text-decoration: none; color: $white-col;  }
 a:hover     {   text-decoration: none; color: $org-col;}
 // a:active    {   color: $black-col;      }
 a:focus     {   border: 0; outline: 0; box-shadow: none; }
