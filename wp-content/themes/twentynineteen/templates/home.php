@@ -22,7 +22,7 @@ get_header();
                         </a>
                     </div>    
                     <div class="one-half image-block">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/easily-create-your-next-magazine.svg" alt="Easily Create Your Next Magazine" />
+                        <img src="<?php bloginfo('template_directory'); ?>/images/easily-create-your-next-magazine.png" alt="Easily Create Your Next Magazine" />
                     </div>    
                 </div>    
             </div>

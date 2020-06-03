@@ -15,10 +15,10 @@ get_header();
             <div class="l-section-wrap">
                 <div class="l-sub-section-pad">
                     <div class="g-col">
-                        <div class="one-half image-block" data-aos="fade-right">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/digital-storytelling-made-easier.svg" alt="Digital storytelling made Easier" />
+                        <div class="one-half image-block">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/digital-storytelling-made-easier.png" alt="Digital storytelling made Easier" />
                         </div>    
-                        <div class="one-half" data-aos="fade-left">
+                        <div class="one-half">
                             <h3>We can help you elevate your brand!</h3>
                             <p>The mag+ Creative Studios helps bring your content to life and tailor unique digital experiences. Every design decision is taken to further elevate your brand image.</p>
                             <!-- <a href="/" class="primary-btn" title="Know More">
@@ -81,7 +81,7 @@ get_header();
                     <h3>How it Works</h3>
                     <p class="small-wrap marB75">Mag+ makes it easy to publish your content to your own mobile app. From text to video to interactive elements, no matter the source, the mag+ software lets you bring your content to life on tablets and phones with no coding and no hassles.</p>
                     <div class="mob-view">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/hide-seek.svg" alt=" Hide and seek"  class="how-it-works-img"/>
+                        <img src="<?php bloginfo('template_directory'); ?>/images/hide-seek.png" alt=" Hide and seek"  class="how-it-works-img"/>
                     </div>
                     <div class="g-col">
                         <div class="one-third">
@@ -105,7 +105,7 @@ get_header();
                             </div>
                         </div>
                         <div class="one-third hide-and-seek">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/hide-seek.svg" alt=" Hide and seek" />
+                            <img src="<?php bloginfo('template_directory'); ?>/images/hide-seek.png" alt=" Hide and seek" />
                         </div>
                         <div class="one-third">
                             <div class="card plain-card">

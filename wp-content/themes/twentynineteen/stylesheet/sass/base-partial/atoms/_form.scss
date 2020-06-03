@@ -591,12 +591,12 @@ input:-webkit-autofill:focus {
         text-align: center;
         border: 1px solid #FF8616;
         @media only screen and (max-width: 1024px) {
-            width: auto;
+            width: 600px;
             padding: 25px 15px;
             overflow-y: auto; 
         }
         @media only screen and (max-width: 767px) {
-            height: 400px;  
+            height: 370px;  
             width: 275px;
         }
     }

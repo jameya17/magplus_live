@@ -15,10 +15,10 @@ get_header();
             <div class="l-section-wrap">
                 <div class="l-sub-section-pad">
                     <div class="g-col">
-                        <div class="one-half image-block" data-aos="fade-right">
+                        <div class="one-half image-block">
                             <img src="<?php bloginfo('template_directory'); ?>/images/boost-your-users-engagement.png" alt="Digital storytelling made Easier" />
                         </div>    
-                        <div class="one-half" data-aos="fade-left">
+                        <div class="one-half">
                             <h3>Boost your user’s engagement</h3>
                             <p>With mag+ app update services, your mag+ apps are updated and published to the marketplace of your choice</p>
                             <!-- <a href="/" class="primary-btn" title="Know More">

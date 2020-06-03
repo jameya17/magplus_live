@@ -10,11 +10,11 @@
             <div class="follow-us-block">
                 <h6>Follow Us</h6>
                 <ul class="follow-us-listing">
-                    <li><a href="" title="Slack"><img src="<?php bloginfo('template_directory'); ?>/images/icons/slack.svg" alt="Slack" /></a></li>
-                    <li><a href="" title="Twitter"><img src="<?php bloginfo('template_directory'); ?>/images/icons/twitter.svg" alt="Twitter" /></a></li>
-                    <li><a href="" title="facebook"><img src="<?php bloginfo('template_directory'); ?>/images/icons/facebook.svg" alt="facebook" /></a></li>
-                    <li><a href="" title="G+"><img src="<?php bloginfo('template_directory'); ?>/images/icons/gplus.svg" alt="G+" /></a></li>
-                    <li><a href="" title="Instagram"><img src="<?php bloginfo('template_directory'); ?>/images/icons/instagram.svg" alt="Instagram" /></a></li>
+                    <li><a href="#" target="_blank" title="Slack"><img src="<?php bloginfo('template_directory'); ?>/images/icons/slack.svg" alt="Slack" /></a></li>
+                    <li><a href="https://twitter.com/magplus/" title="Twitter" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/icons/twitter.svg" alt="Twitter" /></a></li>
+                    <li><a href="https://www.facebook.com/magplus" target="_blank" title="facebook"><img src="<?php bloginfo('template_directory'); ?>/images/icons/facebook.svg" alt="facebook" /></a></li>
+                    <li><a href="#" target="_blank" title="G+"><img src="<?php bloginfo('template_directory'); ?>/images/icons/gplus.svg" alt="G+" /></a></li>
+                    <li><a href="https://www.instagram.com/magplus/" target="_blank" title="Instagram"><img src="<?php bloginfo('template_directory'); ?>/images/icons/instagram.svg" alt="Instagram" /></a></li>
                 </ul>
             </div>
         </div>
@@ -203,7 +203,7 @@
             loop: false,
             center: false,
             margin: 10,
-            nav: false,
+            nav: true,
             dots: true,
             autoplay: true,
             autoplayHoverPause: true,
@@ -213,7 +213,7 @@
                     center: true,
                     items: 3,
                     margin: 30,
-                    nav: false,
+                    nav: true,
                     dots: true,
                     autoplay: true
                 }
@@ -348,7 +348,7 @@
 
 
             // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-            offset: 550, // offset (in px) from the original trigger point    
+            offset: 500, // offset (in px) from the original trigger point    
             delay: 0, // values from 0 to 3000, with step 50ms
             duration: 600, // values from 0 to 3000, with step 50ms  
             easing: 'ease', // default easing for AOS animations
@@ -356,6 +356,14 @@
             mirror: false, // whether elements should animate out while scrolling past them
             anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
         });
+
+        // if(jQuery(window).width() < 767){
+        //     window.addEventListener('load', AOS.refresh);
+        //     AOS.init({
+        //         offset: 300,
+        //         duration: 800    
+        //     });
+        // }
 
         if (jQuery(window).width() < 767) {
             jQuery('.sidebar-header').click(function() {
@@ -502,20 +510,6 @@
                 jQuery(".download-ver-select .options ul").hide();
         });
     });
-    /*
-    function focusfield(){
-        var isFormValid = true;
-        jQuery(".styled-input .input-field").each(function(){
-            if (jQuery(this).val().length > 0){     
-                jQuery(this).closest(".styled-input").find(".input-lbl").addClass("highlight");
-                jQuery(this).focus();
-            }else{
-                jQuery(this).closest(".styled-input").find(".input-lbl").removeClass("highlight");   
-            }  
-        });
-    } 
-    focusfield();
-    */       
     
     function tabNav(evt, tabHead) {
         var i, tabcontent, tablinks;
@@ -531,12 +525,6 @@
         evt.currentTarget.className += " active";
     }
     jQuery(window).scroll(function() {
-        // if (jQuery(this).scrollTop() > 130) {
-        //     jQuery('.sticky-nav-block').addClass('fixed');
-        // } else {
-        //     jQuery('.sticky-nav-block').removeClass('fixed');
-        // }
-
         var windscroll = jQuery(window).scrollTop();
         if (windscroll >= 130) {
             jQuery('.sticky-nav-block').addClass('fixed');
@@ -553,44 +541,7 @@
             jQuery('.sticky-nav-block').removeClass('fixed');
         }
 
-        // if (windscroll >= 130 + 260) {
-        //     jQuery('.sidebar').addClass('fixed');
-        // } else {
-        //     jQuery('.sidebar').removeClass('fixed');
-        // }
-
     });
-
-    // jQuery(document).ready(function() {
-    //     var jQuerywindow = jQuery(window);
-    //     var jQuerysidebar = jQuery(".post-sidebar"); 
-    //     var jQuerysidebarHeight = jQuerysidebar.innerHeight();
-    //     var jQueryfooterOffsetTop = jQuery(".footer").offset().top;
-    //     var jQuerysidebarOffset = jQuerysidebar.offset();
-
-    //     jQuerywindow.scroll(function() {
-    //         var windscroll = jQuery(window).scrollTop();
-    //         if (windscroll >= 300) { 
-    //             if (jQuerywindow.scrollTop() > jQuerysidebarOffset.top + 68) { 
-    //                 jQuerysidebar.addClass("fixed");
-    //             } else {
-    //                 jQuerysidebar.removeClass("fixed");
-    //             }
-    //             if (jQuerywindow.scrollTop() + jQuerysidebarHeight > jQueryfooterOffsetTop) {
-    //                 jQuerysidebar.css({
-    //                     "top": -(jQuerywindow.scrollTop() + jQuerysidebarHeight - jQueryfooterOffsetTop)
-    //                 });
-    //             } else {
-    //                 jQuerysidebar.css({
-    //                     "top": "0", 
-    //                 });
-    //             }
-    //         }
-    //         else{
-
-    //         }
-    //     });
-    // });
 </script>
 
 <!-- </div> -->

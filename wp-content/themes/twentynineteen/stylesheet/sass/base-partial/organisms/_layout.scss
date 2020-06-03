@@ -163,6 +163,20 @@
         margin-bottom: 20px;
     }
 }
+.sec-pad{
+    .one-half{
+        p{
+            @media only screen and (max-width: 1024px) {
+                max-width: 600px;
+                margin: 0 auto 20px;
+            }
+            @media only screen and (max-width: 767px) {
+                max-width: 100%; 
+            }
+        }
+    }
+}
+
 .magplus-pro{
     .sec-pad{
         // height: 578px;
@@ -230,7 +244,7 @@
     }
     .magpluspro-con-block{
         padding: 135px 0 90px 38%; 
-        background-image: url('../../images/magplus-pro-bg.svg'); 
+        background-image: url('../../images/magplus-pro-bg.png'); 
         background-repeat: no-repeat; 
         background-position: left top; 
         h3{

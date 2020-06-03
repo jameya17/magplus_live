@@ -25,7 +25,7 @@ get_header();
             <div class="l-section-wrap">
                 <div class="l-sub-section-pad">
                     <div class="g-col">
-                        <div class="one-half" data-aos="fade-right">
+                        <div class="one-half">
                             <h3>Creative Services</h3>
                             <p>Taking advantage of their rich experience and unlimited creativity, our designers can help blow your customers away by ensuring the best integration of text, audio, and video with HTML interactivity, tailored to your business needs.</p>
                             <a href="?page_id=9057" class="primary-btn" title="Know More">Know More
@@ -33,8 +33,8 @@ get_header();
                                 <span class="span2">Know More</span>
                             </a>
                         </div>    
-                        <div class="one-half image-block" data-aos="fade-left">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/creative-services.svg" alt="Creative Services" />
+                        <div class="one-half image-block">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/creative-services.png" alt="Creative Services" />
                         </div>    
                     </div>    
                 </div>    
@@ -72,7 +72,7 @@ get_header();
                             </a>
                         </div>    
                         <div class="one-half image-block" data-aos="fade-left">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/app-update-services.svg" alt="App Update Services" />  
+                            <img src="<?php bloginfo('template_directory'); ?>/images/app-update-services.png" alt="App Update Services" />  
                         </div>    
                     </div>    
                 </div>    

@@ -1667,12 +1667,12 @@ input:-webkit-autofill:focus {
     border: 1px solid #FF8616; }
     @media only screen and (max-width: 1024px) {
       .contact-us-form .form-block {
-        width: auto;
+        width: 600px;
         padding: 25px 15px;
         overflow-y: auto; } }
     @media only screen and (max-width: 767px) {
       .contact-us-form .form-block {
-        height: 400px;
+        height: 370px;
         width: 275px; } }
   .contact-us-form .form-field-group {
     margin-bottom: 20px; }
@@ -1993,7 +1993,7 @@ input:-webkit-autofill:focus {
       padding: 30px 28px; } }
   @media only screen and (max-width: 767px) {
     .card {
-      max-width: 260px; } }
+      max-width: 240px; } }
   .card.plain-card {
     padding: 0;
     background-color: transparent;
@@ -2025,7 +2025,8 @@ input:-webkit-autofill:focus {
   margin-bottom: 15px; }
 
 .card-title {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  word-break: break-all; }
 
 .card-discp {
   font-size: 14px;
@@ -2117,7 +2118,11 @@ input:-webkit-autofill:focus {
   max-width: 195px; }
   @media only screen and (max-width: 1024px) {
     .key-offerings .card {
-      max-width: 100%;
+      max-width: 400px;
+      text-align: center; } }
+  @media only screen and (max-width: 767px) {
+    .key-offerings .card {
+      max-width: 250px;
       text-align: center; } }
 
 .how-it-works-sec .card {
@@ -2129,6 +2134,11 @@ input:-webkit-autofill:focus {
   .how-it-works-sec .card:last-child {
     margin-bottom: 0; }
   @media only screen and (max-width: 1024px) {
+    .how-it-works-sec .card {
+      max-width: 400px;
+      margin: 30px auto;
+      text-align: center; } }
+  @media only screen and (max-width: 767px) {
     .how-it-works-sec .card {
       max-width: 100%;
       margin: 30px 15px;
@@ -3272,9 +3282,11 @@ footer {
   position: absolute;
   top: 0;
   right: -1000px;
-  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  visibility: hidden; }
   .drawer-body.active {
-    right: 0; }
+    right: 0;
+    visibility: visible; }
 
 .contact-us {
   font-size: 14px;
@@ -3379,7 +3391,7 @@ footer {
   .sf_field .w2linput.text {
     width: 90%;
     margin: 0; }
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 767px) {
     .sf_field {
       width: 100%; } }
   .sf_field.sf_field_Consent {
@@ -3394,6 +3406,11 @@ footer {
       width: 100% !important; }
     .sf_field .g-recaptcha iframe {
       width: 100%; }
+  .sf_field.sf_field_recaptcha {
+    width: 51%; }
+    @media only screen and (max-width: 767px) {
+      .sf_field.sf_field_recaptcha {
+        width: 100%; } }
 
 .sf_field_checkbox1__c {
   display: inline-block;
@@ -3738,6 +3755,14 @@ footer {
   .sec-pad p {
     margin-bottom: 20px; }
 
+@media only screen and (max-width: 1024px) {
+  .sec-pad .one-half p {
+    max-width: 600px;
+    margin: 0 auto 20px; } }
+@media only screen and (max-width: 767px) {
+  .sec-pad .one-half p {
+    max-width: 100%; } }
+
 .magplus-pro .sec-pad.intro-sec {
   padding: 60px 0; }
   @media only screen and (max-width: 1024px) {
@@ -3787,7 +3812,7 @@ footer {
       max-width: 100%; } }
 .magplus-pro-section .magpluspro-con-block {
   padding: 135px 0 90px 38%;
-  background-image: url("../../images/magplus-pro-bg.svg");
+  background-image: url("../../images/magplus-pro-bg.png");
   background-repeat: no-repeat;
   background-position: left top; }
   .magplus-pro-section .magpluspro-con-block h3 {

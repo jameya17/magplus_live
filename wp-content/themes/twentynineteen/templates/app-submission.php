@@ -15,10 +15,10 @@ get_header();
             <div class="l-section-wrap">
                 <div class="l-sub-section-pad">
                     <div class="g-col">
-                        <div class="one-half image-block" data-aos="fade-right">
+                        <div class="one-half image-block">
                             <img src="<?php bloginfo('template_directory'); ?>/images/boost-your-brand.png" alt="Digital storytelling made Easier" />
                         </div>    
-                        <div class="one-half" data-aos="fade-left">
+                        <div class="one-half">
                             <h3>Boost your brand’s awareness and footprint</h3>
                             <p>Your mobile app is the gateway to your customer’s share of mind. To help you put your best foot forward, our experts will own the entire process to ensure that you make the most of that important first impression with your customer. </p>
                             <!-- <a href="/" class="primary-btn" title="Know More">
