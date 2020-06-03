@@ -4567,4 +4567,23 @@ footer {
   width: 100%;
   border-radius: 18px 18px 0 0; }
 
+.tutorials-section .full-wrap-carousel {
+  padding-top: 70px; }
+.tutorials-section .owl-nav {
+  position: relative; }
+.tutorials-section .owl-prev, .tutorials-section .owl-nav .owl-next, .owl-nav .tutorials-section .owl-next, .tutorials-section .owl-next {
+  position: absolute;
+  top: -7px; }
+.tutorials-section .owl-nav .owl-prev, .tutorials-section .owl-nav .owl-next {
+  left: 43%; }
+  @media only screen and (max-width: 1024px) {
+    .tutorials-section .owl-nav .owl-prev, .tutorials-section .owl-nav .owl-next {
+      left: 15%; } }
+.tutorials-section .owl-nav .owl-next {
+  right: 43%;
+  left: auto; }
+  @media only screen and (max-width: 1024px) {
+    .tutorials-section .owl-nav .owl-next {
+      right: 15%; } }
+
 /*# sourceMappingURL=base.css.map */

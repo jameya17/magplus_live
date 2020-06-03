@@ -198,3 +198,36 @@
     } 
     
 } 
+.tutorials-section{ 
+    .full-wrap-carousel{
+        padding-top: 70px; 
+    }
+    .owl-nav{
+        position: relative;
+    }
+    .owl-prev, .owl-next{
+        position: absolute;    
+        top: -7px; 
+    }
+    .owl-nav .owl-prev{
+        left: 43%;
+        @media only screen and (max-width: 1024px) {
+            left: 15%;        
+        }
+    } 
+    .owl-nav .owl-next{
+        right: 43%; 
+        left: auto;
+        @media only screen and (max-width: 1024px) {
+            right: 15%;  
+        }
+    }
+    .owl-prev{
+        // left: 43%;
+        // right: auto;
+    }    
+    .owl-next{
+        // right: 43%;
+        // left: auto; 
+    }
+}
