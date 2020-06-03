@@ -44,7 +44,7 @@ get_header();
                                     <div class="card-body-con">
                                         <span class="publish-date"><?php the_time('F d, Y'); ?></span>
                                         <h5 class="card-title two-ellipsis"><?php the_title(); ?></h5>
-                                        <p class="card-discp block-ellipsis"><?php echo $text; ?></p>
+                                        <p class="card-discp block-ellipsis"><?php the_excerpt(); ?></p>
                                         <a href="<?php the_permalink(); ?>" class="text-link">Read More +</a>
                                     </div>    
                                 </div>
