@@ -3681,8 +3681,9 @@ footer {
     margin-bottom: 20px !important; } }
 @media only screen and (max-width: 1024px) {
   .image-block img {
-    max-width: 100%;
-    max-width: 300px; } }
+    /*max-width: 100%;*/
+    max-width: 250px;
+    height: auto; } }
 
 .align-left {
   -webkit-justify-content: flex-start;
@@ -3751,7 +3752,8 @@ footer {
   padding: 160px 0; }
   @media only screen and (max-width: 1024px) {
     .sec-pad {
-      padding: 30px 15px; } }
+      /*padding: 30px 15px;*/
+      padding: 30px 35px; } }
   .sec-pad p {
     margin-bottom: 20px; }
 

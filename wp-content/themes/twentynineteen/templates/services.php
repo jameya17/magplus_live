@@ -53,7 +53,7 @@ get_header();
                             </a>
                         </div>    
                         <div class="one-half image-block" data-aos="fade-right">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/app-submission-services.svg" alt="App Submission Services" />
+                            <img src="<?php bloginfo('template_directory'); ?>/images/app-submission-services.png" alt="App Submission Services" />
                         </div>    
                     </div> 
                 </div>    
