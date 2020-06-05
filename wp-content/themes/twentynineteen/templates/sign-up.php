@@ -127,7 +127,7 @@ get_header();
                     </div>
                     <div class="form-field-group">
                         <div class="group-field">
-                            <label class="checkbox-container" for="accept_terms_0">
+                            <label class="checkbox-container tmc-link" for="accept_terms_0">
                                 <input type="checkbox" name="accept_terms_0" id="accept_terms_0" checked />
                                 <input name="registration[accept_terms]" id="accept_terms" type="hidden" type="text" value="true" />
                                 <span class="checkmark"></span>

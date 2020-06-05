@@ -992,6 +992,9 @@ ol {
   .dropdown:focus {
     outline: 0; }
 
+.tmc-link a {
+  letter-spacing: 1px; }
+
 .nav {
   padding: 0;
   list-style-type: none; }
