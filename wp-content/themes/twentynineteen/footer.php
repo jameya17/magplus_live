@@ -2,7 +2,7 @@
     <div class="footer-wrap">
         <div class="foot-col copyright-sec">
             <div class="copyright-block">
-                <a class="foot-logo" href="/">
+                <a class="foot-logo" href="<?php echo get_permalink(29200); ?>">
                     <img class="logo" src="<?php bloginfo('template_directory'); ?>/images/foot-logo.svg" alt="Megaplus Logo" title="Megaplus Logo">
                 </a>
                 <span>Magplus is a registered Trademark Copyright &copy 2020</span>
@@ -21,26 +21,26 @@
         <div class="foot-col">
             <h6 class="toggle resources">Resources</h6>
             <ul class="inner foot-link-block">
-                <li><a href="?page_id=31525" class="foot-link" title="Case Studies ">Case Studies </a></li>
-                <li><a href="?page_id=31523" class="foot-link" title="Tutorials ">Tutorials </a></li>
-                <li><a href="?page_id=19" class="foot-link" title="Blogs">Blogs</a></li>
-                <li><a href="?page_id=31257" class="foot-link" title="FAQs">FAQs</a></li>
+                <li><a href="<?php echo get_permalink(31525); ?>" class="foot-link" title="Case Studies ">Case Studies </a></li>
+                <li><a href="<?php echo get_permalink(31523); ?>" class="foot-link" title="Tutorials ">Tutorials </a></li>
+                <li><a href="<?php echo get_permalink(19); ?>" class="foot-link" title="Blogs">Blogs</a></li>
+                <li><a href="<?php echo get_permalink(31257); ?>" class="foot-link" title="FAQs">FAQs</a></li>
             </ul>
         </div>
         <div class="foot-col">
             <h6 class="toggle">Legal</h6>
             <ul class="inner foot-link-block">
-                <li><a href="?page_id=870" class="foot-link" title="Privacy Policy  ">Privacy Policy  </a></li>
-                <li><a href="?page_id=867" class="foot-link" title="Terms of Use">Terms of Use</a></li>
-                <li><a href="?page_id=608" class="foot-link" title="License and Agreement">License and Agreement</a></li>
+                <li><a href="<?php echo get_permalink(870); ?>" class="foot-link" title="Privacy Policy  ">Privacy Policy  </a></li>
+                <li><a href="<?php echo get_permalink(867); ?>" class="foot-link" title="Terms of Use">Terms of Use</a></li>
+                <li><a href="<?php echo get_permalink(608); ?>" class="foot-link" title="License and Agreement">License and Agreement</a></li>
             </ul>
         </div>
         <div class="foot-col">
             <h6 class="toggle">Products</h6>
             <ul class="inner foot-link-block">
-                <li><a href="?page_id=22485" class="foot-link" title="Services ">Services </a></li>
-                <li><a href="?page_id=27659" class="foot-link" title="Pricing">Pricing</a></li>
-                <li><a href="?page_id=31672" class="foot-link" title="Mag Plus Pro">Mag Plus Pro</a></li>
+                <li><a href="<?php echo get_permalink(22485); ?>" class="foot-link" title="Services ">Services </a></li>
+                <li><a href="<?php echo get_permalink(27659); ?>" class="foot-link" title="Pricing">Pricing</a></li>
+                <li><a href="<?php echo get_permalink(31672); ?>" class="foot-link" title="Mag Plus Pro">Mag Plus Pro</a></li>
             </ul>
         </div>
         <div class="foot-col">
@@ -48,7 +48,7 @@
             <ul class="inner foot-link-block">
                 <li><a href="javascript:void(0)" class="foot-link" title="About Us">About Us</a></li>
                 <li><a href="javascript:void(0)" class="foot-link" title="Events ">Events </a></li>
-                <li><a href="?page_id=31549" class="foot-link" title="Try For Free ">Try For Free </a></li>
+                <li><a href="<?php echo get_permalink(31549); ?>" class="foot-link" title="Try For Free ">Try For Free </a></li>
             </ul>
         </div>
         <div class="foot-col subscription-sec">

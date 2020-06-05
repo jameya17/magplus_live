@@ -27,9 +27,9 @@ get_header();
             <div class="l-section-wrap pos-rel">
                 <div class="breadcrumb">
                     <ul>
-                        <li class="breadcrumb-item"><a href="#">Magpplus</a></li>
-                        <li class="breadcrumb-item"><a href="#">Try For Free</a></li>
-                        <li class="breadcrumb-item"><a href="#">Sign Up</a></li>
+                        <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">Magpplus</a></li>
+                        <li class="breadcrumb-item"><a href="<?php echo get_permalink(31549); ?>">Try For Free</a></li>
+                        <li class="breadcrumb-item"><a href="<?php echo get_permalink(31535); ?>">Sign In</a></li>
                     </ul>
                 </div>
                 <div class="form-section form-container sign-up-form">
@@ -81,7 +81,7 @@ get_header();
                             <a href="https://www.magplus.com/social-login/google/google_login.php" title="Google" class="google-logo" ><img src="<?php bloginfo('template_directory'); ?>/images/icons/google-logo.svg" alt="Google"></a>
                             <a href="https://www.magplus.com/social-login/facebook/" title="Facebook" class="fb-logo"><img src="<?php bloginfo('template_directory'); ?>/images/icons/fb-logo.svg" alt="Facebook"></a>
                         </div>     -->
-                        <p class="tmc-text">Don’t have an account?  <a href="?page_id=31549" title="Sign Up">Sign Up</a></p>
+                        <p class="tmc-text">Don’t have an account?  <a href="<?php echo get_permalink(31545); ?>" title="Sign Up">Sign Up</a></p>
                     </form>
                 </div>
             </div>    

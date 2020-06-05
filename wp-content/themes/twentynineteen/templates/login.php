@@ -15,9 +15,8 @@ get_header();
             <div class="l-section-wrap pos-rel">
                 <div class="breadcrumb">
                     <ul>
-                        <li class="breadcrumb-item"><a href="#">Magpplus</a></li>
-                        <li class="breadcrumb-item"><a href="#">Try For Free</a></li>
-                        <li class="breadcrumb-item"><a href="#">Sign Up</a></li>
+                        <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">Magpplus</a></li>
+                        <li class="breadcrumb-item"><a href="<?php echo get_permalink(31549); ?>">Try For Free</a></li>
                     </ul>
                 </div>
                 <div class="form-section form-container">
@@ -28,9 +27,9 @@ get_header();
                         <a class="btn-link fb-link" href="https://www.magplus.com/social-login/facebook/" title="Login with Facebook"><span class="btn-link-ico"><img src="<?php bloginfo('template_directory'); ?>/images/icons/fb-icon.svg" alt=""></span><span class="btn-link-text">Login with Facebook</span></a>
                         <a class="btn-link microsoft-link" href="https://www.magplus.com/social-login/microsoft/live_login.php" title="Login with Microsoft"><span class="btn-link-ico"><img src="<?php bloginfo('template_directory'); ?>/images/icons/microsoft-icon.svg" alt=""></span><span class="btn-link-text">Login with Microsoft</span></a>
                         <span class="text-or">Or</span>
-                        <a class="btn-link email-link" href="?page_id=31545" title="Sign Up with Email"><span class="btn-link-ico"><img src="<?php bloginfo('template_directory'); ?>/images/icons/email-icon.svg" alt=""></span><span class="btn-link-text">Sign Up with Email</span></a>
-                        <p class="already-acc-text">Already have an account? <a href="?page_id=31535" title="Log in">Log in</a></p>
-                        <p class="tmc-text">By clicking “Sign Up” you agree to the <a href="?page_id=867" title="Terms of Service">Terms of Service</a></p>
+                        <a class="btn-link email-link" href="<?php echo get_permalink(31545); ?>" title="Sign Up with Email"><span class="btn-link-ico"><img src="<?php bloginfo('template_directory'); ?>/images/icons/email-icon.svg" alt=""></span><span class="btn-link-text">Sign Up with Email</span></a>
+                        <p class="already-acc-text">Already have an account? <a href="<?php echo get_permalink(31535); ?>" title="Log in">Log in</a></p>
+                        <p class="tmc-text">By clicking “Sign Up” you agree to the <a href="<?php echo get_permalink(867); ?>" title="Terms of Service">Terms of Service</a></p>
                     </div>
                 </div>
             </div>    

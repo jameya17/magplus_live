@@ -32,9 +32,9 @@ $the_showcase_query = new WP_Query( $args );
                 <div class="l-section-wrap">
                     <div class="breadcrumb">
                         <ul>
-                            <li class="breadcrumb-item"><a href="#">Magpplus</a></li>
-                            <li class="breadcrumb-item"><a href="#">Support</a></li>
-                            <li class="breadcrumb-item"><a href="#">Case Studies</a></li>
+                            <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">Magpplus</a></li>
+                            <li class="breadcrumb-item"><a href="<?php echo get_permalink(31519); ?>">Support</a></li>
+                            <li class="breadcrumb-item"><a href="<?php echo get_permalink(31525); ?>">Case Studies</a></li>
                         </ul>
                     </div>
                     <div class="g-col align-center">
@@ -71,7 +71,7 @@ $the_showcase_query = new WP_Query( $args );
                                     </a>    
                                     <div class="one-half">
                                         <h3 class="sec-title"><?php the_title(); ?></h3>
-                                        <p class="block-ellipsis"><?php echo get_the_excerpt(); ?></p>
+                                        <p class="block-ellipsis"><?php the_excerpt(); ?></p>
                                         <a href="<?php the_permalink(); ?>" title="View Case Study +" class="text-link"> View Case Study +</a>
                                     </div>     
                                 </div>    

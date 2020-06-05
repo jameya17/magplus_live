@@ -50,7 +50,7 @@ get_header();
                             </header>
 
                             <div class="entry-content">
-                                <img src="<?php echo $thumb[0]; ?>" class="blog-img" alt="" />
+                                <!--<img src="<?php echo $thumb[0]; ?>" class="blog-img" alt="" />-->
                                 <p><?php the_content(); ?></p>
                             </div>
                         </article>

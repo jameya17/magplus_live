@@ -73,9 +73,9 @@ get_header();
         <div class="l-section-wrap pos-rel">
             <div class="breadcrumb">
                 <ul>
-                    <li class="breadcrumb-item"><a href="#">Magpplus</a></li>
-                    <li class="breadcrumb-item"><a href="#">Try For Free</a></li>
-                    <li class="breadcrumb-item"><a href="#">Sign Up</a></li>
+                    <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">Magpplus</a></li>
+                    <li class="breadcrumb-item"><a href="<?php echo get_permalink(31549); ?>">Try For Free</a></li>
+                    <li class="breadcrumb-item"><a href="<?php echo get_permalink(31545); ?>">Sign Up</a></li>
                 </ul>
             </div>
             <div class="form-section form-container sign-up-form">
@@ -132,7 +132,7 @@ get_header();
                                 <input name="registration[accept_terms]" id="accept_terms" type="hidden" type="text" value="true" />
                                 <span class="checkmark"></span>
                                 <!-- By clicking “Sign Up” you agree to the <a href="/mega-plus/www/license-agreement.php" title="Terms of Service">Terms of Service</a> -->
-                                By clicking “Sign Up” you agree to the <a href="?page_id=867" title="Terms of Service">Terms of Service</a> & <a href="?page_id=870" title="Terms of Service">Privacy Policy</a> 
+                                By clicking “Sign Up” you agree to the <a href="<?php echo get_permalink(867); ?>" title="Terms of Service">Terms of Service</a> & <a href="<?php echo get_permalink(870); ?>" title="Terms of Service">Privacy Policy</a> 
                             </label>    
                             <span class="error">Please feed in the code you have</span>
                         </div>
@@ -170,7 +170,7 @@ get_header();
                             <span class="span3">Sign Up</span>
                         </a> -->
                     </div>
-                    <p class="tmc-text">Already have an account? <a href="?page_id=31535" title="Log In">Log In</a></p>
+                    <p class="tmc-text">Already have an account? <a href="<?php echo get_permalink(31535); ?>" title="Log In">Log In</a></p>
                 </form>
             </div>
         </div>    

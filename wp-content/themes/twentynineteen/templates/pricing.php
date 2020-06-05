@@ -14,8 +14,8 @@ get_header();
         <div class="l-section" style="position: relative;z-index: 0;">
             <div class="l-section-wrap breadcrumb">
                 <ul>
-                    <li class="breadcrumb-item"><a href="">Magpplus</a></li>
-                    <li class="breadcrumb-item"><a href="">Pricing</a></li>
+                    <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">Magpplus</a></li>
+                    <li class="breadcrumb-item"><a href="<?php echo get_permalink(27659); ?>">Pricing</a></li>
                 </ul>
             </div>
         </div>
