@@ -814,6 +814,11 @@ ol {
     display: block; }
   @media only screen and (max-width: 1024px) {
     .video-section {
+      background-color: transparent; }
+      .video-section img {
+        margin: 0 auto; } }
+  @media only screen and (max-width: 767px) {
+    .video-section {
       margin: 25px 0 0;
       min-height: 210px; } }
 
@@ -3826,6 +3831,10 @@ footer {
     background-color: #fff;
     color: #FF8616; }
   @media only screen and (max-width: 1024px) {
+    .magplus-pro-section .magpluspro-con-block {
+      background-size: 55%;
+      padding: 95px 0 90px 15%; } }
+  @media only screen and (max-width: 767px) {
     .magplus-pro-section .magpluspro-con-block {
       padding: 40px 0;
       background-size: 80%;
