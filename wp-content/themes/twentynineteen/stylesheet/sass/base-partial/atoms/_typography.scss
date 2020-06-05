@@ -181,10 +181,10 @@ ol{
 }
 .block-ellipsis {
     @extend .two-ellipsis;
-    height: 70px; 
+    height: auto; 
     -webkit-line-clamp: 3;
     @media only screen and (max-width: 1024px) {
-        height: 60px; 
+        height: auto; 
     }
 }
 

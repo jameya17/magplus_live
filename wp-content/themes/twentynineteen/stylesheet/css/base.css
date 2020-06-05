@@ -575,11 +575,11 @@ ol {
   text-overflow: ellipsis; }
 
 .block-ellipsis {
-  height: 70px;
+  height: auto;
   -webkit-line-clamp: 3; }
   @media only screen and (max-width: 1024px) {
     .block-ellipsis {
-      height: 60px; } }
+      height: auto; } }
 
 @-webkit-keyframes rotate-forever {
   0% {
@@ -2468,8 +2468,6 @@ input:-webkit-autofill:focus {
   .col-carousel .owl-item.active.center .item-image {
     transform: none;
     opacity: 1; }
-  .col-carousel .item-image {
-    min-height: auto; }
   .col-carousel .item-detail {
     text-align: left;
     margin: 5px 0; }
@@ -3473,6 +3471,9 @@ footer {
 @media only screen and (max-width: 1024px) {
   .sidebar-section-listing .wp-subscribe-form.wp-subscribe-mailchimp {
     margin: 0; } }
+
+.wp-subscribe-wrap h4.title {
+  padding: 0; }
 
 .wp-subscribe-wrap p.text {
   margin: 0; }
