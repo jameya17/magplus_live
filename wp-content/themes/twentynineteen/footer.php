@@ -10,11 +10,12 @@
             <div class="follow-us-block">
                 <h6>Follow Us</h6>
                 <ul class="follow-us-listing">
-                    <li><a href="#" target="_blank" title="Slack"><img src="<?php bloginfo('template_directory'); ?>/images/icons/slack.svg" alt="Slack" /></a></li>
+                    <!--<li><a href="#" target="_blank" title="Slack"><img src="<?php bloginfo('template_directory'); ?>/images/icons/slack.svg" alt="Slack" /></a></li>-->
                     <li><a href="https://twitter.com/magplus/" title="Twitter" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/icons/twitter.svg" alt="Twitter" /></a></li>
                     <li><a href="https://www.facebook.com/magplus" target="_blank" title="facebook"><img src="<?php bloginfo('template_directory'); ?>/images/icons/facebook.svg" alt="facebook" /></a></li>
-                    <li><a href="#" target="_blank" title="G+"><img src="<?php bloginfo('template_directory'); ?>/images/icons/gplus.svg" alt="G+" /></a></li>
+                    <!--<li><a href="#" target="_blank" title="G+"><img src="<?php bloginfo('template_directory'); ?>/images/icons/gplus.svg" alt="G+" /></a></li>-->
                     <li><a href="https://www.instagram.com/magplus/" target="_blank" title="Instagram"><img src="<?php bloginfo('template_directory'); ?>/images/icons/instagram.svg" alt="Instagram" /></a></li>
+                    <li><a href="https://www.youtube.com/user/magplus" target="_blank" title="youTube"><img src="<?php bloginfo('template_directory'); ?>/images/icons/youtube.svg" alt="youTube" /></a></li>
                 </ul>
             </div>
         </div>
@@ -67,10 +68,11 @@
         </div>
         <div class="mob-view">
             <div class="follow-us-block">
-                <ul class="follow-us-listing">
-                    <li><a href="" title="Twitter"><img src="<?php bloginfo('template_directory'); ?>/images/icons/twitter.svg" alt="Twitter" /></a></li>
-                    <li><a href="" title="facebook"><img src="<?php bloginfo('template_directory'); ?>/images/icons/facebook.svg" alt="facebook" /></a></li>
-                    <li><a href="" title="Instagram"><img src="<?php bloginfo('template_directory'); ?>/images/icons/instagram.svg" alt="Instagram" /></a></li>
+                <ul class="follow-us-listing" style="justify-content:center;">
+                    <li><a href="https://twitter.com/magplus/" title="Twitter" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/icons/twitter.svg" alt="Twitter" /></a></li>
+                    <li><a href="https://www.facebook.com/magplus" target="_blank" title="facebook"><img src="<?php bloginfo('template_directory'); ?>/images/icons/facebook.svg" alt="facebook" /></a></li>
+                    <li><a href="https://www.instagram.com/magplus/" target="_blank" title="Instagram"><img src="<?php bloginfo('template_directory'); ?>/images/icons/instagram.svg" alt="Instagram" /></a></li>
+                    <li><a href="https://www.youtube.com/user/magplus" target="_blank" title="youTube"><img src="<?php bloginfo('template_directory'); ?>/images/icons/youtube.svg" alt="youTube" /></a></li>
                 </ul>
                 <span class="copy-text">Magplus is a registered Trademark Copyright &copy 2020</span>
             </div>

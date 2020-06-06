@@ -3230,7 +3230,9 @@ footer {
 .follow-us-listing {
   font-size: 0;
   padding: 0;
-  list-style-type: none; }
+  list-style-type: none;
+  display: flex;
+  align-items: center; }
   .follow-us-listing li {
     display: inline-block;
     margin-left: 15px; }

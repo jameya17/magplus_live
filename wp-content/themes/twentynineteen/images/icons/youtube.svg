@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="14px" viewBox="0 0 16 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Yt</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer" transform="translate(-155.000000, -348.000000)">
+            <g id="Social">
+                <g transform="translate(152.000000, 312.000000)">
+                    <g id="Yt" transform="translate(3.000000, 36.000000)">
+                        <rect id="Rectangle" fill="#918F8F" x="0" y="0" width="16" height="10" rx="2"></rect>
+                        <path d="M8.66959966,3.27135946 L10.8087501,6.69400021 C10.8672922,6.78766752 10.8388176,6.91105759 10.7451503,6.96959966 C10.7133639,6.98946611 10.6766344,7 10.6391505,7 L6.36084953,7 C6.25039258,7 6.16084953,6.91045695 6.16084953,6.8 C6.16084953,6.76251606 6.17138342,6.72578653 6.19124987,6.69400021 L8.33040034,3.27135946 C8.38894241,3.17769215 8.51233248,3.14921752 8.60599979,3.20775958 C8.63175361,3.22385573 8.65350352,3.24560563 8.66959966,3.27135946 Z" id="Triangle" fill="#FFFFFF" transform="translate(8.500000, 5.000000) rotate(90.000000) translate(-8.500000, -5.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
