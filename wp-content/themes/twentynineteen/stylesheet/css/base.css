@@ -952,7 +952,7 @@ ol {
   transition: all .3s; }
   @media only screen and (max-width: 1024px) {
     .pricing-switcher .switch {
-      width: 105px;
+      width: 80px;
       padding: 8px 20px;
       height: 34px; } }
 .pricing-switcher #monthly:checked + label {
@@ -967,10 +967,10 @@ ol {
     transform: translate3d(212px, 0px, 0px); }
     @media only screen and (max-width: 1024px) {
       .pricing-switcher #yearly:checked + label + .switch {
-        transform: translate3d(142px, 0px, 0px); } }
+        transform: translate3d(127px, 0px, 0px); } }
 @media only screen and (max-width: 1024px) {
   .pricing-switcher label {
-    width: 100px;
+    width: 80px;
     font-size: 15px;
     line-height: 26px;
     padding: 10px 20px; } }
@@ -1223,6 +1223,9 @@ ol {
   font-weight: 700;
   letter-spacing: 0.6px;
   text-transform: uppercase; }
+  @media only screen and (max-width: 1024px) {
+    .breadcrumb-item {
+      line-height: 16px; } }
   .breadcrumb-item a {
     font-size: 12px;
     line-height: 30px;
@@ -1230,6 +1233,11 @@ ol {
     font-weight: 700;
     letter-spacing: 0.6px;
     text-transform: uppercase; }
+    @media only screen and (max-width: 1024px) {
+      .breadcrumb-item a {
+        line-height: 16px; } }
+    .breadcrumb-item a:hover {
+      opacity: .5; }
   .breadcrumb-item + .breadcrumb-item:before {
     content: "/";
     display: inline-block;
@@ -1237,6 +1245,9 @@ ol {
     padding-left: 5px;
     color: #8D8788;
     line-height: 30px; }
+    @media only screen and (max-width: 1024px) {
+      .breadcrumb-item + .breadcrumb-item:before {
+        line-height: 16px; } }
 
 /* The container */
 .checkbox-container {
@@ -1320,7 +1331,8 @@ ol {
     font-weight: 400;
     color: #595656;
     letter-spacing: -0.44px;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    line-height: 26px; }
   .form-section h4 {
     font-weight: 700;
     color: #595656;
@@ -1384,6 +1396,9 @@ a.btn-link {
   height: 48px;
   width: 270px;
   margin-bottom: 10px; }
+  @media only screen and (max-width: 320px) {
+    a.btn-link {
+      width: 230px; } }
   a.btn-link img {
     margin-right: 10px; }
   a.btn-link:hover {
@@ -1778,7 +1793,7 @@ input:-webkit-autofill:focus {
     background-color: #fff;
     list-style-type: none;
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.9);
-    z-index: 1;
+    z-index: 2;
     text-align: left; }
     @media only screen and (max-width: 1024px) {
       .drop-down .options ul, .mob-select .options ul, .download-ver-select .options ul {
@@ -2815,6 +2830,18 @@ input:-webkit-autofill:focus {
       color: #4F5362;
       border: 0;
       margin: 0; }
+    .post-sidebar .sidebar-section-listing .widget.wp_subscribe.amr_widget .wp-subscribe-wrap p.thanks {
+      font-size: 18px;
+      line-height: 24px;
+      color: #414141;
+      font-weight: bold;
+      letter-spacing: .5px; }
+    .post-sidebar .sidebar-section-listing .widget.wp_subscribe.amr_widget .wp-subscribe-wrap p.error {
+      font-size: 11px;
+      line-height: 11px;
+      padding: 5px;
+      display: block;
+      color: #9F3A38; }
 
 .header {
   position: fixed;
@@ -3294,7 +3321,9 @@ footer {
   visibility: hidden; }
   .drawer-body.active {
     right: 0;
-    visibility: visible; }
+    visibility: visible;
+    height: calc(100vh - 150px);
+    overflow: auto; }
 
 .contact-us {
   font-size: 14px;
@@ -3568,6 +3597,11 @@ footer {
 @media only screen and (max-width: 1024px) {
   .subscription-sec .con-info {
     display: none; } }
+.subscription-sec p.error {
+  font-size: 11px;
+  line-height: 11px;
+  padding: 5px;
+  color: #9F3A38; }
 
 .white-bg {
   background-color: #fff; }
@@ -3844,9 +3878,12 @@ footer {
       padding: 40px 0;
       background-size: 80%;
       padding-bottom: 220px;
-      background-position: 300% bottom;
+      background-position: 300% 90px;
       text-align: left;
       padding-left: 25px; } }
+  @media only screen and (max-width: 400px) {
+    .magplus-pro-section .magpluspro-con-block {
+      background-position: 300% 180px; } }
 
 .pad-top0 {
   padding-top: 0; }
@@ -4137,6 +4174,9 @@ footer {
     border-top: 1px solid #ddd; }
     .plan-th li.plan-head, .plan-td li.plan-head {
       padding: 15px 25px; }
+      @media only screen and (max-width: 1024px) {
+        .plan-th li.plan-head, .plan-td li.plan-head {
+          padding: 15px 10px; } }
     .plan-th li strong, .plan-td li strong {
       display: block;
       font-size: 13.64px;
@@ -4180,7 +4220,6 @@ footer {
       margin-bottom: 30px;
       border: 1px solid #ddd;
       border-top: 0;
-      border-bottom: 0;
       padding-top: 45px; } }
 
 .plan-th {
@@ -4240,7 +4279,7 @@ footer {
   position: absolute;
   right: 0;
   top: 0;
-  z-index: 9; }
+  z-index: 1; }
 
 .tutorialPg .sidebar {
   width: 26.5%; }
@@ -4455,6 +4494,10 @@ footer {
   color: #595656;
   font-weight: 400; }
 .entry-content li {
+  font-size: 18px;
+  line-height: 30px;
+  color: #595656;
+  font-weight: 400;
   padding-top: 10px;
   color: #333333; }
 .entry-content strong {
@@ -4469,10 +4512,17 @@ footer {
 .entry-content ul {
   margin-bottom: 25px; }
   .entry-content ul li {
-    color: #595656; }
+    font-size: 18px;
+    line-height: 30px;
+    color: #595656;
+    font-weight: 400; }
 .entry-content ol {
   margin-bottom: 25px; }
   .entry-content ol li {
+    font-size: 18px;
+    line-height: 30px;
+    color: #595656;
+    font-weight: 400;
     color: #595656; }
 .entry-content h2 {
   font-size: 24px;
@@ -4482,8 +4532,8 @@ footer {
   font-weight: 700;
   margin-bottom: 20px; }
 .entry-content b {
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 30px;
   color: #333333;
   letter-spacing: 0px;
   font-weight: 700;
@@ -4509,11 +4559,20 @@ footer {
   padding-top: 15px; }
 .fiveCol-slider .out-of-nav .owl-nav {
   top: -40px; }
+  @media only screen and (max-width: 1024px) {
+    .fiveCol-slider .out-of-nav .owl-nav {
+      top: -15px; } }
 .fiveCol-slider .slider-counter {
   top: -45px; }
+  @media only screen and (max-width: 1024px) {
+    .fiveCol-slider .slider-counter {
+      top: -15px; } }
 .fiveCol-slider .sec-holder {
   padding-top: 160px;
   border-top: 1px solid #6B6A6A; }
+  @media only screen and (max-width: 1024px) {
+    .fiveCol-slider .sec-holder {
+      padding-top: 25px; } }
 
 .blog-listing-section .g-col.offset_default {
   display: block;

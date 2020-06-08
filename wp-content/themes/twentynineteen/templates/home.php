@@ -15,11 +15,10 @@ get_header();
                     <div class="one-half">
                         <h1>Easily create your next Magazine</h1>
                         <p>A platform to build, distribute and monetise creative content on smart-devices. 6000+ apps have already been made - Coding free, Hassle free</p>
-                        <a href="/" class="primary-btn" title="Know More">Know More
+                        <a href="javascript:void()" class="primary-btn home-contact-click" title="Know More">Know More
                             <span class="span1">Know More</span>
                             <span class="span2">Know More</span>
-                            <span class="span3">Know More</span> 
-                        </a>
+                        </a>    
                     </div>    
                     <div class="one-half image-block">
                         <img src="<?php bloginfo('template_directory'); ?>/images/easily-create-your-next-magazine.png" alt="Easily Create Your Next Magazine" />

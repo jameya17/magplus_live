@@ -124,6 +124,9 @@
     font-weight: 700;
     letter-spacing: 0.6px;
     text-transform: uppercase;  
+    @media only screen and (max-width: 1024px) {
+        line-height: 16px;
+    }
     a{
         font-size: 12px;
         line-height: 30px;
@@ -131,6 +134,12 @@
         font-weight: 700;
         letter-spacing: 0.6px;
         text-transform: uppercase;
+        @media only screen and (max-width: 1024px) {
+            line-height: 16px;
+        }
+        &:hover{
+            opacity: .5; 
+        }
     }
     & + .breadcrumb-item{
         &:before{
@@ -140,6 +149,9 @@
             padding-left: 5px;
             color: #8D8788;
             line-height: 30px; 
+            @media only screen and (max-width: 1024px) {
+                line-height: 16px;
+            }
         }
     }
 }
@@ -230,6 +242,7 @@
         color: #595656;
         letter-spacing: -0.44px;
         margin-bottom: 25px; 
+        line-height: 26px;
     }
     h4{
         font-weight: 700;
@@ -269,6 +282,9 @@ a{
         height: 48px;
         width: 270px;
         margin-bottom: 10px; 
+        @media only screen and (max-width: 320px) {
+            width: 230px;
+        }
         img{
             margin-right: 10px;
         }
@@ -717,7 +733,7 @@ input:-webkit-autofill:focus {
             background-color: #fff;
             list-style-type: none;
             box-shadow: 0 3px 9px rgba(0, 0, 0, 0.9);
-            z-index: 1;
+            z-index: 2;
             text-align: left;
             @media only screen and (max-width: 1024px) {
                 left: 0;

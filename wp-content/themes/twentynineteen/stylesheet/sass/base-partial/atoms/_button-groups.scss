@@ -285,7 +285,7 @@
         // -moz-transition: -moz-transform 0.5s;
         transition: all .3s;
         @media only screen and (max-width: 1024px) {
-            width: 105px;
+            width: 80px;
             padding: 8px 20px;
             height: 34px; 
         }
@@ -312,7 +312,7 @@
                 & +.switch{
                     transform: translate3d(212px, 0px, 0px);   
                     @media only screen and (max-width: 1024px) {
-                        transform: translate3d(142px, 0px, 0px);   
+                        transform: translate3d(127px, 0px, 0px);   
                     }
                 }
             }
@@ -320,7 +320,7 @@
     }
     @media only screen and (max-width: 1024px) {
         label{
-            width: 100px;
+            width: 80px;
             font-size: 15px;
             line-height: 26px;
             padding: 10px 20px;     

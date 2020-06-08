@@ -232,6 +232,8 @@ footer{
     &.active{
         right: 0; 
         visibility: visible; 
+        height: calc(100vh - 150px);
+        overflow: auto;
     }
 }
 .contact-us{
@@ -577,5 +579,11 @@ footer{
         @media only screen and (max-width: 1024px) {
             display: none;
         }     
+    }
+    p.error{
+        font-size: 11px;
+        line-height: 11px;
+        padding: 5px;
+        color: #9F3A38; 
     }
 }

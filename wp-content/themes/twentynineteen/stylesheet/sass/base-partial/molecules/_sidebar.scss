@@ -275,6 +275,20 @@
                     margin: 0;
                     //padding-left: 25px; 
                 }
+                p.thanks{
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: #414141;
+                    font-weight: bold;
+                    letter-spacing: .5px;
+                }
+                p.error{
+                    font-size: 11px;
+                    line-height: 11px;
+                    padding: 5px;
+                    display: block;
+                    color: #9F3A38;
+                }
             }
 
         }
