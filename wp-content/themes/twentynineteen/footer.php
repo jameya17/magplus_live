@@ -145,9 +145,9 @@
     </div>
 </div>
 
-<div class="chat-section">
+<!--<div class="chat-section">
     <span class="chat-icon"></span>
-</div>
+</div>-->
 
 <!---<script type="text/javascript" src="/js/jquery-1.1.js"></script>-->
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/owl.carousel.min.js"></script>
