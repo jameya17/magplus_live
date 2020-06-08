@@ -47,6 +47,10 @@
         font-weight: 400;
     }   
     li{
+        font-size: 18px;
+        line-height: 30px;
+        color: #595656;
+        font-weight: 400;
         padding-top: 10px;
         color: #333333;
     }
@@ -66,12 +70,19 @@
     ul{
         margin-bottom: 25px;
         li{
+            font-size: 18px;
+            line-height: 30px;
             color: #595656;
+            font-weight: 400;
         }
     }
     ol{
         margin-bottom: 25px;
         li{
+            font-size: 18px;
+            line-height: 30px;
+            color: #595656;
+            font-weight: 400;
             color: #595656;
         }
     }
@@ -84,8 +95,13 @@
         margin-bottom: 20px;
     }
     b{
-        font-size: 24px;
-        line-height: 28px;
+        font-size: 18px;
+        line-height: 30px;
+        // color: #595656;
+        // font-weight: 400;
+
+        // font-size: 24px;
+        // line-height: 28px;
         color: #333333;
         letter-spacing: 0px;
         font-weight: 700;
@@ -119,14 +135,23 @@
     .out-of-nav{
         .owl-nav{
             top: -40px;
+            @media only screen and (max-width: 1024px) {
+                top: -15px;
+            }
         }
     }
     .slider-counter{
         top: -45px;
+        @media only screen and (max-width: 1024px) {
+            top: -15px;
+        }
     }
     .sec-holder{
         padding-top: 160px;
         border-top: 1px solid #6B6A6A;  
+        @media only screen and (max-width: 1024px) {
+            padding-top: 25px;
+        }
     }
 }
 .blog-listing-section{

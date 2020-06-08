@@ -267,9 +267,12 @@
             padding: 40px 0;
             background-size: 80%;
             padding-bottom: 220px;
-            background-position: 300% bottom;
+            background-position: 300% 90px;
             text-align: left;
             padding-left: 25px;
+        }
+        @media only screen and (max-width: 400px) {
+            background-position: 300% 180px; 
         }
     }
 }
