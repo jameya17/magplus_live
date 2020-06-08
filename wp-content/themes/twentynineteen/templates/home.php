@@ -13,7 +13,7 @@ get_header();
             <div class="l-section-wrap">
                 <div class="g-col">
                     <div class="one-half">
-                        <h1>Easily create your next Magazine</h1>
+                        <h1>Easily create your next <span class="typewrite" data-period="2000" data-type='[ "Magazine", "Presentation", "Brochure", "Catalog" ]'></span></h1>
                         <p>A platform to build, distribute and monetise creative content on smart-devices. 6000+ apps have already been made - Coding free, Hassle free</p>
                         <a href="javascript:void()" class="primary-btn home-contact-click" title="Know More">Know More
                             <span class="span1">Know More</span>
@@ -231,4 +231,5 @@ get_header();
         </section>
     </div>
 <?php
+
 get_footer();

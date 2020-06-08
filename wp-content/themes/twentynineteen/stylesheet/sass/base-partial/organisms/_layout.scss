@@ -418,3 +418,12 @@
         padding: 15px;
     }    
 }
+
+.typewrite{
+    .type-text{
+        @media only screen and (max-width: 1024px) {
+            display: block;
+            min-height: 42px;
+        }   
+    }
+}
