@@ -2121,6 +2121,9 @@ input:-webkit-autofill:focus {
       max-height: 100%;
       min-height: 410px; } }
 
+@media only screen and (max-width: 400px) {
+  .click-card-block {
+    width: 100%; } }
 .click-card-block.active {
   z-index: 2;
   transform: none !important; }

@@ -138,6 +138,9 @@
 }
 
 .click-card-block{ 
+    @media only screen and (max-width: 400px) {
+        width: 100%;
+    }
     &.active{
         z-index: 2;
         transform: none !important;
