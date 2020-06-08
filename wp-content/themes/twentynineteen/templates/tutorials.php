@@ -18,7 +18,7 @@ get_header();
                 <ul>
                     <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">Magpplus</a></li>
                     <li class="breadcrumb-item"><a href="<?php echo get_permalink(31519); ?>">Support</a></li>
-                    <li class="breadcrumb-item"><a href="<?php echo get_permalink(31523); ?>">Tutorials</a></li>
+                    <li class="breadcrumb-item">Tutorials</li>
                 </ul>
             </div>
             <div class="g-col align-center">

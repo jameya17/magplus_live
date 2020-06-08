@@ -75,7 +75,7 @@ get_header();
                 <ul>
                     <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">Magpplus</a></li>
                     <li class="breadcrumb-item"><a href="<?php echo get_permalink(31549); ?>">Try For Free</a></li>
-                    <li class="breadcrumb-item"><a href="<?php echo get_permalink(31545); ?>">Sign Up</a></li>
+                    <li class="breadcrumb-item">Sign Up</li>
                 </ul>
             </div>
             <div class="form-section form-container sign-up-form">
