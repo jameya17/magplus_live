@@ -14,8 +14,8 @@ get_header();
         <section class="l-section">
             <div class="l-section-wrap breadcrumb">
                 <ul>
-                    <li class="breadcrumb-item"><a href="">Magpplus</a></li>
-                    <li class="breadcrumb-item"><a href="">Pricing</a></li>
+                    <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">Magpplus</a></li>
+                    <li class="breadcrumb-item">License and Agreement</li>
                 </ul>
             </div>
         </section>
@@ -24,9 +24,9 @@ get_header();
             <div class="l-section-wrap">
                 <div class="sticky-nav-block"> 
                     <ul class="nav sticky-sidebar">
-                        <li><a href="?page_id=870" class="nav-link" title="Privacy Policy">Privacy Policy</a></li>
-                        <li><a href="?page_id=867" class="nav-link" title="Terms of Use">Terms of Use</a></li>
-                        <li class="active"><a href="?page_id=608" class="nav-link" title="License and Agreement">License and Agreement</a></li>
+                        <li><a href="<?php echo get_permalink(870); ?>" class="nav-link" title="Privacy Policy">Privacy Policy</a></li>
+                        <li><a href="<?php echo get_permalink(867); ?>" class="nav-link" title="Terms of Use">Terms of Use</a></li>
+                        <li class="active"><a href="<?php echo get_permalink(608); ?>" class="nav-link" title="License and Agreement">License and Agreement</a></li>
                     </ul>
                 </div>
                 <div class="content-block">
