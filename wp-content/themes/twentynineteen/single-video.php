@@ -25,7 +25,7 @@ get_header();
 	endwhile; endif;
 ?>
 
-    <div class="container casestudiesPg"> 
+    <div class="container casestudiesPg casestudiesdtlPg"> 
         <section id="tutorials" class="l-section sec-pad pad-top0">
             <div class="l-section-wrap">
                 <div class="breadcrumb">
@@ -59,14 +59,16 @@ get_header();
 
                             <div class="entry-content">
                                 <p><?php the_content(); ?></p>
-                                <p>
-                                <a href="<?php echo $video; ?>" data-fancybox title="">
-                                    <span class="card-img-top img-fluid" style="display: block; background: url('<?php echo $thumb; ?>')no-repeat center center; background-size: cover; width: 100%; min-width: 250px; min-height: 182px; background-color: #ddd; border-radius: 8px;"></span>
-                                    <!-- <img src="<?php echo $thumb; ?>" alt="" class="card-img-top img-fluid"/> -->
-                                    <span class="video-play-btn"></span>
-                                    <span class="play-text">Watch Tutorial</span>
-                                </a>
-                                </p>
+                                <div>
+                                    <div class="item">
+                                        <a href="<?php echo $video; ?>" data-fancybox title="">
+                                            <!-- <span class="card-img-top img-fluid" style="display: block;"></span> -->
+                                            <img src="<?php echo $thumb; ?>" alt="" class="card-img-top img-fluid"/>
+                                            <span class="video-play-btn"></span>
+                                            <span class="play-text">Watch Tutorial</span>
+                                        </a>
+                                    </div>    
+                                </div>
                             </div>
                         </article>
                     </div>
