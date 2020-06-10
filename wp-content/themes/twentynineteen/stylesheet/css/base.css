@@ -1846,7 +1846,11 @@ input:-webkit-autofill:focus {
       color: #fff; }
     .mob-select .selected a::before {
       top: 10px;
-      background-image: url(../../images/icons/dropdown-white-arrow-ico.svg); }
+      background-image: url(../../images/icons/dropdown-white-arrow-ico.svg);
+      transform: rotate(360deg);
+      transition: all 0.3s; }
+  .mob-select.open .selected a::before {
+    transform: rotate(180deg); }
 
 .salesforce_w2l_lead .top-aligned .w2llabel {
   font-size: 15px;
@@ -3838,7 +3842,7 @@ footer {
       margin-bottom: 0; } }
 
 .magplus-pro .sec-pad.intro-sec {
-  padding: 60px 0; }
+  padding: 0; }
   @media only screen and (max-width: 1024px) {
     .magplus-pro .sec-pad.intro-sec {
       padding: 30px 0; } }
@@ -4046,13 +4050,19 @@ footer {
     display: block;
     min-height: 42px; } }
 
-.home-screen .home-banner .g-col {
-  position: relative; }
+.home-screen .home-banner {
+  padding: 0;
+  overflow: hidden; }
+  @media only screen and (max-width: 1024px) {
+    .home-screen .home-banner {
+      padding: 30px 35px; } }
+  .home-screen .home-banner .g-col {
+    position: relative; }
 .home-screen .home-banner-bg {
   display: block;
   position: absolute;
   width: 1130px;
-  height: 700px;
+  height: 914px;
   right: -458px;
   background-image: url(../../images/bgicon.png);
   background-repeat: no-repeat;
@@ -4070,7 +4080,7 @@ footer {
   @media only screen and (max-width: 767px) {
     .home-screen .home-banner-bg {
       top: -70px;
-      background-size: 100%;
+      background-size: contain;
       background-position: center center; } }
 
 .magplus-pro .home-banner .one-half {
@@ -4092,7 +4102,15 @@ footer {
   @media only screen and (max-width: 767px) {
     .magplus-pro .home-banner-bg {
       top: -100px;
-      background-size: 90%; } }
+      background-size: contain; } }
+
+.trusted-sec {
+  padding-bottom: 40px; }
+  @media only screen and (max-width: 1024px) {
+    .trusted-sec {
+      padding-bottom: 30px; } }
+  .trusted-sec .title-with-border {
+    margin-bottom: 0; }
 
 .entry-title {
   font-variation-settings: 30px;
@@ -4120,6 +4138,9 @@ footer {
   line-height: 36px;
   color: #333;
   margin-bottom: 50px; }
+  @media only screen and (max-width: 1024px) {
+    .privacy-pg .sec-title {
+      margin-bottom: 20px; } }
 .privacy-pg .content-block {
   padding-left: 350px;
   font-size: 16px;
@@ -4305,7 +4326,7 @@ footer {
         align-items: center;
         justify-content: center;
         height: 55px;
-        font-size: 10px;
+        font-size: 13px;
         line-height: 17px;
         border-bottom: 1px solid #ddd;
         border-top: 0; } }

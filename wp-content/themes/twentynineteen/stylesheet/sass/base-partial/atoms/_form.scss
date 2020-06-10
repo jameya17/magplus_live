@@ -793,9 +793,21 @@ input:-webkit-autofill:focus {
             &::before{
                 top: 10px;
                 background-image: url(../../images/icons/dropdown-white-arrow-ico.svg);
+                transform: rotate(360deg);
+                transition: all 0.3s;
             }
         }
-    }       
+    } 
+    
+    &.open{
+        .selected{
+            a{
+                &::before{
+                    transform: rotate(180deg);
+                }
+            }
+        }
+    }
 }
 
 .download-ver-select{
