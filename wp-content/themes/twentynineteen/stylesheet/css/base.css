@@ -1017,27 +1017,33 @@ ol {
     .nav li.active .nav-link {
       color: #F36F21; }
 
-.sticky-sidebar li {
-  display: block;
-  padding: 20px 0;
-  border-bottom: 1px solid #CFCECE; }
-  .sticky-sidebar li:last-child {
-    border-bottom: 0; }
+.l-section-wrap {
+  position: relative; }
+
+.sticky-sidebar {
+  display: flex; }
+  .sticky-sidebar li {
+    display: block;
+    padding: 0 20px;
+    border-right: 1px solid #CFCECE;
+    width: 250px;
+    text-align: center; }
+    .sticky-sidebar li:last-child {
+      border-right: 0; }
 
 .sticky-nav-block {
-  position: absolute;
-  width: 170px;
-  top: 198px;
-  left: 8.3%;
-  padding: 30px 40px 30px 40px;
-  background-color: #ECECEC; }
-  .sticky-nav-block.fixed {
-    position: fixed;
-    top: 69px;
-    z-index: 2; }
+  position: fixed;
+  top: 68px;
+  left: 0;
+  padding: 15px 0;
+  background-color: #fff;
+  margin: 0 auto;
+  right: 0;
+  max-width: 750px;
+  z-index: 1;
+  box-shadow: 0 0 42px 0 rgba(0, 0, 0, 0.09); }
   .sticky-nav-block.white-bg {
-    background-color: #fff;
-    box-shadow: 0px 0px 6px 0 rgba(0, 0, 0, 0.2); }
+    background-color: #fff; }
   @media only screen and (max-width: 1024px) {
     .sticky-nav-block {
       display: none; } }

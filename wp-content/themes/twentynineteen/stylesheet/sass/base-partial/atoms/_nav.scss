@@ -28,31 +28,37 @@
         }
     }
 }
+.l-section-wrap{position: relative;}
 .sticky-sidebar{
+    display: flex;
     li{
         display: block;
-        padding: 20px 0;
-        border-bottom: 1px solid #CFCECE; 
+        padding: 0 20px;
+        border-right: 1px solid #CFCECE; 
+        width: 250px;
+        text-align: center;
         &:last-child{
-            border-bottom: 0;  
+            border-right:0;
         }
     }
 }
 .sticky-nav-block{
-    position: absolute;
-    width: 170px;
-    top: 198px;
-    left: 8.3%;
-    padding: 30px 40px 30px 40px; 
-    background-color: #ECECEC;
+    position: fixed;
+    top: 68px;
+    left: 0;
+    padding: 15px 0;
+    background-color: #fff;
+    margin: 0 auto;
+    right: 0;
+    max-width: 750px;
+    z-index: 1; 
+    box-shadow: 0 0 42px 0 rgba(0,0,0,0.09);
     &.fixed{
-        position: fixed;
-        top: 69px;
-        z-index: 2; 
+        // position: fixed;
+        // top: 69px;
     }
     &.white-bg{
         background-color: #fff;
-        box-shadow: 0px 0px 6px 0 rgba(0, 0, 0, 0.2); 
     }
     @media only screen and (max-width: 1024px) {
         display: none;
