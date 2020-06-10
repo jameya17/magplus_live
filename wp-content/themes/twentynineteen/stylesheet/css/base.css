@@ -715,8 +715,8 @@ ol {
   display: inline-block; }
 
 .key-offerings .title-with-border {
-  padding-bottom: 35px;
-  margin-bottom: 60px; }
+  padding-bottom: 30px;
+  margin-bottom: 30px; }
   @media only screen and (max-width: 1024px) {
     .key-offerings .title-with-border {
       padding-bottom: 10px;
@@ -3942,6 +3942,11 @@ footer {
   @media only screen and (max-width: 1024px) {
     .key-offerings {
       padding: 0; } }
+  .key-offerings .g-col {
+    align-items: flex-start; }
+    @media only screen and (max-width: 1024px) {
+      .key-offerings .g-col {
+        align-items: center; } }
 
 .casestudiesPg .tab-section {
   margin-top: 55px;
@@ -4023,6 +4028,22 @@ footer {
   @media only screen and (max-width: 1024px) {
     .mob-view {
       display: block !important; } }
+
+@media only screen and (max-width: 1024px) {
+  h3.mob-view {
+    text-align: center; } }
+
+.mob-view {
+  display: block; }
+  @media only screen and (max-width: 1024px) {
+    .mob-view {
+      display: none; } }
+
+.desk-view {
+  display: block; }
+  @media only screen and (max-width: 1024px) {
+    .desk-view {
+      display: none; } }
 
 .marb-75 {
   margin-bottom: 75px; }

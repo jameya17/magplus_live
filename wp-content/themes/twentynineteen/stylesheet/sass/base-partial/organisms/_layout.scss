@@ -320,6 +320,12 @@
     @media only screen and (max-width: 1024px) {
         padding: 0; 
     }
+    .g-col{
+        align-items: flex-start;
+        @media only screen and (max-width: 1024px) {
+            align-items: center;
+        }
+    }
 }
 .casestudiesPg{
     .tab-section{
@@ -423,6 +429,23 @@
     @media only screen and (max-width: 1024px) {
         display: block !important; 
     }
+}
+h3.mob-view{
+    @media only screen and (max-width: 1024px) {
+        text-align: center;
+    }
+}
+.mob-view{
+    display: block;
+    @media only screen and (max-width: 1024px) {
+        display: none;
+    }
+}
+.desk-view{
+    display: block;
+    @media only screen and (max-width: 1024px) {
+        display: none;
+    } 
 }
 .marb-75{
     margin-bottom: 75px;
