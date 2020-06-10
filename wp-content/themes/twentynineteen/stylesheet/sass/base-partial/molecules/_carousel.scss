@@ -47,6 +47,23 @@
     .owl-carousel{
         @media only screen and (max-width: 1024px) {
             padding-top: 0;  
+            padding-bottom: 0;
+        }
+        .item-image{
+            @media only screen and (max-width: 1024px) {
+                min-height: 300px;
+            }
+        }
+        .item-detail{
+            @media only screen and (max-width: 1024px) {
+                max-width: 400px;
+                margin: 0 auto;
+            }
+            p{
+                @media only screen and (max-width: 1024px) {
+                    margin-bottom: 20px; 
+                }
+            }
         }
     }
     
@@ -198,6 +215,9 @@
         text-align: left;  
         margin: 5px 0;  
         // display: none;
+        @media only screen and (max-width: 1024px) {
+            text-align: center;
+        }
     }
 }
 .slider-container{

@@ -68,6 +68,11 @@
                     margin: 0;
                 } 
             }
+            &.item-detail{
+                @media only screen and (max-width: 1024px) {
+                    margin-top: 20px;
+                }
+            }
         }
         @media only screen and (max-width: 1024px) {
             @include flex-direction(column); 
@@ -182,7 +187,7 @@
         p{
             @media only screen and (max-width: 1024px) {
                 max-width: 600px;
-                // margin: 0 auto 20px; 
+                margin: 0 auto 20px;   
             }
             @media only screen and (max-width: 767px) {
                 max-width: 100%; 
