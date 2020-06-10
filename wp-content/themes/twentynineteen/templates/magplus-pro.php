@@ -10,8 +10,8 @@
 
 get_header();
 ?>
-    <div class="container magplus-pro">
-        <section class="l-section sec-pad white-bg intro-sec" style="background-image: url('<?php bloginfo('template_directory'); ?>/images/megaplus-now-bg.svg'); background-repeat: no-repeat; background-position: top right;">
+    <div class="container home-screen magplus-pro">
+        <section class="l-section sec-pad white-bg intro-sec home-banner">
             <div class="l-section-wrap"> 
                 <div class="g-col">
                     <div class="one-half">
@@ -24,7 +24,8 @@ get_header();
                     </div>    
                     <div class="one-half image-block"> 
                         <img src="<?php bloginfo('template_directory'); ?>/images/what-is-magplus-now.svg" alt="What is Magplus Now?" />
-                    </div>    
+                    </div>   
+                    <span class="home-banner-bg"></span> 
                 </div>    
             </div>
         </section>

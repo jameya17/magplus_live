@@ -8,8 +8,8 @@ get_header();
 
 ?>
 
-    <div class="container">
-        <section class="l-section sec-pad white-bg" style="background-image: url('<?php bloginfo('template_directory'); ?>/images/easily-create-your-next-magazine-bg.svg'); background-repeat: no-repeat; background-position: top right">
+    <div class="container home-screen">
+        <section class="l-section sec-pad white-bg home-banner">
             <div class="l-section-wrap">
                 <div class="g-col">
                     <div class="one-half">
@@ -23,6 +23,7 @@ get_header();
                     <div class="one-half image-block">
                         <img src="<?php bloginfo('template_directory'); ?>/images/easily-create-your-next-magazine.png" alt="Easily Create Your Next Magazine" />
                     </div>    
+                    <span class="home-banner-bg"></span>
                 </div>    
             </div>
         </section>

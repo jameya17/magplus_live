@@ -427,3 +427,61 @@
         }   
     }
 }
+.home-screen{
+    .home-banner{
+        .g-col{
+            position: relative;
+        }
+    }
+    .home-banner-bg{
+        display: block;
+        position: absolute;
+        width: 1130px;
+        height: 700px;
+        right: -458px; 
+        background-image: url(../../images/bgicon.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        @media only screen and (max-width: 1024px) {
+            width: 100%;
+            height: 300px;
+            right: 0;
+            top: -100px;
+            background-size: 60%;
+            left: 0;
+            margin: 0 auto;
+            background-position: bottom center;
+        }
+        @media only screen and (max-width: 767px) {
+            top: -70px;
+            background-size: 100%;
+            background-position: center center; 
+        }
+    }
+}
+.magplus-pro{
+    .home-banner{
+        .one-half{
+            z-index: 1;
+        }
+    }
+    .home-banner-bg{
+        right: -275px;
+        width: 851px; 
+        background-image: url(../../images/mag-plus-now-bgicon.png);
+        @media only screen and (max-width: 1024px) {
+            width: 100%;
+            height: 300px;
+            right: 0;
+            top: -70px;
+            background-size: 50%;
+            left: 0;
+            margin: 0 auto;
+            background-position: bottom center;
+        }
+        @media only screen and (max-width: 767px) {
+            top: -100px;
+            background-size: 90%; 
+        }
+    }
+}
