@@ -2158,8 +2158,9 @@ input:-webkit-autofill:focus {
       text-align: center; } }
   @media only screen and (max-width: 767px) {
     .key-offerings .card {
-      max-width: 250px;
-      text-align: center; } }
+      max-width: 230px;
+      text-align: center;
+      margin: 15px auto; } }
 
 .how-it-works-sec .card {
   max-width: 230px;
@@ -2176,8 +2177,8 @@ input:-webkit-autofill:focus {
       text-align: center; } }
   @media only screen and (max-width: 767px) {
     .how-it-works-sec .card {
-      max-width: 100%;
-      margin: 30px 15px;
+      max-width: 230px;
+      margin: 20px auto;
       text-align: center; } }
 
 .acc-item {
@@ -3654,6 +3655,9 @@ footer {
 .small-wrap {
   max-width: 700px;
   margin: 0 auto; }
+  @media only screen and (max-width: 767px) {
+    .small-wrap {
+      max-width: 700px; } }
 
 .g-col {
   width: 100%;
@@ -3747,7 +3751,8 @@ footer {
 
 @media only screen and (max-width: 1024px) {
   .image-block {
-    margin-bottom: 20px !important; } }
+    margin-bottom: 20px;
+    margin-top: 20px; } }
 @media only screen and (max-width: 1024px) {
   .image-block img {
     /*max-width: 100%;*/
@@ -3823,7 +3828,7 @@ footer {
   @media only screen and (max-width: 1024px) {
     .sec-pad {
       /*padding: 30px 15px;*/
-      padding: 30px 35px; } }
+      padding: 30px 45px; } }
   .sec-pad p {
     margin-bottom: 20px; }
     .sec-pad p:last-child {
@@ -4031,7 +4036,8 @@ footer {
 
 @media only screen and (max-width: 1024px) {
   h3.mob-view {
-    text-align: center; } }
+    text-align: center;
+    margin: 0; } }
 
 .mob-view {
   display: block; }

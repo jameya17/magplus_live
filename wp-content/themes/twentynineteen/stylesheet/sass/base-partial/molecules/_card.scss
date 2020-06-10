@@ -168,15 +168,15 @@
             text-align: center;
         }
         @media only screen and (max-width: 767px) {
-            max-width: 250px;
+            max-width: 230px;
             text-align: center;
+            margin: 15px auto;
         }
     }
 }
 .how-it-works-sec{
     .card{
         max-width: 230px;  
-        
         margin-bottom: 75px; 
         @media only screen and (max-width: 1024px) {
             margin-bottom: 30px;  
@@ -192,8 +192,8 @@
             text-align: center;
         }    
         @media only screen and (max-width: 767px) {
-            max-width: 100%;  
-            margin: 30px 15px;
+            max-width: 230px;  
+            margin: 20px auto; 
             text-align: center;
         } 
     }

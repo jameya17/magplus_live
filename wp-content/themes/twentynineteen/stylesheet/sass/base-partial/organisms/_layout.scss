@@ -41,6 +41,9 @@
 .small-wrap{
     max-width: 700px; 
     margin: 0 auto;
+    @media only screen and (max-width: 767px) {
+        max-width: 700px; 
+    }
 }
 .g-col{
     width: 100%; 
@@ -116,7 +119,7 @@
 .image-block{
     @media only screen and (max-width: 1024px) {
         margin-bottom: 20px;
-        margin-top: 20px; 
+        margin-top: 20px;  
     }
     img{
         @media only screen and (max-width: 1024px) {
@@ -164,7 +167,7 @@
     padding: 80px 0;
     @media only screen and (max-width: 1024px) {
         /*padding: 30px 15px;*/
-        padding: 30px 35px;
+        padding: 30px 45px;
     }
     p{
         margin-bottom: 20px;
@@ -434,6 +437,7 @@
 h3.mob-view{
     @media only screen and (max-width: 1024px) {
         text-align: center;
+        margin: 0;
     }
 }
 .mob-view{
