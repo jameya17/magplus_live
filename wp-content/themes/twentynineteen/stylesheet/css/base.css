@@ -814,7 +814,8 @@ ol {
     display: block; }
   @media only screen and (max-width: 1024px) {
     .video-section {
-      background-color: transparent; }
+      background-color: transparent;
+      margin-top: 30px; }
       .video-section img {
         margin: 0 auto; } }
   @media only screen and (max-width: 767px) {
@@ -1701,8 +1702,16 @@ input:-webkit-autofill:focus {
         overflow-y: auto; } }
     @media only screen and (max-width: 767px) {
       .contact-us-form .form-block {
-        height: 370px;
-        width: 275px; } }
+        height: 100%;
+        width: 340px; } }
+    @media only screen and (max-width: 400px) {
+      .contact-us-form .form-block {
+        height: 100%;
+        width: 340px; } }
+    @media only screen and (max-width: 374px) {
+      .contact-us-form .form-block {
+        height: 100%;
+        width: 287px; } }
   .contact-us-form .form-field-group {
     margin-bottom: 20px; }
   .contact-us-form .styled-input {
@@ -2158,8 +2167,9 @@ input:-webkit-autofill:focus {
       text-align: center; } }
   @media only screen and (max-width: 767px) {
     .key-offerings .card {
-      max-width: 250px;
-      text-align: center; } }
+      max-width: 230px;
+      text-align: center;
+      margin: 15px auto; } }
 
 .how-it-works-sec .card {
   max-width: 230px;
@@ -2176,8 +2186,8 @@ input:-webkit-autofill:focus {
       text-align: center; } }
   @media only screen and (max-width: 767px) {
     .how-it-works-sec .card {
-      max-width: 100%;
-      margin: 30px 15px;
+      max-width: 230px;
+      margin: 20px auto;
       text-align: center; } }
 
 .acc-item {
@@ -2262,7 +2272,18 @@ input:-webkit-autofill:focus {
     margin-bottom: 0; } }
 @media only screen and (max-width: 1024px) {
   .trusted-sec .owl-carousel {
-    padding-top: 0; } }
+    padding-top: 0;
+    padding-bottom: 0; } }
+@media only screen and (max-width: 1024px) {
+  .trusted-sec .owl-carousel .item-image {
+    min-height: 300px; } }
+@media only screen and (max-width: 1024px) {
+  .trusted-sec .owl-carousel .item-detail {
+    max-width: 400px;
+    margin: 0 auto; } }
+@media only screen and (max-width: 1024px) {
+  .trusted-sec .owl-carousel .item-detail p {
+    margin-bottom: 20px; } }
 
 .item-image {
   display: -webkit-box;
@@ -2365,6 +2386,9 @@ input:-webkit-autofill:focus {
   .full-wrap-carousel .item-detail {
     text-align: left;
     margin: 5px 0; }
+    @media only screen and (max-width: 1024px) {
+      .full-wrap-carousel .item-detail {
+        text-align: center; } }
 
 .slider-container {
   position: relative; }
@@ -3330,6 +3354,9 @@ footer {
   right: 0;
   top: 10%;
   z-index: 9; }
+  @media only screen and (max-width: 1024px) {
+    .sticky-drawer-section {
+      top: 58px; } }
 
 .drawer-head {
   margin-top: 80px; }
@@ -3343,7 +3370,7 @@ footer {
   .drawer-body.active {
     right: 0;
     visibility: visible;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 60px);
     overflow: auto; }
 
 .contact-us {
@@ -3654,6 +3681,9 @@ footer {
 .small-wrap {
   max-width: 700px;
   margin: 0 auto; }
+  @media only screen and (max-width: 767px) {
+    .small-wrap {
+      max-width: 700px; } }
 
 .g-col {
   width: 100%;
@@ -3693,6 +3723,9 @@ footer {
         margin-bottom: 0; }
         .g-col.offset_default > div:last-child {
           margin: 0; } }
+    @media only screen and (max-width: 1024px) {
+      .g-col.offset_default > div.item-detail {
+        margin-top: 20px; } }
   @media only screen and (max-width: 1024px) {
     .g-col.offset_default {
       -webkit-flex-direction: column;
@@ -3747,7 +3780,8 @@ footer {
 
 @media only screen and (max-width: 1024px) {
   .image-block {
-    margin-bottom: 20px !important; } }
+    margin-bottom: 20px;
+    margin-top: 20px; } }
 @media only screen and (max-width: 1024px) {
   .image-block img {
     /*max-width: 100%;*/
@@ -3823,7 +3857,7 @@ footer {
   @media only screen and (max-width: 1024px) {
     .sec-pad {
       /*padding: 30px 15px;*/
-      padding: 30px 35px; } }
+      padding: 30px 45px; } }
   .sec-pad p {
     margin-bottom: 20px; }
     .sec-pad p:last-child {
@@ -3831,7 +3865,8 @@ footer {
 
 @media only screen and (max-width: 1024px) {
   .sec-pad .one-half p {
-    max-width: 600px; } }
+    max-width: 600px;
+    margin: 0 auto 20px; } }
 @media only screen and (max-width: 767px) {
   .sec-pad .one-half p {
     max-width: 100%; } }
@@ -4031,7 +4066,8 @@ footer {
 
 @media only screen and (max-width: 1024px) {
   h3.mob-view {
-    text-align: center; } }
+    text-align: center;
+    margin: 0; } }
 
 .mob-view {
   display: block; }
@@ -4783,7 +4819,8 @@ footer {
 .tutorials-section .slider-counter {
   position: static; }
 .tutorials-section .owl-nav {
-  position: relative; }
+  position: relative;
+  margin-top: 20px; }
 .tutorials-section .owl-prev, .tutorials-section .owl-nav .owl-next, .owl-nav .tutorials-section .owl-next, .tutorials-section .owl-next {
   position: absolute;
   top: 0; }

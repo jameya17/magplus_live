@@ -191,7 +191,7 @@
             center: true,
             loop: false,
             responsive: {
-                767: {
+                1024: {
                     items: 3,
                     dots: false,
                     nav: true,
