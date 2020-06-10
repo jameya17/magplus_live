@@ -3881,6 +3881,7 @@ footer {
     .magplus-pro-section .g-col {
       max-width: 100%; } }
 .magplus-pro-section .magpluspro-con-block {
+  position: relative;
   padding: 135px 0 90px 38%;
   background-image: url("../../images/magplus-pro-bg.png");
   background-repeat: no-repeat;
@@ -3898,15 +3899,28 @@ footer {
       padding: 95px 0 90px 15%; } }
   @media only screen and (max-width: 767px) {
     .magplus-pro-section .magpluspro-con-block {
-      padding: 40px 0;
+      padding: 40px;
       background-size: 80%;
       padding-bottom: 220px;
       background-position: 300% 90px;
       text-align: left;
-      padding-left: 25px; } }
-  @media only screen and (max-width: 400px) {
-    .magplus-pro-section .magpluspro-con-block {
-      background-position: 300% 180px; } }
+      background-image: none; } }
+  .magplus-pro-section .magpluspro-con-block .check-out-bg {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: -200px;
+    width: 100%;
+    height: 320px;
+    background-image: url("../../images/magplus-pro-bg.png");
+    background-repeat: no-repeat;
+    background-size: 90%; }
+    @media only screen and (max-width: 767px) {
+      .magplus-pro-section .magpluspro-con-block .check-out-bg {
+        display: block; } }
+    @media only screen and (max-width: 400px) {
+      .magplus-pro-section .magpluspro-con-block .check-out-bg {
+        height: 270px; } }
 
 .pad-top0 {
   padding-top: 0; }

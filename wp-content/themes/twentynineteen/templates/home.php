@@ -218,7 +218,7 @@ get_header();
             <div class="l-section-wrap">
                 <div class="g-col">
                     <div class="magpluspro-con-block">
-                        <h3>Check out our all new Magplus Pro</h3>
+                        <h3>Check out our all new Magplus Now</h3>
                         <!-- <h3>Still confused on how to create an interactive magazine? Is the search for the right information weighing you down? Then, check out our all new mag+ NOW.</h3> -->
                         <p>An all-in-one solution to streamline your entire publishing process.</p>
                         <a href="?page_id=31528" class="btn primary-btn secondary-btn" title="Check Now">Check Now
@@ -226,6 +226,7 @@ get_header();
                             <span class="span2">Check Now</span>
                         </a>    
                         <!-- <a href="/" class="btn " title="Check Now">Check Now</a> -->
+                        <span class="check-out-bg"></span>
                     </div>    
                 </div>       
             </div>
