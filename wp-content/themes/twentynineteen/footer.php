@@ -31,7 +31,7 @@
         <div class="foot-col">
             <h6 class="toggle">Legal</h6>
             <ul class="inner foot-link-block">
-                <li><a href="<?php echo get_permalink(870); ?>" class="foot-link" title="Privacy Policy  ">Privacy Policy  </a></li>
+                <li><a href="<?php echo get_permalink(870); ?>" class="foot-link" title="Privacy Policy  ">Privacy Policy</a></li>
                 <li><a href="<?php echo get_permalink(867); ?>" class="foot-link" title="Terms of Use">Terms of Use</a></li>
                 <li><a href="<?php echo get_permalink(608); ?>" class="foot-link" title="License and Agreement">License and Agreement</a></li>
             </ul>
@@ -202,26 +202,26 @@
         });
         jQuery(".full-wrap-carousel").owlCarousel({
             items: 1,
-            loop: false,
+            loop: true,
             center: false,
             margin: 10,
             nav: true,
-            dots: true,
+            dots: false,
             autoplay: true,
             autoplayHoverPause: true,
             responsive: {
-                600: {
+                1024: {
                     loop: true,
                     center: true,
                     items: 3,
                     margin: 30,
                     nav: true,
-                    dots: true,
+                    dots: false,
                     autoplay: true
                 }
             }
         });
-        jQuery('.section-carousel, .five-col-carousel').on('initialized.owl.carousel changed.owl.carousel', function(e) {
+        jQuery('.section-carousel, .five-col-carousel, .full-wrap-carousel').on('initialized.owl.carousel changed.owl.carousel', function(e) {
             if (!e.namespace) {
                 return;
             }

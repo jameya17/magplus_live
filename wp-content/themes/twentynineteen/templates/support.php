@@ -90,34 +90,36 @@ get_header();
                                 </a>
                             </div>
                         </div>
-
-                        <div class="owl-carousel full-wrap-carousel">
-                            <?php 
-                                while ( $the_tutorials_query->have_posts() ) : $the_tutorials_query->the_post(); 
-                                $thumb = get_post_meta($post->ID, '_mag_video_thumbnail', true);
-                                $video_id = get_post_meta($post->ID, '_mag_video_id', true);
-                                $service = get_post_meta($post->ID, '_mag_video_service', true);
-                                
-                                if($service == 'vimeo'){
-                                    $video = 'https://player.vimeo.com/video/'. $video_id .'?title=0&amp;byline=0&amp;portrait=0';
-                                }elseif($service == 'youtube'){
-                                    $video = 'https://www.youtube.com/embed/'. $video_id .'?rel=0';
-                                }
-                            ?>
-                                <div class="item">
-                                    <a href="<?php echo $video; ?>" target="_blank" rel="" class="item-image" data-fancybox title="">
-                                        <span style="display: inline-block; background: url('<?php echo $thumb; ?>')no-repeat center center; background-size: cover; width: 100%; min-height: 360px;border: 1px solid #979797; border-radius: 8px;"></span>         
-                                        <!-- <img src="<?php echo $thumb; ?>" alt="" /> -->
-                                        <span class="video-play-btn">
-                                        </span>
-                                    </a>    
-                                    <div class="item-detail">
-                                        <p><?php the_title(); ?></p>
-                                    </div>    
-                                </div>
-                            <?php 
-                                endwhile; 
-                            ?>
+                        <div class="slider-container">
+                            <div class="owl-carousel full-wrap-carousel">
+                                <?php 
+                                    while ( $the_tutorials_query->have_posts() ) : $the_tutorials_query->the_post(); 
+                                    $thumb = get_post_meta($post->ID, '_mag_video_thumbnail', true);
+                                    $video_id = get_post_meta($post->ID, '_mag_video_id', true);
+                                    $service = get_post_meta($post->ID, '_mag_video_service', true);
+                                    
+                                    if($service == 'vimeo'){
+                                        $video = 'https://player.vimeo.com/video/'. $video_id .'?title=0&amp;byline=0&amp;portrait=0';
+                                    }elseif($service == 'youtube'){
+                                        $video = 'https://www.youtube.com/embed/'. $video_id .'?rel=0';
+                                    }
+                                ?>
+                                    <div class="item">
+                                        <a href="<?php echo $video; ?>" target="_blank" rel="" class="item-image" data-fancybox title="">
+                                            <span style="display: inline-block; background: url('<?php echo $thumb; ?>')no-repeat center center; background-size: cover; width: 100%; min-height: 360px;border: 1px solid #979797; border-radius: 8px;"></span>         
+                                            <!-- <img src="<?php echo $thumb; ?>" alt="" /> -->
+                                            <span class="video-play-btn">
+                                            </span>
+                                        </a>    
+                                        <div class="item-detail">
+                                            <p><?php the_title(); ?></p>
+                                        </div>    
+                                    </div>
+                                <?php 
+                                    endwhile; 
+                                ?>
+                            </div>   
+                            <div class="slider-counter"></div> 
                         </div>    
                     </div>    
                 </div>     
@@ -192,7 +194,7 @@ get_header();
                                 ?>
                                     <div class="card card-with-image item">
                                     <div class="card-body">
-                                        <div class="card-image" style="max-height: 160px; background-image: url(<?php echo $url; ?>); background-size: cover; background-repeat: no-repeat; border-radius: 18px 18px 0 0;">
+                                        <div class="card-image" style="max-height: 260px; background-image: url(<?php echo $url; ?>); background-size: cover; background-repeat: no-repeat; border-radius: 18px 18px 0 0;">
                                         </div>
                                         <div class="card-body-con">
                                             <span class="publish-date"><?php the_time('F d, Y'); ?></span>

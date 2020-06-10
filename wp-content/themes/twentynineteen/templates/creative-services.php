@@ -90,7 +90,7 @@ get_header();
                                     <div class="card-icon">
                                         <img src="<?php bloginfo('template_directory'); ?>/images/icons/content-sourcing.svg" alt="Step 1 - Asset collection/Content sourcing " />
                                     </div>
-                                    <h5 class="card-title">Step 1 - Asset collection/Content sourcing </h5>
+                                    <h5 class="card-title">Step 1 - Asset collection / Content sourcing </h5>
                                     <p class="card-text">Our in-house designers take your existing content in the form of photos, PDFs, videos, or virtually any other type of print or digital content.</p>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@ get_header();
                                     <div class="card-icon">
                                         <img src="<?php bloginfo('template_directory'); ?>/images/icons/content-creation.svg" alt="Step 2 - Content Enhancement/transformation/creation" />
                                     </div>
-                                    <h5 class="card-title">Step 2 - Content Enhancement/transformation/creation</h5>
+                                    <h5 class="card-title">Step 2 - Content Enhancement / transformation / creation</h5>
                                     <p class="card-text">We revamp this content to create dynamic stories for a native touchscreen environment using a wide variety of mag+ features.</p>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@ get_header();
         <section class="l-section sec-pad white-bg">
             <div class="l-section-wrap" data-aos="fade-up">
                 <div class="g-col align-center">  
-                    <h3>Other Offerings - Names of the offerings</h3>
+                    <h3>Names of the offerings</h3>
                     
                     <div class="card-section">
                         <div class="card-listing marb-75">

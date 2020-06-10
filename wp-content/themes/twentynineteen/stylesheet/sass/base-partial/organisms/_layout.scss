@@ -90,12 +90,16 @@
     width: 48%;
     @media only screen and (max-width: 1024px) {
         width: 100%;
+        // max-width: 360px;
         // margin-bottom: 30px;
         &:last-child{
             @media only screen and (min-width: 1025px) {
                 margin-bottom: 0px;
             }
         }
+    }
+    @media only screen and (max-width: 767px) {
+        max-width: 100%;
     }
     .image-block    {
         @media only screen and (max-width: 1024px) {
@@ -156,24 +160,34 @@
 .sec-pad{
     @include flexbox;
     @include align-items(center);
-    padding: 160px 0;
+    padding: 80px 0;
     @media only screen and (max-width: 1024px) {
         /*padding: 30px 15px;*/
         padding: 30px 35px;
     }
     p{
         margin-bottom: 20px;
+        &:last-child{
+            margin-bottom: 0; 
+        }
     }
+    overflow: hidden;
 }
 .sec-pad{
     .one-half{
         p{
             @media only screen and (max-width: 1024px) {
                 max-width: 600px;
-                margin: 0 auto 20px;
+                // margin: 0 auto 20px; 
             }
             @media only screen and (max-width: 767px) {
                 max-width: 100%; 
+            }
+            &::last-child{
+                margin-bottom: 0;
+                @media only screen and (max-width: 1024px) {
+                    margin-bottom: 0;  
+                }
             }
         }
     }
@@ -245,6 +259,7 @@
         }
     }
     .magpluspro-con-block{
+        position: relative;
         padding: 135px 0 90px 38%; 
         background-image: url('../../images/magplus-pro-bg.png'); 
         background-repeat: no-repeat; 
@@ -264,15 +279,29 @@
             padding: 95px 0 90px 15%;
         }
         @media only screen and (max-width: 767px) {
-            padding: 40px 0;
+            padding: 40px;
             background-size: 80%;
             padding-bottom: 220px;
             background-position: 300% 90px;
             text-align: left;
-            padding-left: 25px;
+            background-image: none; 
         }
-        @media only screen and (max-width: 400px) {
-            background-position: 300% 180px; 
+        .check-out-bg{
+            display: none;
+            position: absolute;
+            bottom: 0;
+            right: -200px; 
+            width: 100%; 
+            height: 320px;
+            background-image: url('../../images/magplus-pro-bg.png'); 
+            background-repeat: no-repeat; 
+            background-size: 90%; 
+            @media only screen and (max-width: 767px) {
+                display: block;
+            }
+            @media only screen and (max-width: 400px) {
+                height: 270px;
+            }
         }
     }
 }

@@ -227,24 +227,27 @@
     .full-wrap-carousel{
         padding-top: 70px; 
     }
+    .slider-counter{
+        position: static;
+    }
     .owl-nav{
         position: relative;
     }
     .owl-prev, .owl-next{
         position: absolute;    
-        top: -7px; 
+        top: 0; 
     }
     .owl-nav .owl-prev{
-        left: 43%;
+        left: 45%;
         @media only screen and (max-width: 1024px) {
-            left: 15%;        
+            left: 30%;        
         }
     } 
     .owl-nav .owl-next{
-        right: 43%; 
+        right: 45%; 
         left: auto;
         @media only screen and (max-width: 1024px) {
-            right: 15%;  
+            right: 30%;     
         }
     }
     .owl-prev{
