@@ -1846,7 +1846,11 @@ input:-webkit-autofill:focus {
       color: #fff; }
     .mob-select .selected a::before {
       top: 10px;
-      background-image: url(../../images/icons/dropdown-white-arrow-ico.svg); }
+      background-image: url(../../images/icons/dropdown-white-arrow-ico.svg);
+      transform: rotate(360deg);
+      transition: all 0.3s; }
+  .mob-select.open .selected a::before {
+    transform: rotate(180deg); }
 
 .salesforce_w2l_lead .top-aligned .w2llabel {
   font-size: 15px;
@@ -4103,6 +4107,14 @@ footer {
       top: -100px;
       background-size: contain; } }
 
+.trusted-sec {
+  padding-bottom: 40px; }
+  @media only screen and (max-width: 1024px) {
+    .trusted-sec {
+      padding-bottom: 30px; } }
+  .trusted-sec .title-with-border {
+    margin-bottom: 0; }
+
 .entry-title {
   font-variation-settings: 30px;
   line-height: 42px; }
@@ -4317,7 +4329,7 @@ footer {
         align-items: center;
         justify-content: center;
         height: 55px;
-        font-size: 10px;
+        font-size: 13px;
         line-height: 17px;
         border-bottom: 1px solid #ddd;
         border-top: 0; } }

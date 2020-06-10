@@ -452,6 +452,7 @@
         });
 
         jQuery(".mob-select .selected a").click(function() {
+            jQuery(".mob-select").toggleClass("open");
             jQuery(".mob-select .options ul").toggle();
         });
 

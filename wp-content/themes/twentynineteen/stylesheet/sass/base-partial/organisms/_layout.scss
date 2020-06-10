@@ -519,3 +519,12 @@
         }
     }
 }
+.trusted-sec{
+    padding-bottom: 40px;
+    @media only screen and (max-width: 1024px) {
+        padding-bottom: 30px;
+    }
+    .title-with-border{
+        margin-bottom: 0;
+    }
+}
