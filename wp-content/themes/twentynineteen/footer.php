@@ -530,7 +530,7 @@
 
     jQuery(window).scroll(function() {
         var windscroll = jQuery(window).scrollTop();
-        if (windscroll >= 130) {
+        if (windscroll >= 69) {
             jQuery('.sticky-nav-block').addClass('fixed');
             jQuery('.scrrol-sec').each(function(i) {
                 // alert(i);

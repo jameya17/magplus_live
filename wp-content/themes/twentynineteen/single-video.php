@@ -155,18 +155,18 @@ get_header();
                                 );
                                 $the_query = new WP_Query( $args );
                                 while ( $the_query->have_posts() ) : $the_query->the_post();
-                                $thumb = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
+                                $thumb = get_post_meta($post->ID, '_mag_video_thumbnail', true);
                                 $text = get_the_excerpt();
                                 $text = preg_replace('#\[vc_row\](.*?)\[vc_column_text\]#ims', '', $text);
                             ?>
                                 <div class="card card-with-image item">
                                     <div class="card-body">
-                                        <div class="card-image" style="max-height: 160px; background-image: url(<?php echo $thumb[0]; ?>); background-size: cover; background-repeat: no-repeat; border-radius: 18px 18px 0 0;">
+                                        <div class="card-image" style="max-height: 160px; background-image: url(<?php echo $thumb; ?>); background-size: cover; background-repeat: no-repeat; border-radius: 18px 18px 0 0;">
                                         </div>
                                         <div class="card-body-con">
                                             <span class="publish-date"><?php the_time('F d, Y'); ?> </span>
                                             <h5 class="card-title two-ellipsis"><?php the_title(); ?></h5>
-                                            <p class="card-discp block-ellipsis"><?php echo $text; ?></p>
+                                            <p class="card-discp block-ellipsis"><?php the_excerpt(); ?></p>
                                             <a href="<?php the_permalink(); ?>" class="text-link">Read More +</a>
                                         </div>    
                                     </div>
