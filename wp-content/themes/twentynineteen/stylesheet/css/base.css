@@ -2334,8 +2334,11 @@ input:-webkit-autofill:focus {
   padding-bottom: 0; }
   @media only screen and (max-width: 1024px) {
     .full-wrap-carousel {
-      max-width: 100%;
+      max-width: 360px;
       padding-bottom: 0; } }
+  @media only screen and (max-width: 767px) {
+    .full-wrap-carousel {
+      max-width: 100%; } }
   .full-wrap-carousel .owl-item img {
     max-width: 100%;
     border: 1px solid #979797;
@@ -2343,7 +2346,7 @@ input:-webkit-autofill:focus {
     border-radius: 8px; }
   .full-wrap-carousel .owl-item.active .item-image {
     transform: none;
-    opacity: .5; }
+    opacity: .2; }
     @media only screen and (max-width: 1024px) {
       .full-wrap-carousel .owl-item.active .item-image {
         opacity: 1; } }
@@ -2523,6 +2526,13 @@ input:-webkit-autofill:focus {
     .five-col-carousel {
       max-width: 100%;
       padding-bottom: 0; } }
+
+@media only screen and (max-width: 1024px) {
+  .blog-carousel {
+    max-width: 560px; } }
+@media only screen and (max-width: 767px) {
+  .blog-carousel {
+    max-width: 100%; } }
 
 .pagination {
   margin: 0 auto 50px;
@@ -3714,11 +3724,15 @@ footer {
   width: 48%; }
   @media only screen and (max-width: 1024px) {
     .one-half {
-      width: 100%; } }
+      width: 100%;
+      max-width: 360px; } }
   @media only screen and (max-width: 1024px) and (min-width: 1025px) {
     .one-half:last-child {
       margin-bottom: 0px; } }
 
+  @media only screen and (max-width: 767px) {
+    .one-half {
+      max-width: 100%; } }
   @media only screen and (max-width: 1024px) {
     .one-half .image-block {
       margin-bottom: 30px; } }
@@ -4706,21 +4720,23 @@ footer {
 
 .tutorials-section .full-wrap-carousel {
   padding-top: 70px; }
+.tutorials-section .slider-counter {
+  position: static; }
 .tutorials-section .owl-nav {
   position: relative; }
 .tutorials-section .owl-prev, .tutorials-section .owl-nav .owl-next, .owl-nav .tutorials-section .owl-next, .tutorials-section .owl-next {
   position: absolute;
-  top: -7px; }
+  top: 0; }
 .tutorials-section .owl-nav .owl-prev, .tutorials-section .owl-nav .owl-next {
-  left: 43%; }
+  left: 45%; }
   @media only screen and (max-width: 1024px) {
     .tutorials-section .owl-nav .owl-prev, .tutorials-section .owl-nav .owl-next {
-      left: 15%; } }
+      left: 30%; } }
 .tutorials-section .owl-nav .owl-next {
-  right: 43%;
+  right: 45%;
   left: auto; }
   @media only screen and (max-width: 1024px) {
     .tutorials-section .owl-nav .owl-next {
-      right: 15%; } }
+      right: 30%; } }
 
 /*# sourceMappingURL=base.css.map */

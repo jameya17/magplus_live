@@ -134,7 +134,7 @@ get_header();
         <section class="l-section sec-pad white-bg">
             <div class="l-section-wrap" data-aos="fade-up">
                 <div class="g-col align-center">  
-                    <h3>Other Offerings - Names of the offerings</h3>
+                    <h3>Names of the offerings</h3>
                     
                     <div class="card-section">
                         <div class="card-listing marb-75">

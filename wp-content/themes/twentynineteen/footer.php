@@ -202,26 +202,26 @@
         });
         jQuery(".full-wrap-carousel").owlCarousel({
             items: 1,
-            loop: false,
+            loop: true,
             center: false,
             margin: 10,
             nav: true,
-            dots: true,
+            dots: false,
             autoplay: true,
             autoplayHoverPause: true,
             responsive: {
-                600: {
+                1024: {
                     loop: true,
                     center: true,
                     items: 3,
                     margin: 30,
                     nav: true,
-                    dots: true,
+                    dots: false,
                     autoplay: true
                 }
             }
         });
-        jQuery('.section-carousel, .five-col-carousel').on('initialized.owl.carousel changed.owl.carousel', function(e) {
+        jQuery('.section-carousel, .five-col-carousel, .full-wrap-carousel').on('initialized.owl.carousel changed.owl.carousel', function(e) {
             if (!e.namespace) {
                 return;
             }

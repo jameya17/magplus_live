@@ -159,8 +159,11 @@
     max-width: 1440px;  
     padding-bottom: 0;
     @media only screen and (max-width: 1024px) {
-        max-width: 100%;
+        max-width: 360px; 
         padding-bottom: 0;
+    }
+    @media only screen and (max-width: 767px) {
+        max-width: 100%;
     }
     .owl-item{
         img{
@@ -172,7 +175,7 @@
         &.active{
             .item-image{
                 transform: none;  
-                opacity: .5;
+                opacity: .2;
                 @media only screen and (max-width: 1024px) {
                     opacity: 1;
                 }
@@ -398,3 +401,11 @@
         padding-bottom: 0;
     } 
 }
+.blog-carousel{
+    @media only screen and (max-width: 1024px) {
+        max-width: 560px;
+    }
+    @media only screen and (max-width: 767px) {
+        max-width: 100%; 
+    }
+} 
