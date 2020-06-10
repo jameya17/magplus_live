@@ -3819,7 +3819,7 @@ footer {
     max-width: 100%; } }
 
 .magplus-pro .sec-pad.intro-sec {
-  padding: 60px 0; }
+  padding: 0; }
   @media only screen and (max-width: 1024px) {
     .magplus-pro .sec-pad.intro-sec {
       padding: 30px 0; } }
@@ -4013,13 +4013,19 @@ footer {
     display: block;
     min-height: 42px; } }
 
-.home-screen .home-banner .g-col {
-  position: relative; }
+.home-screen .home-banner {
+  padding: 0;
+  overflow: hidden; }
+  @media only screen and (max-width: 1024px) {
+    .home-screen .home-banner {
+      padding: 30px 35px; } }
+  .home-screen .home-banner .g-col {
+    position: relative; }
 .home-screen .home-banner-bg {
   display: block;
   position: absolute;
   width: 1130px;
-  height: 700px;
+  height: 914px;
   right: -458px;
   background-image: url(../../images/bgicon.png);
   background-repeat: no-repeat;
@@ -4037,7 +4043,7 @@ footer {
   @media only screen and (max-width: 767px) {
     .home-screen .home-banner-bg {
       top: -70px;
-      background-size: 100%;
+      background-size: contain;
       background-position: center center; } }
 
 .magplus-pro .home-banner .one-half {
@@ -4059,7 +4065,7 @@ footer {
   @media only screen and (max-width: 767px) {
     .magplus-pro .home-banner-bg {
       top: -100px;
-      background-size: 90%; } }
+      background-size: contain; } }
 
 .entry-title {
   font-variation-settings: 30px;
@@ -4087,6 +4093,9 @@ footer {
   line-height: 36px;
   color: #333;
   margin-bottom: 50px; }
+  @media only screen and (max-width: 1024px) {
+    .privacy-pg .sec-title {
+      margin-bottom: 20px; } }
 .privacy-pg .content-block {
   padding-left: 350px;
   font-size: 16px;

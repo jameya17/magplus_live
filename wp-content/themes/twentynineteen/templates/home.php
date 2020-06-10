@@ -9,7 +9,7 @@ get_header();
 ?>
 
     <div class="container home-screen">
-        <section class="l-section sec-pad white-bg home-banner">
+        <section id="banner" class="l-section sec-pad white-bg home-banner">
             <div class="l-section-wrap">
                 <div class="g-col">
                     <div class="one-half">
