@@ -31,7 +31,7 @@
         <div class="foot-col">
             <h6 class="toggle">Legal</h6>
             <ul class="inner foot-link-block">
-                <li><a href="<?php echo get_permalink(870); ?>" class="foot-link" title="Privacy Policy  ">Privacy Policy  </a></li>
+                <li><a href="<?php echo get_permalink(870); ?>" class="foot-link" title="Privacy Policy  ">Privacy Policy</a></li>
                 <li><a href="<?php echo get_permalink(867); ?>" class="foot-link" title="Terms of Use">Terms of Use</a></li>
                 <li><a href="<?php echo get_permalink(608); ?>" class="foot-link" title="License and Agreement">License and Agreement</a></li>
             </ul>

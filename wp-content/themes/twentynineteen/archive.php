@@ -39,7 +39,7 @@ get_header();
                         	?>
                             <div class="card card-with-image item" data-aos="fade-up">
                                 <div class="card-body">
-                                    <div class="card-image" style="max-height: 160px; background-image: url(<?php echo $thumb[0]; ?>); background-size: cover; background-repeat: no-repeat; border-radius: 18px 18px 0 0;">
+                                    <div class="card-image" style="max-height: 260px; background-image: url(<?php echo $thumb[0]; ?>); background-size: cover; background-repeat: no-repeat; border-radius: 18px 18px 0 0;">
                                     </div>
                                     <div class="card-body-con">
                                         <span class="publish-date"><?php the_time('F d, Y'); ?></span>
