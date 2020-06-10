@@ -2212,7 +2212,7 @@ input:-webkit-autofill:focus {
 
 .acc-ans {
   display: none;
-  margin-top: 15px;
+  margin-top: 10px;
   text-align: left; }
   .acc-ans p {
     font-size: 14px;
