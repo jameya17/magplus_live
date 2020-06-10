@@ -34,7 +34,7 @@ get_header();
             <div class="l-section-wrap" data-aos="fade-up">
                 <div class="l-sub-section-pad">
                     <h3 class="sec-title title-with-border">Why choose us?</h3>    
-                    <div class="g-col">
+                    <div class="g-col" style="align-items: flex-start;">
                         <div class="card plain-card">
                             <div class="card-body">
                                 <div class="card-icon">

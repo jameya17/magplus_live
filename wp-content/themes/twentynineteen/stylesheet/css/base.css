@@ -3087,12 +3087,9 @@ input:-webkit-autofill:focus {
 
 @media only screen and (max-width: 1024px) {
   .open-slide {
-    height: 464px;
+    height: 100vh;
     border-bottom: 1px solid #ddd;
     overflow-y: auto; } }
-@media only screen and (max-width: 320px) {
-  .open-slide {
-    height: 400px; } }
 
 .icon-burger {
   display: none; }

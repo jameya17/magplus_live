@@ -263,13 +263,14 @@
 } 
 .open-slide {
     @media only screen and (max-width: 1024px) {
-        height: 464px;
+        // height: 464px;
+        height: 100vh;
         border-bottom: 1px solid #ddd;
         overflow-y: auto; 
     }     
-    @media only screen and (max-width: 320px) {
-        height: 400px;
-    }
+    // @media only screen and (max-width: 320px) {
+    //     height: 400px;
+    // }
 }    
 .icon-burger{
     display: none;
