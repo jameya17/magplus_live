@@ -211,8 +211,9 @@
         max-width: 325px;
         margin: 30px; 
         @media only screen and (max-width: 1024px) { 
-            margin: 0px; 
+            margin: 15px; 
             margin-bottom: 25px; 
+            max-width: 320px;
         }
     }
     .card-with-image{
@@ -226,6 +227,9 @@
 .tutorials-section{ 
     .full-wrap-carousel{
         padding-top: 70px; 
+        @media only screen and (max-width: 1024px) {
+            padding-top: 40px; 
+        }
     }
     .slider-counter{
         position: static;

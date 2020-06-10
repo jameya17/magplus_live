@@ -822,13 +822,19 @@ ol {
     .video-section {
       margin: 25px 0 0;
       min-height: 210px; } }
+  @media only screen and (max-width: 400px) {
+    .video-section {
+      min-height: 175px; } }
+  @media only screen and (max-width: 320px) {
+    .video-section {
+      min-height: 142px; } }
 
 .video-play-btn {
   display: inline-block;
   width: 59px;
   height: 59px;
   position: absolute;
-  top: 50%;
+  top: 46%;
   right: 0;
   left: 0;
   margin: -30px auto 0;
@@ -4619,6 +4625,11 @@ footer {
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50%; }
+    @media only screen and (max-width: 1024px) {
+      .video-listing-block .loader {
+        left: 0;
+        right: 0;
+        margin: 0 auto; } }
   .video-listing-block .loading-spinner {
     position: absolute;
     top: 0;
@@ -4808,14 +4819,18 @@ footer {
   margin: 30px; }
   @media only screen and (max-width: 1024px) {
     .blog-listing-section .card {
-      margin: 0px;
-      margin-bottom: 25px; } }
+      margin: 15px;
+      margin-bottom: 25px;
+      max-width: 320px; } }
 .blog-listing-section .card-with-image img {
   width: 100%;
   border-radius: 18px 18px 0 0; }
 
 .tutorials-section .full-wrap-carousel {
   padding-top: 70px; }
+  @media only screen and (max-width: 1024px) {
+    .tutorials-section .full-wrap-carousel {
+      padding-top: 40px; } }
 .tutorials-section .slider-counter {
   position: static; }
 .tutorials-section .owl-nav {
