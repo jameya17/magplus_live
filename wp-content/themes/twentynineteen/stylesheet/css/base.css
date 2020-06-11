@@ -1894,12 +1894,12 @@ input:-webkit-autofill:focus {
   letter-spacing: -0.2px;
   padding: 10px 0;
   border: 0;
-  width: 100% !important;
+  width: 90% !important;
   margin: 0 !important;
   border-bottom: 1px solid #8D8788; }
   @media only screen and (max-width: 767px) {
     .salesforce_w2l_lead .top-aligned .w2linput {
-      width: 100%; } }
+      width: 100% !important; } }
 
 .salesforce_w2l_lead .w2linput.text {
   width: 90%; }
