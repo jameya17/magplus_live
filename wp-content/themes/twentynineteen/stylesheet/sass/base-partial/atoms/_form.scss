@@ -613,16 +613,17 @@ input:-webkit-autofill:focus {
         }
         @media only screen and (max-width: 767px) {
             height: 100%;
-            width: 340px;
+            width: auto;  
+            
         }
-        @media only screen and (max-width: 400px) {
-            height: 100%;
-            width: 340px;
-        }
-        @media only screen and (max-width: 374px) {
-            height: 100%;
-            width: 287px;
-        }
+        // @media only screen and (max-width: 400px) {
+        //     height: 100%;
+        //     width: 342px;  
+        // }
+        // @media only screen and (max-width: 374px) {
+        //     height: 100%;
+        //     width: 287px;
+        // }
     }
     .form-field-group{
         margin-bottom: 20px;

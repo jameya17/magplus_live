@@ -290,16 +290,16 @@
 
         });
         jQuery('.contact-click').on('click', function() { 
-            jQuery(this).closest('.drawer-head').next('.drawer-body').addClass('active');
+            jQuery(this).closest('.sticky-drawer-section').addClass('active');
         }); 
         
-        jQuery('.home-contact-click').on('click', function() { 
-           jQuery(this).find(".sticky-drawer-section .drawer-body");
-           jQuery('.drawer-body').addClass('active'); 
-           console.log(jQuery(this).find(".sticky-drawer-section .drawer-body").addClass('active'));
-        });
+        // jQuery('.home-contact-click').on('click', function() { 
+        //    jQuery(this).find(".sticky-drawer-section .drawer-body");
+        //    jQuery('.drawer-body').addClass('active'); 
+        //    console.log(jQuery(this).find(".sticky-drawer-section .drawer-body").addClass('active'));
+        // });
         jQuery('.close-popup').on('click', function() {  
-            jQuery(this).closest('.drawer-body').removeClass('active');
+            jQuery(this).closest('.sticky-drawer-section').removeClass('active');
         });
         jQuery('.card-deck a').fancybox({
             caption: function(instance, item) {
