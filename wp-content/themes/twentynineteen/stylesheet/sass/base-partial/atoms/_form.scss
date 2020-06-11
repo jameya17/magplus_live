@@ -858,6 +858,9 @@ input:-webkit-autofill:focus {
     width: 90% !important; 
     margin: 0 !important; 
     border-bottom: 1px solid #8D8788;  
+    @media only screen and (max-width: 767px) {
+        width: 100%;
+    }
 }
 .salesforce_w2l_lead .w2linput.text{
     width: 90%; 

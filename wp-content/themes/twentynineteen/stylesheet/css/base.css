@@ -1889,6 +1889,9 @@ input:-webkit-autofill:focus {
   width: 90% !important;
   margin: 0 !important;
   border-bottom: 1px solid #8D8788; }
+  @media only screen and (max-width: 767px) {
+    .salesforce_w2l_lead .top-aligned .w2linput {
+      width: 100%; } }
 
 .salesforce_w2l_lead .w2linput.text {
   width: 90%; }
@@ -2676,7 +2679,7 @@ input:-webkit-autofill:focus {
       background-color: #fff;
       width: 100%;
       padding: 0;
-      z-index: 9;
+      z-index: 2;
       transition: all .3s; } }
   .sidebar.active {
     bottom: 0; }
@@ -3408,7 +3411,7 @@ footer {
     .contact-us {
       font-size: 12px;
       line-height: 14px;
-      padding: 35px 8px; } }
+      padding: 25px 8px; } }
 
 .sharing-icon {
   display: inline-block;
