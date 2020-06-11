@@ -15,7 +15,7 @@ get_header();
             <div class="l-section-wrap">
                 <div class="l-sub-section-pad">
                     <div class="g-col">
-                        <div class="one-half image-block">
+                        <div class="one-half image-block" style="margin-bottom: 0;">
                             <img src="<?php bloginfo('template_directory'); ?>/images/boost-your-brand.png" alt="Digital storytelling made Easier" />
                         </div>    
                         <div class="one-half">
