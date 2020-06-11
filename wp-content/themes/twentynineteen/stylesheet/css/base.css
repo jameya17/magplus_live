@@ -1708,8 +1708,9 @@ input:-webkit-autofill:focus {
         overflow-y: auto; } }
     @media only screen and (max-width: 767px) {
       .contact-us-form .form-block {
-        height: 100%;
-        width: auto; } }
+        height: calc(100vh - 52px);
+        width: auto;
+        overflow-y: auto; } }
   .contact-us-form .form-field-group {
     margin-bottom: 20px; }
   .contact-us-form .styled-input {
@@ -2893,7 +2894,7 @@ input:-webkit-autofill:focus {
   height: 68px;
   background-color: #fff;
   box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.1);
-  z-index: 2;
+  z-index: 6;
   transition: all 0.4s; }
   @media only screen and (max-width: 1024px) {
     .header {
@@ -2931,6 +2932,7 @@ input:-webkit-autofill:focus {
 
 @media only screen and (max-width: 1024px) {
   .sticky-nav-tabs {
+    display: none;
     position: absolute;
     width: 100%;
     background: white;
@@ -2941,6 +2943,9 @@ input:-webkit-autofill:focus {
     left: 0;
     float: none;
     margin-top: 0; } }
+@media only screen and (max-width: 1024px) {
+  .sticky-nav-tabs.open-slide {
+    display: block; } }
 
 .sticky-nav-tabs-container {
   padding: 0;
@@ -3113,7 +3118,7 @@ input:-webkit-autofill:focus {
 
 @media only screen and (max-width: 1024px) {
   .open-slide {
-    height: 100vh;
+    height: calc(100vh - 57px);
     border-bottom: 1px solid #ddd;
     overflow-y: auto; } }
 
@@ -3352,7 +3357,10 @@ footer {
   right: 0;
   top: 10%;
   width: 100%;
-  z-index: 3; }
+  z-index: 9; }
+  @media only screen and (max-width: 768px) {
+    .sticky-drawer-section {
+      top: 8%; } }
   @media only screen and (max-width: 676px) {
     .sticky-drawer-section {
       top: 0; } }
@@ -3362,20 +3370,18 @@ footer {
   top: 80px;
   right: 0; }
 
-.drawer-body {
+.drawer-body .contact-us-form {
   position: absolute;
-  top: 0;
-  right: -1000px;
+  right: -100%;
   transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   visibility: hidden; }
+  @media only screen and (max-width: 667px) {
+    .drawer-body .contact-us-form {
+      width: 100%; } }
 
-.sticky-drawer-section.active {
-  z-index: 9; }
-  .sticky-drawer-section.active .drawer-body {
-    right: 0;
-    visibility: visible;
-    height: 100vh;
-    overflow: auto; }
+.sticky-drawer-section.active .drawer-body .contact-us-form {
+  right: 0;
+  visibility: visible; }
 
 .contact-us {
   font-size: 14px;
@@ -3402,7 +3408,7 @@ footer {
     .contact-us {
       font-size: 12px;
       line-height: 14px;
-      padding: 35px 13px; } }
+      padding: 35px 8px; } }
 
 .sharing-icon {
   display: inline-block;
@@ -3439,9 +3445,6 @@ footer {
         width: 50px;
         height: 50px;
         background-size: 100%; } }
-
-.contact-us-form {
-  position: relative; }
 
 #close-popup {
   display: inline-block;
@@ -3861,7 +3864,7 @@ footer {
   @media only screen and (max-width: 1024px) {
     .sec-pad {
       /*padding: 30px 15px;*/
-      padding: 30px 45px; } }
+      padding: 30px 30px; } }
   .sec-pad p {
     margin-bottom: 20px; }
     .sec-pad p:last-child {
@@ -4637,6 +4640,9 @@ footer {
 
 .entry-header .post-meta {
   margin-bottom: 35px; }
+  @media only screen and (max-width: 450px) {
+    .entry-header .post-meta {
+      margin-bottom: 25px; } }
 .entry-header .category-name, .entry-header .publish-details {
   display: inline-block;
   font-size: 11px;
@@ -4657,11 +4663,20 @@ footer {
   letter-spacing: 0px;
   font-weight: 700;
   margin-bottom: 20px; }
+  @media only screen and (max-width: 450px) {
+    .entry-header .entry-title {
+      font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 10px; } }
 .entry-header p {
   font-size: 18px;
   line-height: 30px;
   color: #595656;
   font-weight: 400; }
+  @media only screen and (max-width: 450px) {
+    .entry-header p {
+      font-size: 15px;
+      line-height: 23px; } }
 
 .entry-content .blog-img {
   display: block;
@@ -4711,6 +4726,9 @@ footer {
   letter-spacing: 0px;
   font-weight: 700;
   margin-bottom: 20px; }
+  @media only screen and (max-width: 450px) {
+    .entry-content h2 {
+      margin-bottom: 10px; } }
 .entry-content b {
   font-size: 18px;
   line-height: 30px;
@@ -4718,6 +4736,10 @@ footer {
   letter-spacing: 0px;
   font-weight: 700;
   margin-bottom: 0; }
+  @media only screen and (max-width: 450px) {
+    .entry-content b {
+      line-height: 22px;
+      color: #333333; } }
 .entry-content a {
   font-size: 16px;
   line-height: 26px;
