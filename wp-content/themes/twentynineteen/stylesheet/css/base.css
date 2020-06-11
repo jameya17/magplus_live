@@ -3404,7 +3404,7 @@ footer {
   .contact-us:hover {
     color: #F36F21;
     border-color: #F36F21; }
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 450px) {
     .contact-us {
       font-size: 12px;
       line-height: 14px;
@@ -4688,6 +4688,10 @@ footer {
   line-height: 30px;
   color: #595656;
   font-weight: 400; }
+  @media only screen and (max-width: 450px) {
+    .entry-content p {
+      font-size: 15px;
+      line-height: 23px; } }
 .entry-content li {
   font-size: 18px;
   line-height: 30px;
