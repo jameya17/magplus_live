@@ -4412,9 +4412,12 @@ footer {
 
 .pricing-pg p {
   margin-bottom: 50px; }
+  @media only screen and (max-width: 1024px) {
+    .pricing-pg p {
+      margin-bottom: 30px; } }
 
 .pricing-chart-table {
-  padding-bottom: 110px;
+  padding-bottom: 80px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -4501,7 +4504,7 @@ footer {
         border-top: 0; } }
   @media only screen and (max-width: 1024px) {
     .plan-th, .plan-td {
-      margin-bottom: 30px;
+      margin-bottom: 0;
       border: 1px solid #ddd;
       border-top: 0;
       padding-top: 45px; } }
@@ -4522,7 +4525,7 @@ footer {
       border-left: 0; } }
 
 .pricing-switcher {
-  margin-bottom: 100px; }
+  margin-bottom: 80px; }
   @media only screen and (max-width: 1024px) {
     .pricing-switcher {
       margin-bottom: 40px; } }
@@ -4563,7 +4566,7 @@ footer {
   position: absolute;
   right: 0;
   top: 0;
-  z-index: 1; }
+  z-index: 2; }
 
 .tutorialPg .sidebar {
   width: 26.5%; }
