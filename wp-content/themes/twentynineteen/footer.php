@@ -267,7 +267,14 @@
             nav: true,
             dots: true,
             responsive: {
-                600: {
+                768: { 
+                    items: 2,
+                    margin: 30,
+                    loop: true,
+                    nav: true,
+                    dots: false,
+                },
+                1024: {
                     items: 3,
                     margin: 30,
                     loop: true,
