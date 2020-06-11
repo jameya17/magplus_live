@@ -2880,6 +2880,9 @@ input:-webkit-autofill:focus {
   background-color: #ECECEC;
   padding: 60px 20px;
   border-radius: 8px; }
+  @media only screen and (max-width: 1024px) {
+    .post-sidebar .sidebar-section-listing .widget.wp_subscribe.amr_widget {
+      padding: 20px; } }
   .post-sidebar .sidebar-section-listing .widget.wp_subscribe.amr_widget .wp-subscribe-wrap {
     text-align: left; }
     .post-sidebar .sidebar-section-listing .widget.wp_subscribe.amr_widget .wp-subscribe-wrap h4.title {
@@ -4742,6 +4745,8 @@ footer {
   color: #333333; }
   @media only screen and (max-width: 450px) {
     .entry-content li {
+      font-size: 15px;
+      line-height: 23px;
       text-align: left; } }
 .entry-content strong {
   font-weight: bold;
