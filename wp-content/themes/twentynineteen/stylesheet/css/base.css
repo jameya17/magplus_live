@@ -4742,7 +4742,8 @@ footer {
   margin-bottom: 35px; }
   @media only screen and (max-width: 450px) {
     .entry-header .post-meta {
-      margin-bottom: 25px; } }
+      margin-bottom: 25px;
+      word-break: break-word; } }
 .entry-header .category-name, .entry-header .publish-details {
   display: inline-block;
   font-size: 11px;
@@ -4779,6 +4780,9 @@ footer {
       line-height: 23px; } }
 
 @media only screen and (max-width: 1024px) {
+  .entry-content {
+    padding: 0 30px; } }
+@media only screen and (max-width: 767px) {
   .entry-content {
     padding: 0 30px; } }
 .entry-content .blog-img {
