@@ -281,7 +281,7 @@
             if (jQuery(window).width() < 1024) {
                 var scrollPoint = jQuery('#' + jQuery(this).attr("data-scroll")).offset().top - 85;
             } else {
-                var scrollPoint = jQuery('#' + jQuery(this).attr("data-scroll")).offset().top - 85;
+                var scrollPoint = jQuery('#' + jQuery(this).attr("data-scroll")).offset().top - 65;
             }
             jQuery('body,html').animate({
                 scrollTop: scrollPoint
