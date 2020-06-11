@@ -402,7 +402,7 @@
 
         }
 
-        if (jQuery(window).width() < 767) {
+        if (jQuery(window).width() < 1024) {
             jQuery('.sidebar-header').click(function() {
                 jQuery(this).parent('.sidebar').toggleClass("active");
             })
