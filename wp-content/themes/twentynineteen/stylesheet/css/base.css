@@ -2641,7 +2641,7 @@ input:-webkit-autofill:focus {
     max-width: 100%; } }
 
 .pagination {
-  margin: 0 auto 50px;
+  margin: 0 auto 0;
   padding: 0;
   list-style-type: none;
   display: flex;
@@ -4954,7 +4954,7 @@ footer {
   -moz-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-bottom: 150px; }
+  margin-bottom: 50px; }
   @media only screen and (max-width: 1024px) {
     .blog-listing-section .blog-listing {
       margin-bottom: 0px; } }
