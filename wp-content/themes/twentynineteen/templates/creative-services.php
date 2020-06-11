@@ -14,10 +14,7 @@ get_header();
         <section class="l-section sec-pad white-bg">
             <div class="l-section-wrap">
                 <div class="l-sub-section-pad">
-                    <div class="g-col">
-                        <div class="one-half image-block mar0">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/digital-storytelling-made-easier.png" alt="Digital storytelling made Easier" />
-                        </div>    
+                    <div class="g-col row-reverse">
                         <div class="one-half">
                             <h3>We can help you elevate your brand!</h3>
                             <p>The mag+ Creative Studios helps bring your content to life and tailor unique digital experiences. Every design decision is taken to further elevate your brand image.</p>
@@ -25,6 +22,9 @@ get_header();
                                 <span class="span1">Know More</span>
                                 <span class="span2">Know More</span>
                             </a> -->
+                        </div>    
+                        <div class="one-half image-block mar0">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/digital-storytelling-made-easier.png" alt="Digital storytelling made Easier" />
                         </div>    
                     </div>    
                 </div>    

@@ -14,10 +14,7 @@ get_header();
         <section class="l-section sec-pad white-bg">
             <div class="l-section-wrap">
                 <div class="l-sub-section-pad">
-                    <div class="g-col">
-                        <div class="one-half image-block mar0">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/boost-your-users-engagement.png" alt="Digital storytelling made Easier" />
-                        </div>    
+                    <div class="g-col row-reverse">
                         <div class="one-half">
                             <h3>Boost your user's engagement</h3>
                             <p>With mag+ app update services, your mag+ apps are updated and published to the marketplace of your choice</p>
@@ -25,7 +22,10 @@ get_header();
                                 <span class="span1">Know More</span>
                                 <span class="span2">Know More</span>
                             </a> -->
-                        </div>    
+                        </div> 
+                        <div class="one-half image-block mar0">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/boost-your-users-engagement.png" alt="Digital storytelling made Easier" />
+                        </div>       
                     </div>    
                 </div>    
             </div>

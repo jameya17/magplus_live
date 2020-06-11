@@ -14,10 +14,7 @@ get_header();
         <section class="l-section sec-pad white-bg">
             <div class="l-section-wrap">
                 <div class="l-sub-section-pad">
-                    <div class="g-col">
-                        <div class="one-half image-block mar0">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/boost-your-brand.png" alt="Digital storytelling made Easier" />
-                        </div>    
+                    <div class="g-col row-reverse">    
                         <div class="one-half">
                             <h3>Boost your brand’s awareness and footprint</h3>
                             <p>Your mobile app is the gateway to your customer’s share of mind. To help you put your best foot forward, our experts will own the entire process to ensure that you make the most of that important first impression with your customer. </p>
@@ -25,7 +22,10 @@ get_header();
                                 <span class="span1">Know More</span>
                                 <span class="span2">Know More</span>
                             </a> -->
-                        </div>    
+                        </div> 
+                        <div class="one-half image-block mar0">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/boost-your-brand.png" alt="Digital storytelling made Easier" />
+                        </div>   
                     </div>    
                 </div>    
             </div>
