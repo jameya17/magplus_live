@@ -15,7 +15,7 @@ get_header();
             <div class="l-section-wrap">
                 <div class="l-sub-section-pad">
                     <div class="g-col">
-                        <div class="one-half image-block" style="margin-bottom: 0;">
+                        <div class="one-half image-block mar0">
                             <img src="<?php bloginfo('template_directory'); ?>/images/digital-storytelling-made-easier.png" alt="Digital storytelling made Easier" />
                         </div>    
                         <div class="one-half">
@@ -182,9 +182,9 @@ get_header();
                     <div class="g-col">
                         <div class="one-half">
                             <h3>What will we deliver?</h3>
-                            <p style="margin-bottom: 0;">Your plain content is converted into an engaging and creative digital story. The delivered content is publication-ready and can be instantly rendered to your preferred devices using the mobile app created using mag+.</p>
+                            <p class="marb0">Your plain content is converted into an engaging and creative digital story. The delivered content is publication-ready and can be instantly rendered to your preferred devices using the mobile app created using mag+.</p>
                         </div>    
-                        <div class="one-half image-block">
+                        <div class="one-half image-block marT0">
                             <img src="<?php bloginfo('template_directory'); ?>/images/outcome.png" alt="What will we deliver?">
                         </div>    
                     </div>    

@@ -15,7 +15,7 @@ get_header();
             <div class="l-section-wrap">
                 <div class="l-sub-section-pad">
                     <div class="g-col">
-                        <div class="one-half image-block" style="margin-bottom: 0;">
+                        <div class="one-half image-block mar0">
                             <img src="<?php bloginfo('template_directory'); ?>/images/boost-your-users-engagement.png" alt="Digital storytelling made Easier" />
                         </div>    
                         <div class="one-half">
@@ -156,9 +156,9 @@ get_header();
                     <div class="g-col">
                         <div class="one-half">
                             <h3>The Outcome</h3>
-                            <p style="margin-bottom: 0;">Your updated app is made available on the app stores to be downloaded by your app users.</p>
+                            <p class="marb0">Your updated app is made available on the app stores to be downloaded by your app users.</p>
                         </div>    
-                        <div class="one-half image-block">
+                        <div class="one-half image-block marT0">
                             <img src="<?php bloginfo('template_directory'); ?>/images/app-updation-the-outcome.png" alt="What will we deliver?">
                         </div>    
                     </div>    

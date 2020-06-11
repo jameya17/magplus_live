@@ -85,12 +85,14 @@
                     <li class="try-free-block">
                         <!-- <a class="btn" id="navLoginBtn" href="?page_id=31551">Download</a> -->
                         <a class="btn" id="navLoginBtn" href="<?php echo get_permalink(31549); ?>">Try for free</a>
-                        <ul class="sidebar-listing follow-us-listing mob-view">
-                            <li><a href="https://twitter.com/magplus/" title="Twitter" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/icons/grey-twitter.svg" alt="Twitter" /></a></li>
-                            <li><a href="https://www.facebook.com/magplus" target="_blank" title="facebook"><img src="<?php bloginfo('template_directory'); ?>/images/icons/grey-facebook.svg" alt="facebook" /></a></li>
-                            <li><a href="https://www.instagram.com/magplus/" target="_blank" title="Instagram"><img src="<?php bloginfo('template_directory'); ?>/images/icons/grey-instagram.svg" alt="Instagram" /></a></li>
-                            <li><a href="https://www.youtube.com/user/magplus" target="_blank" title="youTube"><img src="<?php bloginfo('template_directory'); ?>/images/icons/youtube.svg" alt="youTube" /></a></li>
-                        </ul>    
+                        <div class="mob-view">
+                            <ul class="sidebar-listing follow-us-listing">
+                                <li><a href="https://twitter.com/magplus/" title="Twitter" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/icons/grey-twitter.svg" alt="Twitter" /></a></li>
+                                <li><a href="https://www.facebook.com/magplus" target="_blank" title="facebook"><img src="<?php bloginfo('template_directory'); ?>/images/icons/grey-facebook.svg" alt="facebook" /></a></li>
+                                <li><a href="https://www.instagram.com/magplus/" target="_blank" title="Instagram"><img src="<?php bloginfo('template_directory'); ?>/images/icons/grey-instagram.svg" alt="Instagram" /></a></li>
+                                <li><a href="https://www.youtube.com/user/magplus" target="_blank" title="youTube"><img src="<?php bloginfo('template_directory'); ?>/images/icons/youtube.svg" alt="youTube" /></a></li>
+                            </ul>    
+                        </div>
                     </li>
                 </ul>
             </nav>

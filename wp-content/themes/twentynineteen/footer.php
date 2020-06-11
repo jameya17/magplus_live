@@ -209,6 +209,7 @@
             dots: false,
             autoplay: true,
             autoplayHoverPause: true,
+            autoHeight:true,
             responsive: {
                 1024: {
                     loop: true,
@@ -217,7 +218,8 @@
                     margin: 30,
                     nav: true,
                     dots: false,
-                    autoplay: true
+                    autoplay: true,
+                    autoHeight:true, 
                 }
             }
         });
@@ -277,9 +279,9 @@
         jQuery('.sticky-sidebar a').on('click', function() {
             var scrollAnchor = jQuery(this).attr('data-scroll');
             if (jQuery(window).width() < 1024) {
-                var scrollPoint = jQuery('#' + jQuery(this).attr("data-scroll")).offset().top - 60;
+                var scrollPoint = jQuery('#' + jQuery(this).attr("data-scroll")).offset().top - 85;
             } else {
-                var scrollPoint = jQuery('#' + jQuery(this).attr("data-scroll")).offset().top - 60;
+                var scrollPoint = jQuery('#' + jQuery(this).attr("data-scroll")).offset().top - 85;
             }
             jQuery('body,html').animate({
                 scrollTop: scrollPoint
@@ -568,7 +570,7 @@
             jQuery('.sticky-nav-block').addClass('fixed');
             jQuery('.scrrol-sec').each(function(i) {
                 // alert(i);
-                if (jQuery(this).position().top <= windscroll + 60) {
+                if (jQuery(this).position().top <= windscroll + 80) { 
                     jQuery('.sticky-sidebar a').removeClass('active');
                     jQuery('.sticky-sidebar a').eq(i).addClass('active');
                 }

@@ -1891,7 +1891,7 @@ input:-webkit-autofill:focus {
   letter-spacing: -0.2px;
   padding: 10px 0;
   border: 0;
-  width: 90% !important;
+  width: 100% !important;
   margin: 0 !important;
   border-bottom: 1px solid #8D8788; }
   @media only screen and (max-width: 767px) {
@@ -2273,6 +2273,19 @@ input:-webkit-autofill:focus {
     line-height: 24px;
     color: #595656;
     font-weight: 400; }
+  .owl-carousel .owl-bg-image {
+    min-height: 320px; }
+    @media only screen and (max-width: 1024px) {
+      .owl-carousel .owl-bg-image {
+        min-height: 200px;
+        max-width: 360px; } }
+
+.full-wrap-carousel .owl-bg-image {
+  min-height: 260px; }
+  @media only screen and (max-width: 1024px) {
+    .full-wrap-carousel .owl-bg-image {
+      min-height: 200px;
+      max-width: 360px; } }
 
 @media only screen and (max-width: 1024px) {
   .trusted-sec .title-with-border {
@@ -2484,7 +2497,7 @@ input:-webkit-autofill:focus {
     right: 0; }
     @media only screen and (max-width: 1024px) {
       .section-carousel .owl-nav {
-        top: 25px; } }
+        top: 50px; } }
     .section-carousel .owl-nav .owl-prev, .section-carousel .owl-nav .owl-next {
       left: -138px;
       right: auto; }
@@ -2518,7 +2531,7 @@ input:-webkit-autofill:focus {
   line-height: 33px; }
   @media only screen and (max-width: 1024px) {
     .slider-counter {
-      top: 25px; } }
+      top: 50px; } }
 
 .col-carousel {
   width: 100%;
@@ -3701,6 +3714,9 @@ footer {
       max-width: 570px; } }
   @media only screen and (max-width: 676px) {
     .small-wrap {
+      max-width: 320px; } }
+  @media only screen and (max-width: 400px) {
+    .small-wrap {
       max-width: 240px; } }
 
 .g-col {
@@ -4076,22 +4092,16 @@ footer {
   .how-it-works-sec .g-col {
     flex-direction: inherit; } }
 
-.mob-view {
-  display: none !important; }
-  @media only screen and (max-width: 1024px) {
-    .mob-view {
-      display: block !important; } }
-
 @media only screen and (max-width: 1024px) {
   h3.mob-view {
     text-align: center;
     margin: 0; } }
 
 .mob-view {
-  display: block; }
+  display: none; }
   @media only screen and (max-width: 1024px) {
     .mob-view {
-      display: none; } }
+      display: block; } }
 
 .desk-view {
   display: block; }
@@ -4185,6 +4195,15 @@ footer {
       padding-bottom: 30px; } }
   .trusted-sec .title-with-border {
     margin-bottom: 0; }
+
+.mar0 {
+  margin: 0; }
+
+.marT0 {
+  margin-top: 0; }
+
+.marb0 {
+  margin-bottom: 0 !important; }
 
 .entry-title {
   font-variation-settings: 30px;

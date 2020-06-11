@@ -45,6 +45,9 @@
         max-width: 570px;  
     }
     @media only screen and (max-width: 676px) {
+        max-width: 320px;  
+    }
+    @media only screen and (max-width: 400px) {
         max-width: 240px;  
     }
 }
@@ -436,12 +439,12 @@
         }     
     }
 }
-.mob-view{
-    display: none !important; 
-    @media only screen and (max-width: 1024px) {
-        display: block !important; 
-    }
-}
+// .mob-view{
+//     visibility: hidden;
+//     @media only screen and (max-width: 1024px) {
+//         visibility: visible;
+//     }
+// }
 h3.mob-view{
     @media only screen and (max-width: 1024px) {
         text-align: center;
@@ -449,9 +452,9 @@ h3.mob-view{
     }
 }
 .mob-view{
-    display: block;
+    display: none;
     @media only screen and (max-width: 1024px) {
-        display: none;
+        display: block;
     }
 }
 .desk-view{
@@ -563,4 +566,13 @@ h3.mob-view{
     .title-with-border{
         margin-bottom: 0;
     }
+}
+.mar0{
+    margin: 0;
+}
+.marT0{
+    margin-top: 0;
+}
+.marb0{
+    margin-bottom: 0 !important;
 }
