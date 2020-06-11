@@ -1053,7 +1053,12 @@ ol {
     background-color: #fff; }
   @media only screen and (max-width: 1024px) {
     .sticky-nav-block {
-      display: none; } }
+      padding: 5px 0;
+      top: 56px; }
+      .sticky-nav-block .sticky-sidebar li {
+        padding: 0 5px; }
+        .sticky-nav-block .sticky-sidebar li .nav-link {
+          font-size: 14px; } }
 
 .sticky-con-pad {
   padding-left: 350px; }

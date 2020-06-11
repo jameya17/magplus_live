@@ -61,7 +61,15 @@
         background-color: #fff;
     }
     @media only screen and (max-width: 1024px) {
-        display: none;
+        padding: 5px 0;
+        top: 56px;
+        .sticky-sidebar li{
+            padding: 0 5px;
+            .nav-link{
+                font-size: 14px;
+            }
+        }
+
     }
 }
 .sticky-con-pad{
