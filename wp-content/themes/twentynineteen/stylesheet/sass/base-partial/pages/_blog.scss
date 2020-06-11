@@ -160,6 +160,12 @@
             color: $dark-org-col;
         }
     }
+    iframe{
+        margin: 20px 0;
+        @media only screen and (max-width: 1024px) {
+            width: 100%;
+        }
+    }
 }  
 
 .fiveCol-slider{

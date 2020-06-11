@@ -2306,7 +2306,7 @@ input:-webkit-autofill:focus {
   position: relative;
   width: 750px;
   margin: 0 auto;
-  padding: 25px 0 60px;
+  padding: 25px 0 0;
   overflow: visible; }
   @media only screen and (max-width: 1024px) {
     .owl-carousel {
@@ -2642,7 +2642,7 @@ input:-webkit-autofill:focus {
 
 .pagination {
   margin: 0 auto 0;
-  padding: 0;
+  padding-bottom: 40px;
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -2665,7 +2665,9 @@ input:-webkit-autofill:focus {
     align-items: center; }
   @media only screen and (max-width: 1024px) {
     .pagination {
-      margin: 0 auto 20px; } }
+      margin: 0 auto 20px;
+      padding-bottom: 10px;
+      padding-left: 0; } }
   .pagination li {
     list-style-type: none;
     margin: 0 30px 0 0; }
@@ -2743,6 +2745,10 @@ input:-webkit-autofill:focus {
     color: #8D8788;
     margin: 0 30px 0 0;
     font-weight: 400; }
+
+@media only screen and (max-width: 1024px) {
+  .blog-listing-section .pagination {
+    padding-bottom: 0; } }
 
 .sidebar {
   width: 265px; }
@@ -4877,6 +4883,11 @@ footer {
   letter-spacing: 1px; }
   .entry-content a:hover {
     color: #F36F21; }
+.entry-content iframe {
+  margin: 20px 0; }
+  @media only screen and (max-width: 1024px) {
+    .entry-content iframe {
+      width: 100%; } }
 
 .fiveCol-slider h3 {
   font-size: 30px;
