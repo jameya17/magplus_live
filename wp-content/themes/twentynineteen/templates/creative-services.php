@@ -17,7 +17,7 @@ get_header();
                     <div class="g-col row-reverse">
                         <div class="one-half">
                             <h3>We can help you elevate your brand!</h3>
-                            <p>The mag+ Creative Studios helps bring your content to life and tailor unique digital experiences. Every design decision is taken to further elevate your brand image.</p>
+                            <p class="marb0">The mag+ Creative Studios helps bring your content to life and tailor unique digital experiences. Every design decision is taken to further elevate your brand image.</p>
                             <!-- <a href="/" class="primary-btn" title="Know More">
                                 <span class="span1">Know More</span>
                                 <span class="span2">Know More</span>

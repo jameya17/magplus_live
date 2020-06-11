@@ -17,7 +17,7 @@ get_header();
                     <div class="g-col row-reverse">
                         <div class="one-half">
                             <h3>Boost your user's engagement</h3>
-                            <p>With mag+ app update services, your mag+ apps are updated and published to the marketplace of your choice</p>
+                            <p class="marb0">With mag+ app update services, your mag+ apps are updated and published to the marketplace of your choice</p>
                             <!-- <a href="/" class="primary-btn" title="Know More">
                                 <span class="span1">Know More</span>
                                 <span class="span2">Know More</span>

@@ -1112,7 +1112,7 @@ ol {
       @media only screen and (max-width: 1024px) {
         .tab-section .tab-item .tab-link {
           font-size: 14px;
-          padding: 15px 10px; } }
+          padding: 15px 6px; } }
 
 .input-text, .input-password, .textarea, .input-email {
   font-size: 14px;
@@ -2258,7 +2258,8 @@ input:-webkit-autofill:focus {
   @media only screen and (max-width: 1024px) {
     .owl-carousel {
       width: 100%;
-      padding: 30px 0; } }
+      padding: 30px 0;
+      padding-bottom: 0; } }
   .owl-carousel .owl-stage-outer {
     overflow: hidden; }
     @media only screen and (max-width: 1024px) {
@@ -2423,7 +2424,8 @@ input:-webkit-autofill:focus {
   @media only screen and (max-width: 1024px) {
     .section-carousel {
       max-width: 100%;
-      padding-top: 80px; } }
+      padding-top: 80px;
+      padding-bottom: 0; } }
   .section-carousel .owl-item img {
     border: 0;
     width: 100%;
@@ -2675,7 +2677,8 @@ input:-webkit-autofill:focus {
     margin: 50px auto 0; }
     @media only screen and (max-width: 1024px) {
       .pagination.pagination-bottom {
-        margin: 20px; } }
+        margin: 20px;
+        margin-bottom: 0; } }
   .pagination .wp-pagenavi a, .pagination .wp-pagenavi span {
     border: 0; }
   .pagination .last {
@@ -4014,7 +4017,8 @@ footer {
   padding-bottom: 100px; }
   @media only screen and (max-width: 1024px) {
     .key-offerings {
-      padding: 0; } }
+      padding: 0;
+      padding-bottom: 15px; } }
   .key-offerings .g-col {
     align-items: flex-start; }
     @media only screen and (max-width: 1024px) {
@@ -4877,7 +4881,7 @@ footer {
   margin-bottom: 150px; }
   @media only screen and (max-width: 1024px) {
     .blog-listing-section .blog-listing {
-      margin-bottom: 40px; } }
+      margin-bottom: 0px; } }
 .blog-listing-section .card {
   max-width: 325px;
   margin: 30px; }
@@ -4886,6 +4890,14 @@ footer {
       margin: 15px;
       margin-bottom: 25px;
       max-width: 320px; } }
+  @media only screen and (max-width: 767px) {
+    .blog-listing-section .card {
+      margin: 0;
+      margin-bottom: 25px;
+      max-width: 280px; } }
+  @media only screen and (max-width: 767px) {
+    .blog-listing-section .card .card-body-con {
+      padding: 15px; } }
 .blog-listing-section .card-with-image img {
   width: 100%;
   border-radius: 18px 18px 0 0; }
@@ -4894,7 +4906,7 @@ footer {
   padding-top: 70px; }
   @media only screen and (max-width: 1024px) {
     .tutorials-section .full-wrap-carousel {
-      padding-top: 40px; } }
+      padding-top: 30px; } }
 .tutorials-section .slider-counter {
   position: static; }
 .tutorials-section .owl-nav {
