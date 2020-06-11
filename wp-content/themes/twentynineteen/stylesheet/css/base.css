@@ -4784,7 +4784,7 @@ footer {
     padding: 0 30px; } }
 @media only screen and (max-width: 767px) {
   .entry-content {
-    padding: 0 30px; } }
+    padding: 0 10px; } }
 .entry-content .blog-img {
   display: block;
   width: 100%;
@@ -4898,7 +4898,7 @@ footer {
     .fiveCol-slider .slider-counter {
       top: -15px; } }
 .fiveCol-slider .sec-holder {
-  padding-top: 160px;
+  padding-top: 80px;
   border-top: 1px solid #6B6A6A; }
   @media only screen and (max-width: 1024px) {
     .fiveCol-slider .sec-holder {
