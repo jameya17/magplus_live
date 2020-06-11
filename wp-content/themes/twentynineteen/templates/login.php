@@ -29,7 +29,7 @@ get_header();
                         <span class="text-or">Or</span>
                         <a class="btn-link email-link" href="<?php echo get_permalink(31545); ?>" title="Sign Up with Email"><span class="btn-link-ico"><img src="<?php bloginfo('template_directory'); ?>/images/icons/email-icon.svg" alt=""></span><span class="btn-link-text">Sign Up with Email</span></a>
                         <p class="already-acc-text">Already have an account? <a href="<?php echo get_permalink(31535); ?>" title="Log in">Log in</a></p>
-                        <p class="tmc-text">By clicking “Sign Up” you agree to the <a href="<?php echo get_permalink(867); ?>" title="Terms of Service">Terms of Service</a></p>
+                        <p class="tmc-text">By clicking “Sign Up” you agree to the <br/><a href="<?php echo get_permalink(867); ?>" title="Terms of Service">Terms of Service</a></p>
                     </div>
                 </div>
             </div>    

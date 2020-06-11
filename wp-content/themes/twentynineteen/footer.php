@@ -286,7 +286,7 @@
         jQuery('.sticky-sidebar a').on('click', function() {
             var scrollAnchor = jQuery(this).attr('data-scroll');
             if (jQuery(window).width() < 1024) {
-                var scrollPoint = jQuery('#' + jQuery(this).attr("data-scroll")).offset().top - 85;
+                var scrollPoint = jQuery('#' + jQuery(this).attr("data-scroll")).offset().top - 80;
             } else {
                 var scrollPoint = jQuery('#' + jQuery(this).attr("data-scroll")).offset().top - 65;
             }

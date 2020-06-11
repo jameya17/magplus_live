@@ -60,6 +60,15 @@
     &.white-bg{
         background-color: #fff;
     }
+    .sticky-sidebar{
+        li{
+            .nav-link{
+                &:hover{
+                    color: #565455; 
+                }
+            }
+        }
+    }
     @media only screen and (max-width: 1024px) {
         padding: 5px 0;
         top: 56px;
@@ -67,6 +76,13 @@
             padding: 0 5px;
             .nav-link{
                 font-size: 14px;
+                &:hover{
+                    color: #565455;
+                }
+                &.active{
+                    color: #F36F21;
+                }
+                
             }
         }
 

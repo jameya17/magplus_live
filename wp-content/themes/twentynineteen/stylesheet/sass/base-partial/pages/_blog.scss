@@ -46,6 +46,12 @@
     }
 }
 .entry-content{ 
+    @media only screen and (max-width: 1024px) {
+        padding: 0 30px;
+    }
+    @media only screen and (max-width: 767px) {
+
+    }
     .blog-img{
         display: block;
         width: 100%;
@@ -95,6 +101,11 @@
             line-height: 30px;
             color: #595656;
             font-weight: 400;
+            @media only screen and (max-width: 450px) {
+                font-size: 15px;
+                line-height: 23px;
+                text-align: left;
+            }
         }
     }
     ol{
@@ -105,6 +116,11 @@
             color: #595656;
             font-weight: 400;
             color: #595656;
+            @media only screen and (max-width: 450px) {
+                font-size: 15px;
+                line-height: 23px;
+                text-align: left;
+            }
         }
     }
     h2{
@@ -116,6 +132,8 @@
         margin-bottom: 20px;
         @media only screen and (max-width: 450px) {
             margin-bottom: 10px;
+            font-size: 20px;
+            line-height: 24px;
         }
     }
     b{

@@ -97,7 +97,7 @@ get_header();
                                 </a>
                             </div>
                         </div>   
-                        <p class="tmc-text">By downloading I am agreeing to the <a href="?page_id=31545" class="link" title="mag+ Designd Terms & Conditions">mag+ Designd Terms & Conditions</a></p>
+                        <p class="tmc-text">By downloading I am agreeing to the  <a href="?page_id=31545" class="link" title="mag+ Designd Terms & Conditions">mag+ Designd Terms & Conditions</a></p>
                     </div>
                     <div class="one-half">
                         <div class="tools-download-info-holder">

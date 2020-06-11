@@ -243,11 +243,17 @@
         letter-spacing: -0.44px;
         margin-bottom: 25px; 
         line-height: 26px;
+        @media only screen and (max-width: 320px) {
+            margin-bottom: 15px; 
+        }
     }
     h4{
         font-weight: 700;
         color: #595656; 
-        margin-bottom: 45px;  
+        margin-bottom: 45px;
+        @media only screen and (max-width: 320px) {
+            margin-bottom: 20px;
+        }  
     }
 }
 .form-block{
@@ -262,7 +268,8 @@
     box-shadow: 0px 0px 8px 3px rgba(0, 0, 0,.1);
     text-align: center; 
     @media only screen and (max-width: 1024px) {
-        width: 100%; 
+        width: auto;
+        padding: 20px 10px; 
     }
 }
 a{
@@ -335,13 +342,14 @@ a{
 }
 .tmc-text{
     @extend .already-acc-text; 
-    padding-bottom: 0px;
-    padding-top: 60px;
+    //padding-bottom: 0px;
+    padding: 20px 0;
     font-size: 10px;
     width: 100%;
     text-align: center;
     @media only screen and (max-width: 1024px) {
         padding-top: 20px;
+        padding-bottom: 0;
     }
     a{
         font-size: 10px;
@@ -358,6 +366,12 @@ a{
 .form-block-title{
     color: $org-col;
     text-transform: uppercase;
+    @media only screen and (max-width: 1024px) {
+        font-size: 34px;
+        line-height: 40px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
 }
 .sign-up-form{
     .form-block{
@@ -369,7 +383,7 @@ a{
         border-radius: 8px;
         @media only screen and (max-width: 1024px) {
             width: auto;
-            padding: 30px;  
+            padding: 20px;  
         }
     }
     .divider-text{
@@ -412,12 +426,19 @@ a{
         top: -25px;
         -webkit-transition: all 0.125s ease;
         transition: all 0.125s ease;
+        @media only screen and (max-width: 1024px) {
+            top: -20px;
+        }
     }
     .styled-input {
         position: relative;
         width: 100%;
         margin-bottom: 40px;
+        @media only screen and (max-width: 1024px) {
+            margin-bottom: 30px;
+        }
     }
+
     .styled-input label {
         font-size: 16px;
         line-height: 20px;
@@ -431,6 +452,10 @@ a{
         transition: all 0.25s ease;
         pointer-events: none;
         text-transform: capitalize;
+        @media only screen and (max-width: 1024px) {
+            padding: 5px 0;
+            top: -20px;
+        }
         &.highlight{
             font-size: 15px; 
             line-height: 19px;
@@ -453,7 +478,10 @@ a{
         padding: 10px 0;
         border: 0;
         width: 100%;
-        border-bottom: 1px solid #8D8788; 
+        border-bottom: 1px solid #8D8788;
+        @media only screen and (max-width: 1024px) {
+            padding: 5px 0;
+        }
     }
 
     input:focus,
@@ -513,6 +541,9 @@ a{
         font-size: 9px;
         color:$red-col;
         font-weight: 300;
+        @media only screen and (max-width: 1024px) {
+            bottom: -20px;
+        }   
     }
 }
 input:-webkit-autofill {
@@ -554,6 +585,9 @@ input:-webkit-autofill:focus {
     @include justify-content(space-between);
     @include align-items(center);
     margin-bottom: 35px;
+    @media only screen and (max-width: 1024px) {
+        margin-bottom: 15px;
+    }
     .checkbox-container{
         font-size: 12px;
         line-height: 17px;
@@ -587,6 +621,10 @@ input:-webkit-autofill:focus {
         color: #EB3300;
         font-weight: 400;
         letter-spacing: 1px;
+        @media only screen and (max-width: 1024px) {
+            margin-top: 20px;
+            text-align: center;
+        }
         &:hover{
             color: $black-col;
         }
@@ -994,4 +1032,9 @@ input:-webkit-autofill:focus {
         min-width: 170px;
         text-align: left;   
     }
+}
+.forgot-password-block{
+    @media only screen and (max-width: 1024px) {
+        flex-direction: column;
+    }     
 }

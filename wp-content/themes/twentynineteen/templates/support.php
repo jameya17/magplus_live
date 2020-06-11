@@ -79,7 +79,7 @@ get_header();
                 </div>    
                 <div class="g-col align-center" data-aos="fade-up">
                     <div class="content-block tutorials-section">
-                        <h3>Tutorials</h3>
+                        <h3 class="tutorials-head">Tutorials</h3>
                         <div class="small-wrap">
                             <p>Watch this carefully curated list of tutorial videos to help you kickstart you jour with using mag+. You can always reach out to us at <a href="support@magplus.com" class="text-link" title="support@magplus.com">support@magplus.com</a> if you need additional information on any of the topics.</p>
                             <div class="btn-block">

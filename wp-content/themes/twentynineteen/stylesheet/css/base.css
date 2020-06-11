@@ -426,6 +426,9 @@ h3 {
       h3.sec-title {
         font-size: 28px;
         line-height: 38px; } }
+  @media only screen and (max-width: 1024px) {
+    h3.tutorials-head {
+      margin-top: 15px; } }
 
 h4 {
   font-size: 24px;
@@ -1051,6 +1054,8 @@ ol {
   box-shadow: 0 0 42px 0 rgba(0, 0, 0, 0.09); }
   .sticky-nav-block.white-bg {
     background-color: #fff; }
+  .sticky-nav-block .sticky-sidebar li .nav-link:hover {
+    color: #565455; }
   @media only screen and (max-width: 1024px) {
     .sticky-nav-block {
       padding: 5px 0;
@@ -1058,7 +1063,11 @@ ol {
       .sticky-nav-block .sticky-sidebar li {
         padding: 0 5px; }
         .sticky-nav-block .sticky-sidebar li .nav-link {
-          font-size: 14px; } }
+          font-size: 14px; }
+          .sticky-nav-block .sticky-sidebar li .nav-link:hover {
+            color: #565455; }
+          .sticky-nav-block .sticky-sidebar li .nav-link.active {
+            color: #F36F21; } }
 
 .sticky-con-pad {
   padding-left: 350px; }
@@ -1354,10 +1363,16 @@ ol {
     letter-spacing: -0.44px;
     margin-bottom: 25px;
     line-height: 26px; }
+    @media only screen and (max-width: 320px) {
+      .form-section h5 {
+        margin-bottom: 15px; } }
   .form-section h4 {
     font-weight: 700;
     color: #595656;
     margin-bottom: 45px; }
+    @media only screen and (max-width: 320px) {
+      .form-section h4 {
+        margin-bottom: 20px; } }
 
 .form-block {
   width: 575px;
@@ -1387,7 +1402,8 @@ ol {
   text-align: center; }
   @media only screen and (max-width: 1024px) {
     .form-block {
-      width: 100%; } }
+      width: auto;
+      padding: 20px 10px; } }
 
 a.btn-link {
   display: -webkit-box;
@@ -1459,14 +1475,14 @@ a.apple-link {
       color: #F36F21; }
 
 .tmc-text {
-  padding-bottom: 0px;
-  padding-top: 60px;
+  padding: 20px 0;
   font-size: 10px;
   width: 100%;
   text-align: center; }
   @media only screen and (max-width: 1024px) {
     .tmc-text {
-      padding-top: 20px; } }
+      padding-top: 20px;
+      padding-bottom: 0; } }
   .tmc-text a {
     font-size: 10px; }
 
@@ -1478,6 +1494,12 @@ a.apple-link {
 .form-block-title {
   color: #FF8616;
   text-transform: uppercase; }
+  @media only screen and (max-width: 1024px) {
+    .form-block-title {
+      font-size: 34px;
+      line-height: 40px;
+      font-weight: 700;
+      margin-bottom: 30px; } }
 
 .sign-up-form .form-block {
   -webkit-justify-content: flex-start;
@@ -1497,7 +1519,7 @@ a.apple-link {
   @media only screen and (max-width: 1024px) {
     .sign-up-form .form-block {
       width: auto;
-      padding: 30px; } }
+      padding: 20px; } }
 .sign-up-form .divider-text {
   font-size: 12px;
   line-height: 17px;
@@ -1531,10 +1553,16 @@ a.apple-link {
   top: -25px;
   -webkit-transition: all 0.125s ease;
   transition: all 0.125s ease; }
+  @media only screen and (max-width: 1024px) {
+    .form-container input[type=email]:focus ~ label, .form-container input:focus ~ label, .form-container textarea:focus ~ label, .form-container input:valid ~ label, .form-container textarea:valid ~ label, .form-container input[type=email]:valid ~ label, .form-container input[type=password]:valid ~ label, .form-container input[type=number]:valid ~ label, .form-container input[type=tel]:valid ~ label {
+      top: -20px; } }
 .form-container .styled-input {
   position: relative;
   width: 100%;
   margin-bottom: 40px; }
+  @media only screen and (max-width: 1024px) {
+    .form-container .styled-input {
+      margin-bottom: 30px; } }
 .form-container .styled-input label {
   font-size: 16px;
   line-height: 20px;
@@ -1548,6 +1576,10 @@ a.apple-link {
   transition: all 0.25s ease;
   pointer-events: none;
   text-transform: capitalize; }
+  @media only screen and (max-width: 1024px) {
+    .form-container .styled-input label {
+      padding: 5px 0;
+      top: -20px; } }
   .form-container .styled-input label.highlight {
     font-size: 15px;
     line-height: 19px;
@@ -1569,6 +1601,10 @@ a.apple-link {
   border: 0;
   width: 100%;
   border-bottom: 1px solid #8D8788; }
+  @media only screen and (max-width: 1024px) {
+    .form-container input,
+    .form-container textarea {
+      padding: 5px 0; } }
 .form-container input:focus,
 .form-container textarea:focus {
   outline: 0; }
@@ -1612,6 +1648,9 @@ a.apple-link {
   font-size: 9px;
   color: #EB3300;
   font-weight: 300; }
+  @media only screen and (max-width: 1024px) {
+    .sign-up-form .error {
+      bottom: -20px; } }
 
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 50px white inset;
@@ -1662,6 +1701,9 @@ input:-webkit-autofill:focus {
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 35px; }
+  @media only screen and (max-width: 1024px) {
+    .form-field-group {
+      margin-bottom: 15px; } }
   .form-field-group .checkbox-container {
     font-size: 12px;
     line-height: 17px;
@@ -1691,6 +1733,10 @@ input:-webkit-autofill:focus {
     color: #EB3300;
     font-weight: 400;
     letter-spacing: 1px; }
+    @media only screen and (max-width: 1024px) {
+      .form-field-group a.forgot-password-link {
+        margin-top: 20px;
+        text-align: center; } }
     .form-field-group a.forgot-password-link:hover {
       color: #231F20; }
   .form-field-group.form-field-icon-group {
@@ -2008,6 +2054,10 @@ input:-webkit-autofill:focus {
   min-width: 170px;
   text-align: left; }
 
+@media only screen and (max-width: 1024px) {
+  .forgot-password-block {
+    flex-direction: column; } }
+
 .card-section {
   margin: 100px 0 0 0; }
   @media only screen and (max-width: 1024px) {
@@ -2144,26 +2194,29 @@ input:-webkit-autofill:focus {
   @media only screen and (max-width: 1024px) {
     .popup-content-block {
       width: 80%;
-      height: auto;
+      height: 90%;
       padding: 20px;
       max-width: 100%;
       max-height: 100%;
-      min-height: 410px; } }
+      min-height: auto;
+      transform-origin: center center; } }
 
-@media only screen and (max-width: 400px) {
-  .click-card-block {
-    width: 100%; } }
-.click-card-block.active {
-  z-index: 2;
-  transform: none !important; }
-  .click-card-block.active .popup-content-block {
-    visibility: visible;
-    transform: scale(1); }
-  @media only screen and (max-width: 1024px) {
-    .click-card-block.active {
-      position: relative; } }
-.click-card-block .card {
-  min-height: 365px; }
+.click-card-block {
+  position: relative; }
+  @media only screen and (max-width: 400px) {
+    .click-card-block {
+      width: 100%; } }
+  .click-card-block.active {
+    z-index: 2;
+    transform: none !important; }
+    .click-card-block.active .popup-content-block {
+      visibility: visible;
+      transform: scale(1); }
+    @media only screen and (max-width: 1024px) {
+      .click-card-block.active {
+        position: relative; } }
+  .click-card-block .card {
+    min-height: 365px; }
 
 .card-text {
   font-size: 16px;
@@ -2963,7 +3016,6 @@ input:-webkit-autofill:focus {
 
 @media only screen and (max-width: 1024px) {
   .sticky-nav-tabs {
-    display: none;
     position: absolute;
     width: 100%;
     background: white;
@@ -2974,9 +3026,6 @@ input:-webkit-autofill:focus {
     left: 0;
     float: none;
     margin-top: 0; } }
-@media only screen and (max-width: 1024px) {
-  .sticky-nav-tabs.open-slide {
-    display: block; } }
 
 .sticky-nav-tabs-container {
   padding: 0;
@@ -3049,7 +3098,7 @@ input:-webkit-autofill:focus {
           background-color: #fff;
           box-shadow: none;
           border-bottom: 1px solid #ddd;
-          padding-bottom: 15px; } }
+          padding-bottom: 8   px; } }
       .sticky-nav-tabs-container li .sub-menu li {
         display: block;
         margin: 0;
@@ -4192,7 +4241,7 @@ footer {
       width: 100%;
       height: 300px;
       right: 0;
-      top: -70px;
+      top: -110px;
       background-size: 50%;
       left: 0;
       margin: 0 auto;
@@ -4219,6 +4268,10 @@ footer {
 .marb0 {
   margin-bottom: 0 !important; }
 
+@media only screen and (max-width: 1024px) {
+  .mag-plus-now-head {
+    margin-top: 30px; } }
+
 .entry-title {
   font-variation-settings: 30px;
   line-height: 42px; }
@@ -4227,7 +4280,7 @@ footer {
   margin-bottom: 100px; }
   @media only screen and (max-width: 1024px) {
     .faq-pg h3 {
-      margin-bottom: 40px; } }
+      margin-bottom: 10px; } }
 .faq-pg .g-col {
   -webkit-justify-content: space-between;
   -moz-justify-content: space-between;
@@ -4239,6 +4292,9 @@ footer {
   @media only screen and (max-width: 1024px) {
     .faq-pg .one-half {
       width: 100%; } }
+@media only screen and (max-width: 1024px) {
+  .faq-pg .acc-ans p {
+    margin: 0; } }
 
 .privacy-pg .sec-title {
   font-size: 30px;
@@ -4722,6 +4778,9 @@ footer {
       font-size: 15px;
       line-height: 23px; } }
 
+@media only screen and (max-width: 1024px) {
+  .entry-content {
+    padding: 0 30px; } }
 .entry-content .blog-img {
   display: block;
   width: 100%;
@@ -4764,6 +4823,11 @@ footer {
     line-height: 30px;
     color: #595656;
     font-weight: 400; }
+    @media only screen and (max-width: 450px) {
+      .entry-content ul li {
+        font-size: 15px;
+        line-height: 23px;
+        text-align: left; } }
 .entry-content ol {
   margin-bottom: 25px; }
   .entry-content ol li {
@@ -4772,6 +4836,11 @@ footer {
     color: #595656;
     font-weight: 400;
     color: #595656; }
+    @media only screen and (max-width: 450px) {
+      .entry-content ol li {
+        font-size: 15px;
+        line-height: 23px;
+        text-align: left; } }
 .entry-content h2 {
   font-size: 24px;
   line-height: 28px;
@@ -4781,7 +4850,9 @@ footer {
   margin-bottom: 20px; }
   @media only screen and (max-width: 450px) {
     .entry-content h2 {
-      margin-bottom: 10px; } }
+      margin-bottom: 10px;
+      font-size: 20px;
+      line-height: 24px; } }
 .entry-content b {
   font-size: 18px;
   line-height: 30px;

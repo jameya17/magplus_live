@@ -51,7 +51,7 @@ get_header();
                             <span class="error">Atleast 1 uppercase & numerical</span>
                         </div>
 
-                        <div class="form-field-group">
+                        <div class="form-field-group forgot-password-block">
                             <div class="group-field">
                                 <label class="checkbox-container" for="remember-me">
                                     <input type="checkbox" id="remember-me">
