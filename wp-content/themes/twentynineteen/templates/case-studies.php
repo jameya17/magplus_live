@@ -65,7 +65,7 @@ $the_showcase_query = new WP_Query( $args );
                                 $thumb = get_post_meta($post->ID, '_mag_video_thumbnail', true);
                             ?>
                                 <div class="g-col offset_default">
-                                    <a href="<?php the_permalink(); ?>" class="one-half image-block">
+                                    <a href="<?php the_permalink(); ?>" class="one-half image-block mar0">
                                         <span class="case-studies-img-block" style="background: url('<?php echo $thumb; ?>')no-repeat center center;"></span>
                                         <!-- <img src="<?php echo $thumb; ?>"> -->
                                     </a>    

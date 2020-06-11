@@ -75,7 +75,11 @@
 .sticky-con-pad{
     padding-left: 350px;
 }
-
+.privacy-pg{
+    .sticky-nav-block{
+        display: none;
+    }
+}
 
 //Tab styling
 .tab-section{

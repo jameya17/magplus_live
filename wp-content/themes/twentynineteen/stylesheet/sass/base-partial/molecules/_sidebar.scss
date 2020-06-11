@@ -91,6 +91,7 @@
 }
 .post-sidebar{
     @media only screen and (max-width: 1024px) {
+        position: static;
         text-align: left;
     }
     .sidebar-section-listing{

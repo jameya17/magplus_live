@@ -1063,6 +1063,9 @@ ol {
 .sticky-con-pad {
   padding-left: 350px; }
 
+.privacy-pg .sticky-nav-block {
+  display: none; }
+
 .tab-section {
   display: -webkit-box;
   display: -moz-box;
@@ -2758,6 +2761,7 @@ input:-webkit-autofill:focus {
 
 @media only screen and (max-width: 1024px) {
   .post-sidebar {
+    position: static;
     text-align: left; } }
 .post-sidebar .sidebar-section-listing {
   margin-bottom: 25px; }
@@ -4071,6 +4075,9 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100%; }
+  @media only screen and (max-width: 1024px) {
+    .case-studies-foot {
+      margin-top: 25px; } }
 
 .sec-pad .marB75 {
   margin-bottom: 75px; }
@@ -4729,6 +4736,9 @@ footer {
   font-weight: 400;
   padding-top: 10px;
   color: #333333; }
+  @media only screen and (max-width: 450px) {
+    .entry-content li {
+      text-align: left; } }
 .entry-content strong {
   font-weight: bold;
   color: #333333; }
