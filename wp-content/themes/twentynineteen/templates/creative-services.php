@@ -182,7 +182,7 @@ get_header();
                     <div class="g-col">
                         <div class="one-half">
                             <h3>What will we deliver?</h3>
-                            <p>Your plain content is converted into an engaging and creative digital story. The delivered content is publication-ready and can be instantly rendered to your preferred devices using the mobile app created using mag+.</p>
+                            <p style="margin-bottom: 0;">Your plain content is converted into an engaging and creative digital story. The delivered content is publication-ready and can be instantly rendered to your preferred devices using the mobile app created using mag+.</p>
                         </div>    
                         <div class="one-half image-block">
                             <img src="<?php bloginfo('template_directory'); ?>/images/outcome.png" alt="What will we deliver?">

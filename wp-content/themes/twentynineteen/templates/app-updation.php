@@ -156,7 +156,7 @@ get_header();
                     <div class="g-col">
                         <div class="one-half">
                             <h3>The Outcome</h3>
-                            <p>Your updated app is made available on the app stores to be downloaded by your app users.</p>
+                            <p style="margin-bottom: 0;">Your updated app is made available on the app stores to be downloaded by your app users.</p>
                         </div>    
                         <div class="one-half image-block">
                             <img src="<?php bloginfo('template_directory'); ?>/images/app-updation-the-outcome.png" alt="What will we deliver?">

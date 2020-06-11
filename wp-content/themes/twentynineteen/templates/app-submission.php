@@ -156,7 +156,7 @@ get_header();
                     <div class="g-col">
                         <div class="one-half">
                             <h3>The Outcome</h3>
-                            <p>The mag+ team develops your app and successfully publishes it to the desired app-stores. This app is then ready to be downloaded and used by your audience on their smart-devices.</p>
+                            <p style="margin-bottom: 0;">The mag+ team develops your app and successfully publishes it to the desired app-stores. This app is then ready to be downloaded and used by your audience on their smart-devices.</p>
                         </div>    
                         <div class="one-half image-block">
                             <img src="<?php bloginfo('template_directory'); ?>/images/the-outcome.png" alt="The Outcome">
