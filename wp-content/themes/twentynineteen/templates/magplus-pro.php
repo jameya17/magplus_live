@@ -61,7 +61,7 @@ get_header();
             <div class="l-section-wrap" data-aos="fade-up">
                 <div class="g-col align-center">  
                     <h3>Why choose Mag+Now</h3>
-                    <p class="small-wrap">Mag+ NOW’s digital-publishing software covers every part of the app-publishing process. Design your content using simple tools, build your own branded mobile app on our Web portal, and distribute your designed content to that app for end users to experience on their mobile devices.</p>
+                    <p class="small-wrap">Mag+ NOW makes you more agile by reducing the duration between ideas and implementation. Put your ideas into action using our integrated CMS - Content Authoring - Mobile App platform and reduce your time to market. Make Magic NOW!</p>
                     <a href="javascript:void()" class="primary-btn home-contact-click" title="Contact Us">Contact Us
                         <span class="span1">Contact Us</span>
                         <span class="span2">Contact Us</span>
