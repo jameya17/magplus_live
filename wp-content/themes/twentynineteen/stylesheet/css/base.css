@@ -4306,12 +4306,11 @@ footer {
   font-size: 30px;
   line-height: 36px;
   color: #333;
-  margin-bottom: 50px; }
+  margin-bottom: 30px; }
   @media only screen and (max-width: 1024px) {
     .privacy-pg .sec-title {
       margin-bottom: 20px; } }
 .privacy-pg .content-block {
-  padding-left: 350px;
   font-size: 16px;
   line-height: 24px;
   color: #595656;
