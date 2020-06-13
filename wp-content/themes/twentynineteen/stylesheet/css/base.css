@@ -2034,7 +2034,7 @@ input:-webkit-autofill:focus {
     cursor: pointer; }
   .radio-container .checkmark {
     position: absolute;
-    top: 3px;
+    top: 1px;
     left: 0;
     height: 14px;
     width: 14px;
@@ -2043,7 +2043,7 @@ input:-webkit-autofill:focus {
     border: 1px solid #979797; }
     @media only screen and (max-width: 1024px) {
       .radio-container .checkmark {
-        top: 1px; } }
+        top: -1px; } }
   .radio-container:hover input ~ .checkmark {
     background-color: #ccc; }
   .radio-container .checkmark:after {
