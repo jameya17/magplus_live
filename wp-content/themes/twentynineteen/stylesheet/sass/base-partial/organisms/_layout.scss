@@ -193,7 +193,8 @@
         p{
             @media only screen and (max-width: 1024px) {
                 max-width: 570px;
-                margin: 0 auto 20px;   
+                margin: 0 auto 20px;
+                &.last{margin-bottom: 0;}   
             }
             @media only screen and (max-width: 767px) {
                 max-width: 100%; 

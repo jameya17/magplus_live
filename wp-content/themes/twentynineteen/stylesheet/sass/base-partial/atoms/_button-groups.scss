@@ -249,6 +249,9 @@
             }
         }
     }
+    &:focus{
+        outline: 0;
+    }
 }
 .pricing-switcher{
     .pricing-fieldset{

@@ -982,20 +982,31 @@ input:-webkit-autofill:focus {
     -ms-user-select: none;
     user-select: none;
     display: inline-block; 
+    @media only screen and (max-width: 1024px) {
+        font-size: 16px;
+        line-height: 20px;
+    }
     input { 
+        width: 16px;
+        height: 16px;
         position: absolute;
+        left: 0;
+        top: 0; 
         opacity: 0;
         cursor: pointer;
     }
     .checkmark {
         position: absolute;
-        top: 0;
+        top: 3px; 
         left: 0;
         height: 14px;
         width: 14px;
         background-color: #eee;
         border-radius: 50%;
         border: 1px solid #979797; 
+        @media only screen and (max-width: 1024px) {
+            top: 1px;
+        }
 
     }
     &:hover input ~ .checkmark {
