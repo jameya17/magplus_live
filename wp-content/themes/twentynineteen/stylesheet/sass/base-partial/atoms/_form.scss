@@ -983,7 +983,11 @@ input:-webkit-autofill:focus {
     user-select: none;
     display: inline-block; 
     input { 
+        width: 16px;
+        height: 16px;
         position: absolute;
+        left: 0;
+        top: 0; 
         opacity: 0;
         cursor: pointer;
     }
