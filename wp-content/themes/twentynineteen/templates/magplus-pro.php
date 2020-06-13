@@ -17,7 +17,7 @@ get_header();
                     <div class="one-half">
                         <h1 class="mag-plus-now-head">What is <img class="megplus-now-img" src="<?php bloginfo('template_directory'); ?>/images/megaplus-now.svg" alt="Megplus Now" title="Megplus Now"></h1>
                         <p>Mag+ NOW empowers you to author HTML content and upgrade PDFs for touch enabled smart devices.</p>
-                        <a href="/" class="primary-btn" title="Know More">Know More
+                        <a href="javascript:void()" class="primary-btn home-contact-click" title="Contact Us">Know More
                             <span class="span1">Know More</span>
                             <span class="span2">Know More</span>
                         </a>
