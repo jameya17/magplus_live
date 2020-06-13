@@ -2028,7 +2028,7 @@ input:-webkit-autofill:focus {
     cursor: pointer; }
   .radio-container .checkmark {
     position: absolute;
-    top: 0;
+    top: 3px;
     left: 0;
     height: 14px;
     width: 14px;
