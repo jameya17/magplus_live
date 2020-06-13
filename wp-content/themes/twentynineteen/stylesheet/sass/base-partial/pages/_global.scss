@@ -101,31 +101,12 @@
         line-height: 70px;
         letter-spacing: 0.5px;
         margin-bottom: 30px;
-<<<<<<< HEAD
         @media only screen and (max-width: 1024px){
-=======
-        @media only screen and (max-width: 1024px) {
-            font-size: 34px;
-            line-height: 40px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        @media only screen and (max-width: 450px) {
->>>>>>> 8556ddba5b50bc0750a1c4975ffbb5b0eb2b586b
             font-size: 30px;
             line-height: 34px;
             margin-bottom: 20px;
             text-align: center;
         }
-<<<<<<< HEAD
-
-=======
-        br{
-            @media only screen and (max-width: 1024px) {
-                display: none;
-            }
-        }
->>>>>>> 8556ddba5b50bc0750a1c4975ffbb5b0eb2b586b
     }
     .drop-down{
         margin-bottom: 25px; 
@@ -246,15 +227,9 @@
         padding: 30px;
         margin-bottom: 30px;  
         border: 1px solid $org-col;
-<<<<<<< HEAD
         @media only screen and (max-width: 1024px){
             padding: 20px;
             margin-bottom: 20px;  
-=======
-        @media only screen and (max-width: 1024px) {
-            padding: 20px;
-            margin-bottom: 20px;
->>>>>>> 8556ddba5b50bc0750a1c4975ffbb5b0eb2b586b
         }
     }
     .link{
@@ -277,14 +252,9 @@
 .tools-download-info-block{
     h5{
         margin-bottom: 20px;
-<<<<<<< HEAD
         @media only screen and (max-width: 1024px){
             margin-bottom: 10px;
             text-align: left;
-=======
-        @media only screen and (max-width: 1024px) {
-            margin-bottom: 10px;
->>>>>>> 8556ddba5b50bc0750a1c4975ffbb5b0eb2b586b
         }
     }
     .bullet-list{
@@ -296,13 +266,8 @@
             font-size: 16px;
             line-height: 24px;
             color: #6B6D70;
-<<<<<<< HEAD
             @media only screen and (max-width: 1024px){
                 text-align: left;
-=======
-            @media only screen and (max-width: 1024px) {
-                display: inline-block;  
->>>>>>> 8556ddba5b50bc0750a1c4975ffbb5b0eb2b586b
             }
         }
     }    
