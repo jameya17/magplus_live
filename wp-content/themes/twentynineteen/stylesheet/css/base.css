@@ -1055,7 +1055,7 @@ ol {
   .sticky-nav-block.white-bg {
     background-color: #fff; }
   .sticky-nav-block .sticky-sidebar li .nav-link:hover {
-    color: #565455; }
+    color: #F36F21; }
   @media only screen and (max-width: 1024px) {
     .sticky-nav-block {
       padding: 5px 0;
@@ -1395,7 +1395,7 @@ ol {
   -moz-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 60px 0 0;
+  padding: 40px 40px 30px;
   margin: 0 auto;
   background-color: #fff;
   box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.1);
@@ -1513,7 +1513,8 @@ a.apple-link {
   -ms-flex-align: flex-start;
   align-items: flex-start;
   width: 315px;
-  padding: 110px 130px 0 130px;
+  width: 400px;
+  padding: 40px 40px 20px;
   text-align: left;
   border-radius: 8px; }
   @media only screen and (max-width: 1024px) {
@@ -1677,6 +1678,9 @@ input:-webkit-autofill:focus {
     opacity: 1;
     background-position: center;
     background-repeat: no-repeat; }
+    @media only screen and (max-width: 1024px) {
+      .group-field .eye-icon {
+        top: 0px; } }
   .group-field input[type="text"] + label + .eye-icon {
     background-image: url(../../images/icons/eye-icon-show.svg); }
   .group-field input[type="password"] + label + .eye-icon {
@@ -1723,7 +1727,7 @@ input:-webkit-autofill:focus {
       height: 15px;
       left: -24px;
       right: auto;
-      top: 0;
+      top: -2px;
       border-color: #9EA0AE; }
     .form-field-group .checkbox-container input:checked ~ .checkmark {
       border-color: #F36F21; }
@@ -2641,6 +2645,7 @@ input:-webkit-autofill:focus {
     max-width: 100%; } }
 
 .pagination {
+  padding-left: 0;
   margin: 0 auto 0;
   padding-bottom: 40px;
   list-style-type: none;
@@ -4258,7 +4263,7 @@ footer {
       background-size: contain; } }
 
 .trusted-sec {
-  padding-bottom: 40px; }
+  padding-bottom: 80px; }
   @media only screen and (max-width: 1024px) {
     .trusted-sec {
       padding-bottom: 30px; } }
@@ -4306,12 +4311,11 @@ footer {
   font-size: 30px;
   line-height: 36px;
   color: #333;
-  margin-bottom: 50px; }
+  margin-bottom: 30px; }
   @media only screen and (max-width: 1024px) {
     .privacy-pg .sec-title {
       margin-bottom: 20px; } }
 .privacy-pg .content-block {
-  padding-left: 350px;
   font-size: 16px;
   line-height: 24px;
   color: #595656;
@@ -4412,9 +4416,12 @@ footer {
 
 .pricing-pg p {
   margin-bottom: 50px; }
+  @media only screen and (max-width: 1024px) {
+    .pricing-pg p {
+      margin-bottom: 30px; } }
 
 .pricing-chart-table {
-  padding-bottom: 110px;
+  padding-bottom: 80px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -4501,7 +4508,7 @@ footer {
         border-top: 0; } }
   @media only screen and (max-width: 1024px) {
     .plan-th, .plan-td {
-      margin-bottom: 30px;
+      margin-bottom: 0;
       border: 1px solid #ddd;
       border-top: 0;
       padding-top: 45px; } }
@@ -4522,7 +4529,7 @@ footer {
       border-left: 0; } }
 
 .pricing-switcher {
-  margin-bottom: 100px; }
+  margin-bottom: 80px; }
   @media only screen and (max-width: 1024px) {
     .pricing-switcher {
       margin-bottom: 40px; } }
@@ -4563,7 +4570,7 @@ footer {
   position: absolute;
   right: 0;
   top: 0;
-  z-index: 1; }
+  z-index: 2; }
 
 .tutorialPg .sidebar {
   width: 26.5%; }
