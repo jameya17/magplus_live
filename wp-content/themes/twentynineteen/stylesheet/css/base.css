@@ -4510,9 +4510,6 @@ footer {
       text-align: left; } }
 .tools-download-info-block .bullet-list {
   padding-left: 25px; }
-  @media only screen and (max-width: 1024px) {
-    .tools-download-info-block .bullet-list {
-      padding: 0; } }
   .tools-download-info-block .bullet-list li {
     font-size: 16px;
     line-height: 24px;
