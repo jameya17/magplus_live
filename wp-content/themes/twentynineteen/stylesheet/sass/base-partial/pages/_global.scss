@@ -101,6 +101,23 @@
         line-height: 70px;
         letter-spacing: 0.5px;
         margin-bottom: 30px;
+        @media only screen and (max-width: 1024px) {
+            font-size: 34px;
+            line-height: 40px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        @media only screen and (max-width: 450px) {
+            font-size: 30px;
+            line-height: 34px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        br{
+            @media only screen and (max-width: 1024px) {
+                display: none;
+            }
+        }
     }
     .drop-down{
         margin-bottom: 25px; 
@@ -116,6 +133,13 @@
             align-items: center;
             &::before{
                 top: 18px;
+            }
+            @media only screen and (max-width: 1024px) {
+                margin: 0 auto 20px;
+            }
+            @media only screen and (max-width: 450px) {
+                margin: 0 auto 20px;
+                max-width: 280px; 
             }
         }
         .options{
@@ -137,6 +161,10 @@
         padding: 30px;
         margin-bottom: 30px;  
         border: 1px solid $org-col;
+        @media only screen and (max-width: 1024px) {
+            padding: 20px;
+            margin-bottom: 20px;
+        }
     }
     .link{
         text-decoration: underline;
@@ -148,6 +176,9 @@
     .flex-start{
         .tmc-text{
             text-align: left; 
+            @media only screen and (max-width: 1024px) {
+                text-align: center;
+            }
         }
     }
     
@@ -155,13 +186,22 @@
 .tools-download-info-block{
     h5{
         margin-bottom: 20px;
+        @media only screen and (max-width: 1024px) {
+            margin-bottom: 10px;
+        }
     }
     .bullet-list{
         padding-left: 25px;
+        @media only screen and (max-width: 1024px) {
+            padding: 0;
+        }
         li{
             font-size: 16px;
             line-height: 24px;
             color: #6B6D70;
+            @media only screen and (max-width: 1024px) {
+                display: inline-block;  
+            }
         }
     }    
 }

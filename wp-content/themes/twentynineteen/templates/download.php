@@ -78,7 +78,7 @@ get_header();
 
                             <div class="radio-button-block tmc-block ps-split">
                                 <label class="ps-split-label radio-container" for="osMac">Mac OS X
-                                    <input name="os" tabindex="8" id="osMac" value="MacOS" type="radio">
+                                    <input name="os" tabindex="8" id="osMac" value="MacOS" type="radio" checked>
                                     <span class="checkmark"></span>
                                 </label>
                                 <label class="radio-container" for="osWin">Windows

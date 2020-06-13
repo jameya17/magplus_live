@@ -928,6 +928,8 @@ ol {
     border-color: #FF8616; }
   .primary-btn.secondary-btn:hover .span1 {
     visibility: visible; }
+  .primary-btn:focus {
+    outline: 0; }
 
 .pricing-switcher .pricing-fieldset {
   display: inline-block;
@@ -2018,6 +2020,10 @@ input:-webkit-autofill:focus {
   -ms-user-select: none;
   user-select: none;
   display: inline-block; }
+  @media only screen and (max-width: 1024px) {
+    .radio-container {
+      font-size: 16px;
+      line-height: 20px; } }
   .radio-container input {
     width: 16px;
     height: 16px;
@@ -2035,6 +2041,9 @@ input:-webkit-autofill:focus {
     background-color: #eee;
     border-radius: 50%;
     border: 1px solid #979797; }
+    @media only screen and (max-width: 1024px) {
+      .radio-container .checkmark {
+        top: 1px; } }
   .radio-container:hover input ~ .checkmark {
     background-color: #ccc; }
   .radio-container .checkmark:after {
@@ -4370,6 +4379,21 @@ footer {
   line-height: 70px;
   letter-spacing: 0.5px;
   margin-bottom: 30px; }
+  @media only screen and (max-width: 1024px) {
+    .downloal-page h3 {
+      font-size: 34px;
+      line-height: 40px;
+      margin-bottom: 20px;
+      text-align: center; } }
+  @media only screen and (max-width: 450px) {
+    .downloal-page h3 {
+      font-size: 30px;
+      line-height: 34px;
+      margin-bottom: 20px;
+      text-align: center; } }
+  @media only screen and (max-width: 1024px) {
+    .downloal-page h3 br {
+      display: none; } }
 .downloal-page .drop-down, .downloal-page .mob-select, .downloal-page .download-ver-select {
   margin-bottom: 25px; }
   .downloal-page .drop-down .selected a, .downloal-page .mob-select .selected a, .downloal-page .download-ver-select .selected a {
@@ -4384,6 +4408,13 @@ footer {
     align-items: center; }
     .downloal-page .drop-down .selected a::before, .downloal-page .mob-select .selected a::before, .downloal-page .download-ver-select .selected a::before {
       top: 18px; }
+    @media only screen and (max-width: 1024px) {
+      .downloal-page .drop-down .selected a, .downloal-page .mob-select .selected a, .downloal-page .download-ver-select .selected a {
+        margin: 0 auto 20px; } }
+    @media only screen and (max-width: 450px) {
+      .downloal-page .drop-down .selected a, .downloal-page .mob-select .selected a, .downloal-page .download-ver-select .selected a {
+        margin: 0 auto 20px;
+        max-width: 280px; } }
   .downloal-page .drop-down .options ul, .downloal-page .mob-select .options ul, .downloal-page .download-ver-select .options ul {
     width: auto;
     max-width: 420px;
@@ -4401,6 +4432,10 @@ footer {
   padding: 30px;
   margin-bottom: 30px;
   border: 1px solid #FF8616; }
+  @media only screen and (max-width: 1024px) {
+    .downloal-page .tools-download-info-holder {
+      padding: 20px;
+      margin-bottom: 20px; } }
 .downloal-page .link {
   text-decoration: underline;
   color: #FF8616; }
@@ -4408,15 +4443,27 @@ footer {
     color: #F36F21; }
 .downloal-page .flex-start .tmc-text {
   text-align: left; }
+  @media only screen and (max-width: 1024px) {
+    .downloal-page .flex-start .tmc-text {
+      text-align: center; } }
 
 .tools-download-info-block h5 {
   margin-bottom: 20px; }
+  @media only screen and (max-width: 1024px) {
+    .tools-download-info-block h5 {
+      margin-bottom: 10px; } }
 .tools-download-info-block .bullet-list {
   padding-left: 25px; }
+  @media only screen and (max-width: 1024px) {
+    .tools-download-info-block .bullet-list {
+      padding: 0; } }
   .tools-download-info-block .bullet-list li {
     font-size: 16px;
     line-height: 24px;
     color: #6B6D70; }
+    @media only screen and (max-width: 1024px) {
+      .tools-download-info-block .bullet-list li {
+        display: inline-block; } }
 
 .pricing-pg p {
   margin-bottom: 50px; }
