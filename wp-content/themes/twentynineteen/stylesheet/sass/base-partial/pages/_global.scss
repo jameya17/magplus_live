@@ -56,6 +56,15 @@
         span, strong{
             display: block;
         }
+        &.privacy-content-block{
+            p{
+                strong{
+                    display: inline;
+                    margin-bottom: 0;
+                }
+            }
+        }
+
     }
 }
 .case-studies-img-block{

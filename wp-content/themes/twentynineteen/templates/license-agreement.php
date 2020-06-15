@@ -36,7 +36,7 @@ get_header();
                     <p>This is a legally binding agreement between you (either an individual or a single entity, or any organization), referred to herein as “mag+ Customer”, and MPS NA LLC, 50 Main Street, White Plains, New York 10606, USA (d/b/a mag+ ) referred to herein as “mag+” for the Software, SDK (or, as applicable, Trial SDK) identified in the mag+ Customer Order Confirmation, including any applicable Professional Services, and Support.</p>
                     <p>mag+ Customer (as defined in the mag+ Customer Order Confirmation- “Order”) desires to use the Software, Trial SDK, and/or SDK, as agreed in the Order and to receive, to the extent applicable, certain services from mag+, in connection with publishing Apps for deployment via Marketplace(s) on Target Devices. The general terms and conditions contained in this mag+ Customer End User License Agreement (“EULA”) and the Order regulate the relationship between mag+ and mag+ Customer in connection with this Agreement.</p>
                     <p>Terms of usage in this Agreement may be defined in this EULA or in the Order.</p>
-                    <p>By downloading, installing, copying, accessing or using this software, mag+ Customer agrees to be bound by the terms of this EULA, the Order, and the Conditions of Use and Privacy Policy posted on <a href="www.magplus.com/legal" class="text-link">www.magplus.com/legal</a>.</p>
+                    <p>By downloading, installing, copying, accessing or using this software, mag+ Customer agrees to be bound by the terms of this EULA, the Order, and the Conditions of Use and Privacy Policy posted on <a href="/legal/privacy-policy" class="text-link">www.magplus.com/legal/privacy-policy</a>.</p>
                     <p>If mag+ Customer does not agree to the terms of this EULA, the Order, the Conditions of Use and Privacy Policy, mag+ Customer is prohibited from downloading, installing, accessing, copying or using the Software, SDK, and/or Trial SDK.</p>
                      <p>
                         <strong>1. GENERAL TERMS AND CONDITIONS</strong>
@@ -186,7 +186,7 @@ get_header();
                      </p>   
                      <p>
                          <strong>20. AMENDMENT</strong>
-                         Mag + has the sole discretion to amend or update Terms of this Agreement at any time. Any amendments shall be effective on the posting of an updated version at <a href="https://www.magplus.com/legal/eula/" class="text-link">https://www.magplus.com/legal/eula/</a>
+                         Mag + has the sole discretion to amend or update Terms of this Agreement at any time. Any amendments shall be effective on the posting of an updated version at <a href="/legal/eula/" class="text-link">https://www.magplus.com/legal/eula/</a>
                      </p>   
                      <p>
                          <strong>21. ENTIRE AGREEMENT</strong>
