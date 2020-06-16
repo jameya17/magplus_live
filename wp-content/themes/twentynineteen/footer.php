@@ -555,6 +555,17 @@
             if (!jQueryclicked.parents().hasClass("download-ver-select"))
                 jQuery(".download-ver-select .options ul").hide();
         });
+
+        $('.tab-list a').click(function(){
+            if($(this).hasClass("active")){
+                return false;
+            }{
+                $(".tab-content .tab-item").show(300);
+                $("#" + $(this).attr("data-id")).hide(600);
+                $('.tab-list a').removeClass("active");
+                $(this).addClass("active");
+            }
+        });
     });
     
     
