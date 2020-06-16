@@ -14,7 +14,7 @@ get_header();
         <div class="l-section" style="position: relative;z-index: 0;">
             <div class="l-section-wrap breadcrumb">
                 <ul>
-                    <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">Magpplus</a></li>
+                    <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">mag+</a></li>
                     <li class="breadcrumb-item">Pricing</li>
                 </ul>
             </div>
@@ -24,7 +24,7 @@ get_header();
             <div class="l-section-wrap">
                 <div class="g-col align-center">
                     <h3>Our Subscription Plans</h3>
-                    <p class="small-wrap">Mag+ makes it easy to publish your content to your own mobile app. From text to video to interactive elements, no matter the source, the mag+ software</p>
+                    <p class="small-wrap">mag+ makes it easy to publish your content to your own mobile app. From text to video to interactive elements, no matter the source, the mag+ software</p>
                     <div class="pricing-switcher">
                         <div class="pricing-fieldset">
                             <input type="radio" name="duration-1" value="monthly" id="monthly" checked="">
@@ -76,18 +76,18 @@ get_header();
                                                 <strong class="plan-price">&nbsp;</strong>
                                             </li>
                                             <li>Number of Apps for iOS, Android & Kindle</li>
-                                            <li>Number of Issues </li>
-                                            <li>Enterprise Builds for iOS </li>
-                                            <li>Publish Adobe Indesign Content </li>
-                                            <li>App Monetization </li>
-                                            <li>Analytics Support </li>
-                                            <li>Publish PDF Files </li>
-                                            <li>Publish HTML Content </li>
-                                            <li>Unlimited Push Notifications  </li>
+                                            <li>Number of Issues</li>
+                                            <li>Enterprise Builds for iOS</li>
+                                            <li>Publish Adobe Indesign Content</li>
+                                            <li>App Monetization</li>
+                                            <li>Analytics Support</li>
+                                            <li>Publish PDF Files</li>
+                                            <li>Publish HTML Content</li>
+                                            <li>Unlimited Push Notifications</li>
                                             <li>Social Sign-in</li>
-                                            <li>Publish AR Packages in iOS </li>
-                                            <li>User management/Role based access  </li>
-                                            <li>Customer Support </li>
+                                            <li>Publish AR Packages in iOS</li>
+                                            <li>User management/Role based access</li>
+                                            <li>Customer Support</li>
                                             <li class="btn-block">&nbsp;</li>
                                         </ul>
                                     </div>
@@ -209,18 +209,18 @@ get_header();
                                                 <strong class="plan-price">&nbsp;</strong>
                                             </li>
                                             <li>Number of Apps for iOS, Android & Kindle</li>
-                                            <li>Number of Issues </li>
-                                            <li>Enterprise Builds for iOS </li>
-                                            <li>Publish Adobe Indesign Content </li>
-                                            <li>App Monetization </li>
-                                            <li>Analytics Support </li>
-                                            <li>Publish PDF Files </li>
-                                            <li>Publish HTML Content </li>
-                                            <li>Unlimited Push Notifications  </li>
+                                            <li>Number of Issues</li>
+                                            <li>Enterprise Builds for iOS</li>
+                                            <li>Publish Adobe Indesign Content</li>
+                                            <li>App Monetization</li>
+                                            <li>Analytics Support</li>
+                                            <li>Publish PDF Files</li>
+                                            <li>Publish HTML Content</li>
+                                            <li>Unlimited Push Notifications</li>
                                             <li>Social Sign-in</li>
-                                            <li>Publish AR Packages in iOS </li>
-                                            <li>User management/Role based access  </li>
-                                            <li>Customer Support </li>
+                                            <li>Publish AR Packages in iOS</li>
+                                            <li>User management/Role based access</li>
+                                            <li>Customer Support</li>
                                             <li class="btn-block">&nbsp;</li>
                                         </ul>
                                     </div>
@@ -342,18 +342,18 @@ get_header();
                                                 <strong class="plan-price">&nbsp;</strong>
                                             </li>
                                             <li>Number of Apps for iOS, Android & Kindle</li>
-                                            <li>Number of Issues </li>
-                                            <li>Enterprise Builds for iOS </li>
-                                            <li>Publish Adobe Indesign Content </li>
-                                            <li>App Monetization </li>
-                                            <li>Analytics Support </li>
-                                            <li>Publish PDF Files </li>
-                                            <li>Publish HTML Content </li>
-                                            <li>Unlimited Push Notifications  </li>
+                                            <li>Number of Issues</li>
+                                            <li>Enterprise Builds for iOS</li>
+                                            <li>Publish Adobe Indesign Content</li>
+                                            <li>App Monetization</li>
+                                            <li>Analytics Support</li>
+                                            <li>Publish PDF Files</li>
+                                            <li>Publish HTML Content</li>
+                                            <li>Unlimited Push Notifications</li>
                                             <li>Social Sign-in</li>
-                                            <li>Publish AR Packages in iOS </li>
-                                            <li>User management/Role based access  </li>
-                                            <li>Customer Support </li>
+                                            <li>Publish AR Packages in iOS</li>
+                                            <li>User management/Role based access</li>
+                                            <li>Customer Support</li>
                                             <li class="btn-block">&nbsp;</li>
                                         </ul>
                                     </div>

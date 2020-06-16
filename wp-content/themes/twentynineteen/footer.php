@@ -5,7 +5,7 @@
                 <a class="foot-logo" href="<?php echo get_permalink(29200); ?>">
                     <img class="logo" src="<?php bloginfo('template_directory'); ?>/images/foot-logo.svg" alt="Megaplus Logo" title="Megaplus Logo">
                 </a>
-                <span>Magplus is a registered Trademark Copyright &copy 2020</span>
+                <span>mag+ is a registered Trademark <br/>Copyright &copy 2020</span>
             </div>
             <div class="follow-us-block">
                 <h6>Follow Us</h6>
@@ -22,8 +22,8 @@
         <div class="foot-col">
             <h6 class="toggle resources">Resources</h6>
             <ul class="inner foot-link-block">
-                <li><a href="<?php echo get_permalink(31525); ?>" class="foot-link" title="Case Studies ">Case Studies </a></li>
-                <li><a href="<?php echo get_permalink(31523); ?>" class="foot-link" title="Tutorials ">Tutorials </a></li>
+                <li><a href="<?php echo get_permalink(31525); ?>" class="foot-link" title="Case Studies">Case Studies</a></li>
+                <li><a href="<?php echo get_permalink(31523); ?>" class="foot-link" title="Tutorials">Tutorials</a></li>
                 <li><a href="<?php echo get_permalink(19); ?>" class="foot-link" title="Blogs">Blogs</a></li>
                 <li><a href="<?php echo get_permalink(31257); ?>" class="foot-link" title="FAQs">FAQs</a></li>
             </ul>
@@ -31,7 +31,7 @@
         <div class="foot-col">
             <h6 class="toggle">Legal</h6>
             <ul class="inner foot-link-block">
-                <li><a href="<?php echo get_permalink(870); ?>" class="foot-link" title="Privacy Policy  ">Privacy Policy</a></li>
+                <li><a href="<?php echo get_permalink(870); ?>" class="foot-link" title="Privacy Policy">Privacy Policy</a></li>
                 <li><a href="<?php echo get_permalink(867); ?>" class="foot-link" title="Terms of Use">Terms of Use</a></li>
                 <li><a href="<?php echo get_permalink(608); ?>" class="foot-link" title="License and Agreement">License and Agreement</a></li>
             </ul>
@@ -39,22 +39,22 @@
         <div class="foot-col">
             <h6 class="toggle">Products</h6>
             <ul class="inner foot-link-block">
-                <li><a href="<?php echo get_permalink(22485); ?>" class="foot-link" title="Services ">Services </a></li>
+                <li><a href="<?php echo get_permalink(22485); ?>" class="foot-link" title="Services">Services</a></li>
                 <li><a href="<?php echo get_permalink(27659); ?>" class="foot-link" title="Pricing">Pricing</a></li>
-                <li><a href="<?php echo get_permalink(31672); ?>" class="foot-link" title="Mag Plus Pro">Mag Plus Pro</a></li>
+                <li><a href="<?php echo get_permalink(31672); ?>" class="foot-link" title="Mag Plus Pro">mag+ Now</a></li>
             </ul>
         </div>
         <div class="foot-col">
             <h6 class="toggle">Company</h6>
             <ul class="inner foot-link-block">
                 <li><a href="javascript:void(0)" class="foot-link" title="About Us">About Us</a></li>
-                <li><a href="javascript:void(0)" class="foot-link" title="Events ">Events </a></li>
-                <li><a href="<?php echo get_permalink(31549); ?>" class="foot-link" title="Try For Free ">Try For Free </a></li>
+                <li><a href="javascript:void(0)" class="foot-link" title="Events">Events</a></li>
+                <li><a href="<?php echo get_permalink(31549); ?>" class="foot-link" title="Try For Free">Try For Free</a></li>
             </ul>
         </div>
         <div class="foot-col subscription-sec">
             <h6>Subscribe</h6>
-            <p class="small">At half-past eight the door opened, the policeman appeared.</p>
+            <p class="small">Stay up-to-date on mag+ products, news <br/>and expert views.</p>
             <?php echo do_shortcode('[do_widget id=wp_subscribe-3]'); ?>
             <!-- <div class="subscription-form">
                 <div class="inline-form error-block">
@@ -74,7 +74,7 @@
                     <li><a href="https://www.instagram.com/magplus/" target="_blank" title="Instagram"><img src="<?php bloginfo('template_directory'); ?>/images/icons/instagram.svg" alt="Instagram" /></a></li>
                     <li><a href="https://www.youtube.com/user/magplus" target="_blank" title="youTube"><img src="<?php bloginfo('template_directory'); ?>/images/icons/youtube.svg" alt="youTube" /></a></li>
                 </ul>
-                <span class="copy-text">Magplus is a registered Trademark Copyright &copy 2020</span>
+                <span class="copy-text">mag+ is a registered Trademark <br/>Copyright &copy 2020</span>
             </div>
         </div>
     </div>

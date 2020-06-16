@@ -17,7 +17,7 @@ get_header();
             <div class="l-section-wrap">
                 <div class="breadcrumb">
                     <ul>
-                        <li class="breadcrumb-item"><a href="#">Magpplus</a></li>
+                        <li class="breadcrumb-item"><a href="#">mag+</a></li>
                         <li class="breadcrumb-item"><a href="#">Support</a></li>
                         <li class="breadcrumb-item">
 	                        <a href="#">

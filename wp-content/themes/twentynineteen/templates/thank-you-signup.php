@@ -27,7 +27,7 @@ get_header();
             <div class="l-section-wrap pos-rel">
                 <div class="breadcrumb">
                     <ul>
-                        <li class="breadcrumb-item"><a href="#">Magpplus</a></li>
+                        <li class="breadcrumb-item"><a href="#">mag+</a></li>
                         <li class="breadcrumb-item"><a href="#">Try For Free</a></li>
                         <li class="breadcrumb-item"><a href="#">Sign Up</a></li>
                     </ul>
@@ -38,7 +38,7 @@ get_header();
                         <img src="<?php bloginfo('template_directory'); ?>/images/thank-you-signup.svg" alt="" />
 
                         <h2>Thanks for signing up!</h2>
-                        <p>We're excited to have you check out all the things you can do with Magplus, and start publishing your App.</p>
+                        <p>We're excited to have you check out all the things you can do with mag+, and start publishing your App.</p>
                         
                         <a href="/" class="primary-btn" title="Explore Mag+">Explore Mag+
                             <span class="span1">Explore Mag+</span>
