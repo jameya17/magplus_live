@@ -15,7 +15,7 @@ get_header();
             <div class="l-section-wrap pos-rel">
                 <div class="breadcrumb">
                     <ul>
-                        <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">Magpplus</a></li>
+                        <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">mag+</a></li>
                         <li class="breadcrumb-item">Try For Free</li>
                     </ul>
                 </div>

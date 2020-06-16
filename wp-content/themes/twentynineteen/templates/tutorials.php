@@ -16,7 +16,7 @@ get_header();
         <div class="l-section-wrap">
             <div class="breadcrumb">
                 <ul>
-                    <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">Magpplus</a></li>
+                    <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">mag+</a></li>
                     <li class="breadcrumb-item"><a href="<?php echo get_permalink(31519); ?>">Support</a></li>
                     <li class="breadcrumb-item">Tutorials</li>
                 </ul>
@@ -25,7 +25,7 @@ get_header();
                 <div class="content-block">
                     <h3>Tutorials</h3>
                     <div class="small-wrap">
-                        <p>Watch this carefully curated list of tutorial videos to help you kickstart you jour with using mag+. You can always reach out to us at <a href="support@magplus.com" title="support@magplus.com" class="text-link">support@magplus.com</a> if you need additional information on any of the topics.</p>
+                        <p>Watch this carefully curated list of tutorial videos to help you kickstart your tour with using mag+. You can always reach out to us at <a href="support@magplus.com" title="support@magplus.com" class="text-link">support@magplus.com</a> if you need additional information on any of the topics.</p>
                         <!-- <div class="btn-block align-center">
                                     <a href="#tutorials" class="primary-btn js-anchor-link" title="Watch All Tutorials">Watch All Tutorials
                                         <span class="span1">Watch All Tutorials</span>
@@ -83,7 +83,7 @@ get_header();
                             </label>
                         </li>
                         <li>
-                            <label class="checkbox-container">What is Magplus&nbsp;<span class="count">(<?php echo $countArray[3]; ?>)</span>
+                            <label class="checkbox-container">What is mag+&nbsp;<span class="count">(<?php echo $countArray[3]; ?>)</span>
                                 <input type="checkbox" class="checkboxTutorials" data-value="265">
                                 <span class="checkmark"></span>
                             </label>

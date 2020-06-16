@@ -2218,22 +2218,20 @@ input:-webkit-autofill:focus {
       min-height: auto;
       transform-origin: center center; } }
 
-.click-card-block {
-  position: relative; }
-  @media only screen and (max-width: 400px) {
-    .click-card-block {
-      width: 100%; } }
-  .click-card-block.active {
-    z-index: 2;
-    transform: none !important; }
-    .click-card-block.active .popup-content-block {
-      visibility: visible;
-      transform: scale(1); }
-    @media only screen and (max-width: 1024px) {
-      .click-card-block.active {
-        position: relative; } }
-  .click-card-block .card {
-    min-height: 365px; }
+@media only screen and (max-width: 400px) {
+  .click-card-block {
+    width: 100%; } }
+.click-card-block.active {
+  z-index: 2;
+  transform: none !important; }
+  .click-card-block.active .popup-content-block {
+    visibility: visible;
+    transform: scale(1); }
+  @media only screen and (max-width: 1024px) {
+    .click-card-block.active {
+      position: relative; } }
+.click-card-block .card {
+  min-height: 365px; }
 
 .card-text {
   font-size: 16px;
@@ -3278,6 +3276,8 @@ footer {
       border: 0; }
     footer h6.con-info {
       margin-bottom: 0; }
+  footer .subscription-sec .small {
+    margin-bottom: 4px; }
   @media only screen and (max-width: 1024px) {
     footer .subscription-sec {
       margin: 0 auto;

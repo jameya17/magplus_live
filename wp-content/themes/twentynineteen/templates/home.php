@@ -14,7 +14,7 @@ get_header();
                 <div class="g-col">
                     <div class="one-half">
                         <h1>Easily create your next <span class="typewrite" data-period="2000" data-type='[ "Magazine", "Presentation", "Brochure", "Catalog" ]'></span></h1>
-                        <p>A platform to build, distribute and monetise creative content on smart-devices. 6000+ apps have already been made - Coding free, Hassle free</p>
+                        <p>A platform to build, distribute and monetize creative content on smart-devices. 6000+ apps have already been made - Coding-free, Hassle-free</p>
                         <a href="javascript:void()" class="primary-btn home-contact-click" title="Know More">Know More
                             <span class="span1">Know More</span>
                             <span class="span2">Know More</span>
@@ -75,7 +75,7 @@ get_header();
                             </div>    
                             <div class="item-detail">
                                 <h5>MAD Magazine</h5>
-                                <p>The classic, satirical magazine for the iPad.</p>
+                                <p>The classic, satirical magazine for the iPad</p>
                             </div>    
                         </div>
                         <div class="item">
@@ -121,7 +121,7 @@ get_header();
             <div class="l-section-wrap" data-aos="fade-up">
                 <div class="g-col align-center">  
                     <h3>Why choose mag+?</h3>
-                    <p class="small-wrap">mag+’s digital-publishing software covers every part of the app-publishing process. Design your content using simple tools, build your own branded mobile app on our Web portal, and distribute your designed content to that app for end users to experience on their mobile devices.</p>
+                    <p class="small-wrap">mag+'s digital-publishing software covers every part of the app-publishing process. Design your content using simple tools, build your own branded mobile app on our web portal and distribute your designed content to the app for end users to experience on their mobile devices.</p>
                     <a href="javascript:void()" class="primary-btn home-contact-click" title="Contact Us">Contact Us
                         <span class="span1">Contact Us</span>
                         <span class="span2">Contact Us</span>
@@ -176,7 +176,7 @@ get_header();
                                             <img src="<?php bloginfo('template_directory'); ?>/images/icons/manage-apps-icon.svg" alt="Publish content" />
                                         </div>
                                         <h4 class="card-title">Publish content</h4>
-                                        <p class="card-text">Once your app is on your users’ smart-devices, publishing your content—magazines, brochures, push notifications, or live feeds—is as simple as uploading a file and pushing a button.</p>
+                                        <p class="card-text">Once your app is on your users’ smart devices, publishing your content— magazines, brochures, push notifications, or live feeds— is as simple as uploading a file and pushing a button.</p>
                                         <a href="#" class="btn-link" title="Read More +">Read More +</a>
                                     </div>
                                 </div>
@@ -185,7 +185,7 @@ get_header();
                                         <img src="<?php bloginfo('template_directory'); ?>/images/icons/create-content-icon.svg" alt="Create Content" />
                                     </div>
                                     <h4 class="card-title">Publish content</h4>
-                                    <p class="card-text">Once your app is on your users’ smart-devices, publishing your content—magazines, brochures, push notifications, or live feeds—is as simple as uploading a file and pushing a button.</p>
+                                    <p class="card-text">Once your app is on your users’ smart devices, publishing your content— magazines, brochures, push notifications, or live feeds— is as simple as uploading a file and pushing a button.</p>
                                     <a href="" id="close-popup"></a>
                                 </div>
                             </div> 
@@ -193,18 +193,18 @@ get_header();
                                 <div data-aos="fade-left" class="card">
                                     <div class="card-body">
                                         <div class="card-icon">
-                                            <img src="<?php bloginfo('template_directory'); ?>/images/icons/monitise-apps-icons.svg" alt="Monitise Apps" />
+                                            <img src="<?php bloginfo('template_directory'); ?>/images/icons/monitise-apps-icons.svg" alt="Monetize Apps" />
                                         </div>
-                                        <h4 class="card-title">Monitise Apps</h4>
+                                        <h4 class="card-title">Monetize Apps</h4>
                                         <p class="card-text">Use in-app purchases or user subscriptions to monetize the content in your app. Additionally, use 3rd party platforms like Admob, AdMarvel to monetize using in-app advertisements.</p>
                                         <a href="#" class="btn-link" title="Read More +">Read More +</a>
                                     </div>
                                 </div>
                                 <div class="card-popup-content popup-content-block">
                                     <div class="card-icon">
-                                        <img src="<?php bloginfo('template_directory'); ?>/images/icons/create-content-icon.svg" alt="Monetize your app" />
+                                        <img src="<?php bloginfo('template_directory'); ?>/images/icons/create-content-icon.svg" alt="Monetize Apps" />
                                     </div>
-                                    <h4 class="card-title">Monitise Apps</h4>
+                                    <h4 class="card-title">Monetize Apps</h4>
                                     <p class="card-text">Use in-app purchases or user subscriptions to monetize the content in your app. Additionally, use 3rd party platforms like Admob, AdMarvel to monetize using in-app advertisements.</p>
                                     <a href="" id="close-popup"></a>
                                 </div> 
@@ -218,7 +218,7 @@ get_header();
             <div class="l-section-wrap">
                 <div class="g-col">
                     <div class="magpluspro-con-block">
-                        <h3>Check out our all new Magplus Now</h3>
+                        <h3>Check out our all new mag+ Now.</h3>
                         <!-- <h3>Still confused on how to create an interactive magazine? Is the search for the right information weighing you down? Then, check out our all new mag+ NOW.</h3> -->
                         <p>An all-in-one solution to streamline your entire publishing process.</p>
                         <a href="?page_id=31528" class="btn primary-btn secondary-btn" title="Check Now">Check Now
