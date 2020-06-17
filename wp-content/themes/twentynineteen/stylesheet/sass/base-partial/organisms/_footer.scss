@@ -235,6 +235,7 @@ footer{
     position: fixed;
     top: 80px;
     right: 0; 
+    z-index: 9;
 }
 .drawer-body{
     position: fixed;
@@ -243,6 +244,7 @@ footer{
     transform: translate(100vh,0); 
     transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55); 
     // visibility: hidden;
+    z-index: 99;
     &.active{
         transform: translate(0,0); 
         overflow: auto; 

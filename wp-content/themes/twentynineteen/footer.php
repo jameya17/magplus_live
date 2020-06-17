@@ -420,6 +420,7 @@
         }
 
         jQuery(".drop-down .selected a").click(function() {
+            jQuery(this).toggleClass("active");
             jQuery(".drop-down .options ul").toggle();
         });
 
@@ -429,6 +430,7 @@
             var target = jQuery(jQuery(this).attr("href"));
             jQuery(".drop-down .selected a span").html(text);
             jQuery(".drop-down .options ul").hide();
+            jQuery(".drop-down .selected a").removeClass("active");
             if (target.length) {
                 jQuery(this).addClass("active");
             } else {

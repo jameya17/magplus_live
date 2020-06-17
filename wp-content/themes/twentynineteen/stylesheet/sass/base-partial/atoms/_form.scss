@@ -749,12 +749,13 @@ input:-webkit-autofill:focus {
                 position: absolute;
                 left: auto;
                 right: 15px;
-                top: 15px;
+                top: 12px;
                 width: 13px;
                 height: 8px;
                 background-image: url(../../images/icons/dropdown-arrow-ico.svg);
                 background-repeat: no-repeat; 
-                transform: rotate(180deg); 
+                transform: rotate(180deg);
+                transition: all 0.3s; 
                 // background-color: transparent;
                 
             }
@@ -770,6 +771,13 @@ input:-webkit-autofill:focus {
                     display: none;
                 }
             }
+
+            &.active{
+                &::before{
+                    transform: rotate(360deg);
+                }
+            }
+
         }
     } 
     .options{  
@@ -856,6 +864,8 @@ input:-webkit-autofill:focus {
             a{
                 &::before{
                     transform: rotate(180deg);
+                    top: 8px;
+                    right: 18px;
                 }
             }
         }
