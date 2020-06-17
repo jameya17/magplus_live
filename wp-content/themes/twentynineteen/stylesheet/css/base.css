@@ -1061,7 +1061,8 @@ ol {
   @media only screen and (max-width: 1024px) {
     .sticky-nav-block {
       padding: 5px 0;
-      top: 56px; }
+      top: 56px;
+      display: none; }
       .sticky-nav-block .sticky-sidebar li {
         padding: 0 5px; }
         .sticky-nav-block .sticky-sidebar li .nav-link {
@@ -3482,36 +3483,27 @@ footer {
     .inline-form .btn:hover, .inline-form .button-hover, .inline-form .button-active, .inline-form .primary-btn:hover, .inline-form .form-container .form-btn:hover, .form-container .inline-form .form-btn:hover {
       background-color: #F36F21; }
 
-.sticky-drawer-section {
-  position: fixed;
-  right: 0;
-  top: 10%;
-  width: 100%;
-  z-index: 9; }
-  @media only screen and (max-width: 768px) {
-    .sticky-drawer-section {
-      top: 8%; } }
-  @media only screen and (max-width: 676px) {
-    .sticky-drawer-section {
-      top: 0; } }
-
 .drawer-head {
-  position: absolute;
+  position: fixed;
   top: 80px;
   right: 0; }
 
-.drawer-body .contact-us-form {
-  position: absolute;
-  right: -100%;
-  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  visibility: hidden; }
-  @media only screen and (max-width: 667px) {
-    .drawer-body .contact-us-form {
-      width: 100%; } }
-
-.sticky-drawer-section.active .drawer-body .contact-us-form {
+.drawer-body {
+  position: fixed;
+  top: 10%;
   right: 0;
-  visibility: visible; }
+  transform: translate(100vh, 0);
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  .drawer-body.active {
+    transform: translate(0, 0);
+    overflow: auto; }
+  @media only screen and (max-width: 1024px) {
+    .drawer-body {
+      top: 6%; } }
+  @media only screen and (max-width: 676px) {
+    .drawer-body {
+      top: 0;
+      z-index: 10; } }
 
 .contact-us {
   font-size: 14px;

@@ -80,7 +80,7 @@
     </div>
 </footer>
 
-<div class="sticky-drawer-section">
+
     <div class="drawer-head">
         <h4 class="contact-us contact-click">Contact Us</h4>
         <!-- <span class="sharing-icon"></span> -->
@@ -143,7 +143,7 @@
             <span id="close-popup" class="close-popup"></span>
         </div>
     </div>
-</div>
+
 
 <!--<div class="chat-section">
     <span class="chat-icon"></span>
@@ -299,15 +299,17 @@
 
         });
         jQuery('.contact-click').on('click', function() { 
-            jQuery(this).closest('.sticky-drawer-section').addClass('active');
+            // jQuery(this).closest('.drawer-head').addClass('active');
+            jQuery(".drawer-body").addClass('active');  
         }); 
         
         jQuery('.home-contact-click').on('click', function() { 
-           jQuery(this).find(".sticky-drawer-section");
-           jQuery(".sticky-drawer-section").addClass('active'); 
+        //  jQuery(this).find(".drawer-head");
+            jQuery(".drawer-body").addClass('active');
         });
         jQuery('.close-popup').on('click', function() {  
-            jQuery(this).closest('.sticky-drawer-section').removeClass('active');
+            // jQuery(this).closest('.drawer-head').removeClass('active');
+            jQuery(".drawer-body").removeClass('active');
         });
         jQuery('.card-deck a').fancybox({
             caption: function(instance, item) {
