@@ -1124,6 +1124,19 @@ ol {
         .tab-section .tab-item .tab-link {
           font-size: 14px;
           padding: 15px 6px; } }
+      .tab-section .tab-item .tab-link.active {
+        border-color: #FF8616; }
+
+.pricing-tab {
+  width: 100%; }
+  .pricing-tab .tab-content {
+    width: 100%; }
+  .pricing-tab .tab-item {
+    border-bottom: 0; }
+  .pricing-tab .tab-link {
+    border-bottom: 3px solid #FFE1C5; }
+    .pricing-tab .tab-link.active {
+      border-color: #FF8616; }
 
 .input-text, .input-password, .textarea, .input-email {
   font-size: 14px;
@@ -2074,6 +2087,11 @@ input:-webkit-autofill:focus {
 @media only screen and (max-width: 1024px) {
   .forgot-password-block {
     flex-direction: column; } }
+
+.tab-content .tab-sec {
+  display: none; }
+  .tab-content .tab-sec.active {
+    display: block; }
 
 .card-section {
   margin: 100px 0 0 0; }
@@ -4571,22 +4589,41 @@ footer {
     padding: 0 25px;
     border-top: 1px solid #ddd; }
     .plan-th li.plan-head, .plan-td li.plan-head {
-      padding: 15px 25px; }
+      position: relative;
+      padding: 15px 0;
+      min-height: 78px; }
       @media only screen and (max-width: 1024px) {
         .plan-th li.plan-head, .plan-td li.plan-head {
-          padding: 15px 10px; } }
+          padding: 15px 0;
+          min-height: auto; } }
+      .plan-th li.plan-head .lbl-annually, .plan-td li.plan-head .lbl-annually {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        bottom: 0; }
+        @media only screen and (max-width: 1024px) {
+          .plan-th li.plan-head .lbl-annually, .plan-td li.plan-head .lbl-annually {
+            position: static; } }
     .plan-th li strong, .plan-td li strong {
       display: block;
       font-size: 13.64px;
       line-height: 16.37px;
       font-weight: 700;
       margin-bottom: 10px; }
+      @media only screen and (max-width: 1024px) {
+        .plan-th li strong, .plan-td li strong {
+          margin-bottom: 5px; } }
       .plan-th li strong.plan-price, .plan-td li strong.plan-price {
         font-size: 47.74px;
         line-height: 52.51px;
         letter-spacing: -0.84px;
         color: #8D8788;
         margin: 0; }
+        @media only screen and (max-width: 1024px) {
+          .plan-th li strong.plan-price, .plan-td li strong.plan-price {
+            font-size: 40px;
+            line-height: 40px; } }
     .plan-th li.btn-block, .plan-td li.btn-block {
       padding: 25px 0;
       -webkit-justify-content: center;
@@ -4647,7 +4684,8 @@ footer {
   z-index: 1; }
   @media only screen and (max-width: 1024px) {
     .popular {
-      margin-top: 60px; } }
+      margin-top: 60px;
+      z-index: 0; } }
   .popular li strong.plan-price {
     color: #FF8616; }
   .popular li.lbl-popular {
@@ -4678,6 +4716,20 @@ footer {
   right: 0;
   top: 0;
   z-index: 2; }
+  @media only screen and (max-width: 1024px) {
+    .select-field {
+      z-index: 1; } }
+
+.uk-section .plan-th li.plan-head, .uk-section .plan-td li.plan-head {
+  min-height: 98px; }
+  @media only screen and (max-width: 1024px) {
+    .uk-section .plan-th li.plan-head, .uk-section .plan-td li.plan-head {
+      min-height: auto; } }
+.uk-section .plan-th.unlimited li.plan-head strong, .uk-section .plan-td.unlimited li.plan-head strong {
+  margin-bottom: 25px; }
+  @media only screen and (max-width: 1024px) {
+    .uk-section .plan-th.unlimited li.plan-head strong, .uk-section .plan-td.unlimited li.plan-head strong {
+      margin-bottom: 10px; } }
 
 .tutorialPg .sidebar {
   width: 26.5%; }

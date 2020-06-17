@@ -51,9 +51,24 @@
         padding: 0 25px;
         border-top: 1px solid #ddd; 
         &.plan-head{
-            padding: 15px 25px; 
+            // padding: 15px 25px; 
+            position: relative;
+            padding: 15px 0; 
+            min-height: 78px;  
             @media only screen and (max-width: 1024px) {
-                padding: 15px 10px;  
+                // padding: 15px 10px;  
+                padding: 15px 0;
+                min-height: auto;  
+            }
+            .lbl-annually{
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                bottom: 0;
+                @media only screen and (max-width: 1024px) {
+                    position: static;
+                }
             }
         }
         strong{
@@ -62,12 +77,19 @@
             line-height: 16.37px; 
             font-weight: 700;
             margin-bottom: 10px;
+            @media only screen and (max-width: 1024px) {
+                margin-bottom: 5px;
+            }
             &.plan-price{
                 font-size: 47.74px;
                 line-height: 52.51px;
                 letter-spacing: -0.84px;
                 color: #8D8788; 
                 margin: 0; 
+                @media only screen and (max-width: 1024px) {
+                    font-size: 40px;
+                    line-height: 40px; 
+                }
             }
         }
         &.btn-block{ 
@@ -131,6 +153,7 @@
     z-index: 1; 
     @media only screen and (max-width: 1024px) {
         margin-top: 60px;
+        z-index: 0;
     }
     li{
         strong{
@@ -169,4 +192,30 @@
     right: 0;
     top: 0;
     z-index: 2;
+    @media only screen and (max-width: 1024px) {
+        z-index: 1;
+    }
+}
+.uk-section{
+    .plan-th, .plan-td{
+        li{
+            &.plan-head{
+                min-height: 98px;
+                @media only screen and (max-width: 1024px) {
+                    min-height: auto;
+                }
+            } 
+        }
+        &.unlimited{
+            li.plan-head{ 
+                strong{
+                    margin-bottom: 25px; 
+                    @media only screen and (max-width: 1024px) {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+    
 }

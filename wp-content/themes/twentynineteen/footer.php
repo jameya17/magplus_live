@@ -302,11 +302,10 @@
             jQuery(this).closest('.sticky-drawer-section').addClass('active');
         }); 
         
-        // jQuery('.home-contact-click').on('click', function() { 
-        //    jQuery(this).find(".sticky-drawer-section .drawer-body");
-        //    jQuery('.drawer-body').addClass('active'); 
-        //    console.log(jQuery(this).find(".sticky-drawer-section .drawer-body").addClass('active'));
-        // });
+        jQuery('.home-contact-click').on('click', function() { 
+           jQuery(this).find(".sticky-drawer-section");
+           jQuery(".sticky-drawer-section").addClass('active'); 
+        });
         jQuery('.close-popup').on('click', function() {  
             jQuery(this).closest('.sticky-drawer-section').removeClass('active');
         });
@@ -556,14 +555,14 @@
                 jQuery(".download-ver-select .options ul").hide();
         });
 
-        $('.tab-list a').click(function(){
-            if($(this).hasClass("active")){
+        jQuery('.tab-head .tab-link').click(function(){
+            if(jQuery(this).hasClass("active")){  
                 return false;
             }{
-                $(".tab-content .tab-item").show(300);
-                $("#" + $(this).attr("data-id")).hide(600);
-                $('.tab-list a').removeClass("active");
-                $(this).addClass("active");
+                jQuery(".tab-content .tab-sec").hide();
+                jQuery("#" + jQuery(this).attr("data-id")).show();
+                jQuery('.tab-head .tab-link').removeClass("active");
+                jQuery(this).addClass("active");
             }
         });
     });

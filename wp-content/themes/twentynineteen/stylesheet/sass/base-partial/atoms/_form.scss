@@ -1053,3 +1053,12 @@ input:-webkit-autofill:focus {
         flex-direction: column;
     }     
 }
+
+.tab-content{
+    .tab-sec { 
+        display: none;
+        &.active{
+            display: block; 
+        }
+    } 
+} 
