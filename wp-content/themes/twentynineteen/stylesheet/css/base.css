@@ -1136,7 +1136,8 @@ ol {
   .pricing-tab .tab-link {
     border-bottom: 3px solid #FFE1C5; }
     .pricing-tab .tab-link.active {
-      border-color: #FF8616; }
+      border-color: #FF8616;
+      color: #FF8616; }
 
 .input-text, .input-password, .textarea, .input-email {
   font-size: 14px;
