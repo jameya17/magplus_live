@@ -4644,7 +4644,7 @@ footer {
       letter-spacing: 1.2px; }
       @media only screen and (max-width: 1024px) {
         .plan-th li .btn, .plan-th li .primary-btn, .plan-th li .form-container .form-btn, .form-container .plan-th li .form-btn, .plan-td li .btn, .plan-td li .primary-btn, .plan-td li .form-container .form-btn, .form-container .plan-td li .form-btn {
-          padding: 8px; } }
+          padding: 5px 8px; } }
     @media only screen and (max-width: 1024px) {
       .plan-th li, .plan-td li {
         display: flex;
