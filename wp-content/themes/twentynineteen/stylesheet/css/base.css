@@ -1070,6 +1070,9 @@ ol {
             color: #565455; }
           .sticky-nav-block .sticky-sidebar li .nav-link.active {
             color: #F36F21; } }
+  @media only screen and (max-width: 767px) {
+    .sticky-nav-block {
+      display: none; } }
 
 .sticky-con-pad {
   padding-left: 350px; }
@@ -3115,10 +3118,15 @@ input:-webkit-autofill:focus {
       .sticky-nav-tabs-container li .sticky-nav-tab:hover {
         color: #FF8616; }
     @media only screen and (max-width: 1024px) {
-      .sticky-nav-tabs-container li.support .sticky-nav-tab, .sticky-nav-tabs-container li.services .sticky-nav-tab {
-        font-size: 12px;
-        line-height: 16px;
-        font-weight: 400; } }
+      .sticky-nav-tabs-container li.support, .sticky-nav-tabs-container li.services {
+        padding-top: 10px; }
+        .sticky-nav-tabs-container li.support .sticky-nav-tab, .sticky-nav-tabs-container li.services .sticky-nav-tab {
+          font-size: 12px;
+          line-height: 16px;
+          font-weight: 400; } }
+    @media only screen and (max-width: 1024px) {
+      .sticky-nav-tabs-container li.pricing-menu {
+        padding-top: 10px; } }
     .sticky-nav-tabs-container li .sub-menu {
       display: none;
       width: 300px;
@@ -3138,7 +3146,7 @@ input:-webkit-autofill:focus {
           background-color: #fff;
           box-shadow: none;
           border-bottom: 1px solid #ddd;
-          padding-bottom: 8   px; } }
+          padding-bottom: 10px; } }
       .sticky-nav-tabs-container li .sub-menu li {
         display: block;
         margin: 0;
@@ -3157,7 +3165,7 @@ input:-webkit-autofill:focus {
               font-size: 16px;
               line-height: 16px;
               color: #231F20;
-              padding: 6px 20px;
+              padding: 10px 20px;
               border: 0;
               font-weight: 700; } }
           .sticky-nav-tabs-container li .sub-menu li .sticky-nav-tab:hover {
@@ -3522,7 +3530,8 @@ footer {
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   /* white-space: nowrap; */
-  writing-mode: tb-rl; }
+  writing-mode: tb-rl;
+  width: 16px; }
   .contact-us:hover {
     color: #F36F21;
     border-color: #F36F21; }
@@ -4315,6 +4324,10 @@ footer {
 @media only screen and (max-width: 1024px) {
   .mag-plus-now-head {
     margin-top: 30px; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .services-breadcrumb {
+    padding-top: 35px; } }
 
 .entry-title {
   font-variation-settings: 30px;

@@ -105,11 +105,17 @@
         }
         &.support, &.services{ 
             @media only screen and (max-width: 1024px) {
+                padding-top: 10px;
                 .sticky-nav-tab{
                     font-size: 12px;
                     line-height: 16px;
                     font-weight: 400;
                 }    
+            }
+        }
+        &.pricing-menu{
+            @media only screen and (max-width: 1024px) {
+                padding-top: 10px;
             }
         }
         .sub-menu{
@@ -130,7 +136,7 @@
                 background-color: #fff;
                 box-shadow: none;
                 border-bottom: 1px solid #ddd;
-                padding-bottom: 8   px;
+                padding-bottom: 10px;
             }
             li{
                 display: block;
@@ -152,7 +158,7 @@
                         font-size: 16px;
                         line-height: 16px;
                         color: #231F20;
-                        padding: 6px 20px;
+                        padding: 10px 20px;
                         border: 0;
                         font-weight: 700;
                     }

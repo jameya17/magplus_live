@@ -12,16 +12,23 @@ get_header();
 ?>
      <div class="container">
 
-        <div class="l-section" style="position: relative;z-index: 0;">
-            <div class="l-section-wrap breadcrumb">
+        <div class="l-section">
+            <div class="l-section-wrap breadcrumb services-breadcrumb">
                 <ul>
                     <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">mag+</a></li>
                     <li class="breadcrumb-item">Services</li>
                 </ul>
             </div>
+            <div class="sticky-nav-block white-bg"> 
+                <ul class="nav sticky-sidebar" >
+                    <li><a class="nav-link" title="Creative Services" data-scroll="creative-services">Creative Services</a></li>
+                    <li><a class="nav-link" title="App Submission" data-scroll="app-submission">App Submission</a></li>
+                    <li><a class="nav-link" title="App Updation" data-scroll="app-updation">App Updation</a></li> 
+                </ul>
+            </div>
         </div>
         
-        <section class="l-section sec-pad white-bg pad-top0">
+        <section id="creative-services" class="l-section sec-pad white-bg pad-top0 scrrol-sec">
             <div class="l-section-wrap">
                 <div class="l-sub-section-pad">
                     <div class="g-col">
@@ -40,7 +47,7 @@ get_header();
                 </div>    
             </div>
         </section>
-        <section class="l-section sec-pad grey-bg">
+        <section id="app-submission" class="l-section sec-pad grey-bg scrrol-sec">
             <div class="l-section-wrap">
                 <div class="l-sub-section-pad">
                     <div class="g-col row-reverse">
@@ -59,7 +66,7 @@ get_header();
                 </div>    
             </div>
         </section>
-        <section class="l-section sec-pad white-bg">
+        <section id="app-updation" class="l-section sec-pad white-bg scrrol-sec">
             <div class="l-section-wrap">
                 <div class="l-sub-section-pad">
                     <div class="g-col">
