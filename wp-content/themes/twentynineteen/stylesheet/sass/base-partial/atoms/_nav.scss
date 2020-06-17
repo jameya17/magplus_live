@@ -105,6 +105,9 @@
     @include flex-direction(column); 
     margin-bottom: 100px;
     list-style-type: none;
+    @media only screen and (max-width: 1024px) {
+        margin-bottom: 0;
+    }
     .tab-head{
         font-size: 0;
         list-style-type: none;
