@@ -4662,7 +4662,7 @@ footer {
       margin-bottom: 0;
       border: 1px solid #ddd;
       border-top: 0;
-      padding-top: 25px; } }
+      padding-top: 30px; } }
 
 .plan-th {
   border-left: 1px solid #ddd;
@@ -4691,6 +4691,7 @@ footer {
   z-index: 1; }
   @media only screen and (max-width: 1024px) {
     .popular {
+      margin-top: 0;
       z-index: 0; } }
   .popular li strong.plan-price {
     color: #FF8616; }
