@@ -120,7 +120,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi popular">
@@ -143,7 +143,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi-pro">
@@ -165,7 +165,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td unlimited">
@@ -187,7 +187,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                             </div>     
@@ -253,7 +253,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi popular">
@@ -276,7 +276,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi-pro">
@@ -298,7 +298,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td unlimited">
@@ -320,7 +320,9 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block">
+                                                            <a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>     
@@ -386,7 +388,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi popular">
@@ -409,7 +411,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi-pro">
@@ -431,7 +433,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td unlimited">
@@ -453,7 +455,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                             </div>     
@@ -543,7 +545,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi popular">
@@ -566,7 +568,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi-pro">
@@ -588,7 +590,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td unlimited">
@@ -610,7 +612,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                             </div>     
@@ -676,7 +678,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi popular">
@@ -699,7 +701,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi-pro">
@@ -721,7 +723,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td unlimited">
@@ -743,7 +745,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                             </div>     
@@ -809,7 +811,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi popular">
@@ -832,7 +834,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi-pro">
@@ -854,7 +856,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td unlimited">
@@ -876,7 +878,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                             </div>     
@@ -967,7 +969,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi popular">
@@ -991,7 +993,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi-pro">
@@ -1014,7 +1016,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td unlimited">
@@ -1036,7 +1038,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                             </div>     
@@ -1103,7 +1105,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi popular">
@@ -1127,7 +1129,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi-pro">
@@ -1150,7 +1152,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td unlimited">
@@ -1172,7 +1174,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                             </div>     
@@ -1239,7 +1241,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi popular">
@@ -1263,7 +1265,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td multi-pro">
@@ -1286,7 +1288,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="plan-td unlimited">
@@ -1308,7 +1310,7 @@ get_header();
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                                         <li><span>Standard</span></li>
-                                                        <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                                        <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                                     </ul>
                                                 </div>
                                             </div>     
@@ -1408,7 +1410,7 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
-                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                            <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                         </ul>
                                     </div>
                                     <div class="plan-td multi popular">
@@ -1431,7 +1433,7 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
-                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                            <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                         </ul>
                                     </div>
                                     <div class="plan-td multi-pro">
@@ -1453,7 +1455,7 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
-                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                            <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                         </ul>
                                     </div>
                                     <div class="plan-td unlimited">
@@ -1475,7 +1477,7 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
-                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                            <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                         </ul>
                                     </div>
                                 </div>     
@@ -1541,7 +1543,7 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
-                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                            <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                         </ul>
                                     </div>
                                     <div class="plan-td multi popular">
@@ -1564,7 +1566,7 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
-                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                            <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                         </ul>
                                     </div>
                                     <div class="plan-td multi-pro">
@@ -1586,7 +1588,7 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
-                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                            <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                         </ul>
                                     </div>
                                     <div class="plan-td unlimited">
@@ -1608,7 +1610,7 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
-                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                            <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                         </ul>
                                     </div>
                                 </div>     
@@ -1674,7 +1676,7 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
-                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                            <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                         </ul>
                                     </div>
                                     <div class="plan-td multi popular">
@@ -1697,7 +1699,7 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/cross-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
-                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                            <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                         </ul>
                                     </div>
                                     <div class="plan-td multi-pro">
@@ -1719,7 +1721,7 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
-                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                            <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                         </ul>
                                     </div>
                                     <div class="plan-td unlimited">
@@ -1741,7 +1743,7 @@ get_header();
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><img src="<?php bloginfo('template_directory'); ?>/images/icons/checkmark-icon.svg" alt=""></li>
                                             <li><span>Standard</span></li>
-                                            <li class="btn-block"><button type="btn" class="btn sec-btn" title="Get Started">Get Started</button></li>
+                                            <li class="btn-block"><a href="javascript:void()" class="btn sec-btn home-contact-click" title="Contact Us">Contact Us</a></li>
                                         </ul>
                                     </div>
                                 </div>     

@@ -78,8 +78,8 @@
                             <li class="<?php if($pageId == 19){ ?>active<?php } ?>"><a href="<?php echo get_permalink(19); ?>" class="sticky-nav-tab" title="Blogs">Blogs</a></li> 
                         </ul>
                     </li>
-                    <li class="<?php if($pageId == 27659){ ?>active<?php } ?>"><a href="<?php echo get_permalink(27659); ?>" class="sticky-nav-tab">Pricing</a></li>
-                    <li class="<?php if($pageId == 31528){ ?>active<?php } ?>"><a href="<?php echo get_permalink(31528); ?>" class="sticky-nav-tab">mag+ Now</a></li>
+                    <li class="<?php if($pageId == 27659){ ?>active<?php } ?> pricing-menu"><a href="<?php echo get_permalink(27659); ?>" class="sticky-nav-tab">Pricing</a></li>
+                    <li class="<?php if($pageId == 31528){ ?>active<?php } ?>"><a href="<?php echo get_permalink(31528); ?>" class="sticky-nav-tab">Mag+ Now</a></li>
                     <!-- <li class=""><a href="" class="sticky-nav-tab">Logout</a></li> -->
                     <li><a href="<?php echo get_permalink(31257); ?>" class="sticky-nav-tab mob-view">FAQs</a></li>
                     <li class="try-free-block">

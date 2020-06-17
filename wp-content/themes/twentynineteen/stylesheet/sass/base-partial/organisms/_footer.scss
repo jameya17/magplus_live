@@ -291,6 +291,7 @@ footer{
     -o-transform: rotate(180deg);
     /* white-space: nowrap; */
     writing-mode: tb-rl; 
+    width: 16px;
     &:hover{
         color: $dark-org-col;
         border-color: $dark-org-col; 
