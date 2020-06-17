@@ -103,11 +103,8 @@
     @include justify-content(center);
     @include align-items(center);
     @include flex-direction(column); 
-    margin-bottom: 100px;
-    list-style-type: none;
-    @media only screen and (max-width: 1024px) {
-        margin-bottom: 0;
-    }
+    // margin-bottom: 100px;
+    list-style-type: none; 
     .tab-head{
         font-size: 0;
         list-style-type: none;

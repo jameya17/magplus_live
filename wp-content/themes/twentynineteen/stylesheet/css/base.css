@@ -1097,11 +1097,7 @@ ol {
   -moz-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin-bottom: 100px;
   list-style-type: none; }
-  @media only screen and (max-width: 1024px) {
-    .tab-section {
-      margin-bottom: 0; } }
   .tab-section .tab-head {
     font-size: 0;
     list-style-type: none;
