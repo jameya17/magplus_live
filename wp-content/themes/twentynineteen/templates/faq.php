@@ -14,7 +14,7 @@ get_header();
         <div class="l-section">
             <div class="l-section-wrap breadcrumb">
                 <ul>
-                    <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">Magpplus</a></li>
+                    <li class="breadcrumb-item"><a href="<?php echo get_permalink(29200); ?>">mag+</a></li>
                     <li class="breadcrumb-item">Faqs</li>
                 </ul>
             </div>
@@ -24,7 +24,7 @@ get_header();
             <div class="l-section-wrap">
                 <div class="">
                     <div class="g-col align-center">
-                        <h3>Magplus: FAQs</h3>
+                        <h3>mag+: FAQs</h3>
 
                         <div class="g-col offset_default align-top">
                             <div class="one-half">
