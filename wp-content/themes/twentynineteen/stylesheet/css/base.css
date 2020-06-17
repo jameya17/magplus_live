@@ -4547,7 +4547,7 @@ footer {
   margin-bottom: 50px; }
   @media only screen and (max-width: 1024px) {
     .pricing-pg p {
-      margin-bottom: 30px; } }
+      margin-bottom: 15px; } }
 
 .pricing-chart-table {
   padding-bottom: 80px;
