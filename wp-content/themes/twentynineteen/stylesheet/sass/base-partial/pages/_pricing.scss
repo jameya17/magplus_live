@@ -50,6 +50,9 @@
         font-weight: 500;
         padding: 0 25px;
         border-top: 1px solid #ddd; 
+        @media only screen and (max-width: 1024px) {
+            padding: 0 10px; 
+        }
         &.plan-head{
             // padding: 15px 25px; 
             position: relative;
@@ -211,7 +214,7 @@
                 strong{
                     margin-bottom: 25px; 
                     @media only screen and (max-width: 1024px) {
-                        margin-bottom: 10px;
+                        margin-bottom: 5px;
                     }
                 }
             }
