@@ -1932,10 +1932,10 @@ input:-webkit-autofill:focus {
     .mob-select .selected a::before {
       top: 10px;
       background-image: url(../../images/icons/dropdown-white-arrow-ico.svg);
-      transform: rotate(180deg);
+      transform: rotate(0deg);
       transition: all 0.3s; }
   .mob-select.open .selected a::before {
-    transform: rotate(360deg); }
+    transform: rotate(180deg); }
 
 .salesforce_w2l_lead .top-aligned .w2llabel {
   font-size: 15px;
@@ -4646,6 +4646,9 @@ footer {
       line-height: 16px;
       padding: 9px 15px;
       letter-spacing: 1.2px; }
+      @media only screen and (max-width: 1024px) {
+        .plan-th li .btn, .plan-th li .primary-btn, .plan-th li .form-container .form-btn, .form-container .plan-th li .form-btn, .plan-td li .btn, .plan-td li .primary-btn, .plan-td li .form-container .form-btn, .form-container .plan-td li .form-btn {
+          padding: 8px; } }
     @media only screen and (max-width: 1024px) {
       .plan-th li, .plan-td li {
         display: flex;

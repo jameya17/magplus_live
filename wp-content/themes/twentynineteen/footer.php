@@ -479,6 +479,7 @@
 
         jQuery(".mob-select .options ul li a").click(function() {
             var select = this.id; 
+            jQuery('.pricing-chart-table').find(".plan-th .plan-head").remove('active');
             if (select == 'publish') {
                 jQuery('.plan-td').hide();
                 jQuery('.plan-td.publish').show();
@@ -486,6 +487,10 @@
             }else if (select == 'multi'){ 
                 jQuery('.plan-td').hide();
                 jQuery('.plan-td.multi').show();
+                if(select == 'multi'){
+                    jQuery(this).closest('.pricing-chart-table');
+                    jQuery('.pricing-chart-table').find(".plan-th .plan-head").addClass('active');
+                }
             }
             else if (select == 'multi-pro'){
                 jQuery('.plan-td').hide();
