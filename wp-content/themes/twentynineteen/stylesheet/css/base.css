@@ -1932,10 +1932,10 @@ input:-webkit-autofill:focus {
     .mob-select .selected a::before {
       top: 10px;
       background-image: url(../../images/icons/dropdown-white-arrow-ico.svg);
-      transform: rotate(360deg);
+      transform: rotate(180deg);
       transition: all 0.3s; }
   .mob-select.open .selected a::before {
-    transform: rotate(180deg); }
+    transform: rotate(360deg); }
 
 .salesforce_w2l_lead .top-aligned .w2llabel {
   font-size: 15px;
@@ -4547,7 +4547,7 @@ footer {
   margin-bottom: 50px; }
   @media only screen and (max-width: 1024px) {
     .pricing-pg p {
-      margin-bottom: 15px; } }
+      margin-bottom: 10px; } }
 
 .pricing-chart-table {
   padding-bottom: 80px;
@@ -4629,7 +4629,7 @@ footer {
         margin: 0; }
         @media only screen and (max-width: 1024px) {
           .plan-th li strong.plan-price, .plan-td li strong.plan-price {
-            font-size: 40px;
+            font-size: 36px;
             line-height: 40px; } }
     .plan-th li.btn-block, .plan-td li.btn-block {
       padding: 25px 0;
@@ -4711,7 +4711,9 @@ footer {
     @media only screen and (max-width: 1024px) {
       .popular li.lbl-popular {
         top: -10px;
-        padding: 0; } }
+        padding: 0;
+        font-size: 14px;
+        line-height: 20px; } }
 
 .pricing-fieldset {
   position: relative; }
@@ -4737,6 +4739,10 @@ footer {
   @media only screen and (max-width: 1024px) {
     .uk-section .plan-th.unlimited li.plan-head strong, .uk-section .plan-td.unlimited li.plan-head strong {
       margin-bottom: 5px; } }
+
+@media only screen and (max-width: 1024px) {
+  .pricing-pg .tab-section .tab-item .tab-link {
+    padding: 15px; } }
 
 .tutorialPg .sidebar {
   width: 26.5%; }

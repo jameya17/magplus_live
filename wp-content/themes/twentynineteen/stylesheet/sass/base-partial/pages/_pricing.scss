@@ -2,7 +2,7 @@
     p {
         margin-bottom: 50px;
         @media only screen and (max-width: 1024px) {
-            margin-bottom:15px; 
+            margin-bottom: 10px; 
         }
     }  
 }
@@ -90,7 +90,7 @@
                 color: #8D8788; 
                 margin: 0; 
                 @media only screen and (max-width: 1024px) {
-                    font-size: 40px;
+                    font-size: 36px;
                     line-height: 40px; 
                 }
             }
@@ -180,6 +180,8 @@
             @media only screen and (max-width: 1024px) {
                 top: -10px;
                 padding: 0;    
+                font-size: 14px;
+                line-height: 20px;
             }
         }
     }
@@ -221,4 +223,11 @@
         }
     }
     
+}
+.pricing-pg{
+    .tab-section .tab-item .tab-link{
+        @media only screen and (max-width: 1024px) {
+            padding: 15px
+        }
+    }
 }
