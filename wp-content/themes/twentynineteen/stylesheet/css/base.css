@@ -4562,7 +4562,7 @@ footer {
   @media only screen and (max-width: 1024px) {
     .pricing-chart-table {
       position: relative;
-      padding-bottom: 40px;
+      padding-bottom: 30px;
       border-top: 1px solid #ddd; } }
 
 .pricing-body {
