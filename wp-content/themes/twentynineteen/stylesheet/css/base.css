@@ -3996,7 +3996,7 @@ footer {
   @media only screen and (max-width: 1024px) {
     .sec-pad {
       /*padding: 30px 15px;*/
-      padding: 30px 30px; } }
+      padding: 30px 33px; } }
   .sec-pad p {
     margin-bottom: 20px; }
     .sec-pad p:last-child {
@@ -4662,7 +4662,7 @@ footer {
       margin-bottom: 0;
       border: 1px solid #ddd;
       border-top: 0;
-      padding-top: 45px; } }
+      padding-top: 25px; } }
 
 .plan-th {
   border-left: 1px solid #ddd;
@@ -4691,7 +4691,6 @@ footer {
   z-index: 1; }
   @media only screen and (max-width: 1024px) {
     .popular {
-      margin-top: 60px;
       z-index: 0; } }
   .popular li strong.plan-price {
     color: #FF8616; }
@@ -4713,7 +4712,8 @@ footer {
         top: -10px;
         padding: 0;
         font-size: 14px;
-        line-height: 20px; } }
+        line-height: 20px;
+        position: static; } }
 
 .pricing-fieldset {
   position: relative; }
