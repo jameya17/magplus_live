@@ -1109,7 +1109,7 @@ ol {
     margin-bottom: 85px; }
     @media only screen and (max-width: 1024px) {
       .tab-section .tab-head {
-        margin-bottom: 40px; } }
+        margin-bottom: 30px; } }
   .tab-section .tab-item {
     display: inline-block;
     list-style-type: none;
@@ -1837,7 +1837,7 @@ input:-webkit-autofill:focus {
   @media only screen and (max-width: 1024px) {
     .drop-down, .mob-select, .download-ver-select {
       text-align: center;
-      margin-bottom: 40px; } }
+      margin-bottom: 30px; } }
   .drop-down .selected a, .mob-select .selected a, .download-ver-select .selected a {
     position: relative;
     display: inline-block;
