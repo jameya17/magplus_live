@@ -2901,7 +2901,7 @@ input:-webkit-autofill:focus {
     color: #FF8616;
     font-weight: 400;
     letter-spacing: 0.44px; }
-.post-sidebar .sidebar-listing li::last-child .checkbox-container {
+.post-sidebar .sidebar-listing li:last-child .checkbox-container {
   border-bottom: 0; }
 .post-sidebar .sidebar-listing.tags-listing {
   font-size: 0; }
