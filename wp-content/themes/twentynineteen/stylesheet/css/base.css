@@ -2321,8 +2321,7 @@ input:-webkit-autofill:focus {
     padding-right: 65px;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
-    -ms-font-smoothing: antialiased;
-    font-smoothing: antialiased; }
+    -ms-font-smoothing: antialiased; }
 
 .acc-ans {
   display: none;
@@ -4012,10 +4011,10 @@ footer {
 @media only screen and (max-width: 767px) {
   .sec-pad .one-half p {
     max-width: 100%; } }
-.sec-pad .one-half p::last-child {
+.sec-pad .one-half p:last-child {
   margin-bottom: 0; }
   @media only screen and (max-width: 1024px) {
-    .sec-pad .one-half p::last-child {
+    .sec-pad .one-half p:last-child {
       margin-bottom: 0; } }
 
 .magplus-pro .sec-pad.intro-sec {

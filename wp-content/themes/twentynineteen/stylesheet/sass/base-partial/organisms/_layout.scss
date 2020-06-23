@@ -199,7 +199,7 @@
             @media only screen and (max-width: 767px) {
                 max-width: 100%; 
             }
-            &::last-child{
+            &:last-child{
                 margin-bottom: 0;
                 @media only screen and (max-width: 1024px) {
                     margin-bottom: 0;  
