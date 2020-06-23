@@ -56,8 +56,7 @@ table {
 /**
  * responsive viewport
  */
-@viewport {
-  width: device-width; }
+@viewport {}
 /**
  * inherit box model
  */
@@ -2023,7 +2022,7 @@ input:-webkit-autofill:focus {
     border: 1px solid #FF8616; }
 
 .salesforce_w2l_lead .sf_field .mr_top_q {
-  line-height: 22x !important; }
+  line-height: 22px !important; }
 
 .form-field-group label.checkbox-container {
   display: block; }
@@ -3524,12 +3523,10 @@ footer {
   text-transform: uppercase;
   cursor: pointer;
   background-color: #fff;
-  writing-mode: tb-rl;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   /* white-space: nowrap; */
-  writing-mode: tb-rl;
   width: 16px; }
   .contact-us:hover {
     color: #F36F21;
@@ -4329,7 +4326,6 @@ footer {
     padding-top: 35px; } }
 
 .entry-title {
-  font-variation-settings: 30px;
   line-height: 42px; }
 
 .faq-pg h3 {
