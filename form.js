@@ -158,6 +158,95 @@ function removeError(id){
 
 jQuery(document).ready(function (){
 
+   if(jQuery('#sf_form_salesforce_w2l_lead_3').length == 1){
+
+      function showErrorSf(id, msg){
+         var length =  jQuery(id).closest(".sf_field").find('.error_message').length;
+         if(length == 0){
+            jQuery(id).closest(".sf_field").append('<span class="error_message">'+msg+'</span>');
+         }
+         else{
+            jQuery(id).closest(".sf_field").find('.error_message').text(msg);
+         }
+         
+      }
+
+      function removeErrorSf(id){
+         jQuery(id).closest(".sf_field").find('.error_message').remove();
+      }
+
+      jQuery("#sf_form_salesforce_w2l_lead_3").submit(function() {
+
+         var firstName = lastName = email = password = phone = company = "";
+
+         firstName = jQuery("#sf_first_name").val();
+         lastName = jQuery("#sf_last_name").val();
+         email = jQuery("#sf_email").val();
+         phone = jQuery("#sf_phone").val();
+         var namePattern = /^[a-zA-Z]+$/;
+         var emailPattern = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i;
+         var phonePattern = /^[0-9]+$/;
+         var isValid = true;
+      
+         if(firstName == ""){
+            showErrorSf("#sf_first_name", "Required");
+            isValid = false;
+         }
+         else
+         if(!namePattern.test(firstName)){
+            showErrorSf("#sf_first_name", "Only alphabets are allowed");
+            isValid = false;
+         }
+         else{
+            removeErrorSf("#sf_first_name");
+         }
+
+         if(lastName == ""){
+            showErrorSf("#sf_last_name", "Required");
+            isValid = false;
+         }
+         else
+         if(!namePattern.test(lastName)){
+            showErrorSf("#sf_last_name", "Only alphabets are allowed");
+            isValid = false;
+         }
+         else{
+            removeErrorSf("#sf_last_name");
+         }
+
+         if(email == ""){
+            showErrorSf("#sf_email", "Required");
+            isValid = false;
+         }
+         else
+         if(!emailPattern.test(email)){
+            showErrorSf("#sf_email", "Invalid email id");
+            isValid = false;
+         }
+         else{
+            removeErrorSf("#sf_email");
+         }
+
+         if(phone != '' && !phonePattern.test(phone)){
+            showErrorSf("#sf_phone", "Invalid phone number");
+            isValid = false;
+         }
+         else{
+            removeErrorSf("#sf_phone");
+         }
+
+         alert(isValid);
+
+         if(isValid){
+            return true;
+         }
+         else{
+            return false;
+         }
+      });
+   }
+   
+
    if(jQuery("#sign-in-form").length == 1){
       jQuery("#sign-in-form input").change(function(){
          var isFormValid = true;
