@@ -189,7 +189,9 @@
             dots: true,
             nav: false,
             center: true,
-            loop: false,
+            loop: true,
+            autoplay:true,
+            autoplayTimeout:3000,
             responsive: {
                 1024: {
                     items: 3,
@@ -608,6 +610,19 @@
             jQuery('.sticky-nav-block').removeClass('fixed');
         }
 
+    });
+
+    jQuery('.gotoprog').click(function(){
+        if(jQuery(window).width() < 1024)
+            {
+                var scrollPoint = jQuery(".how-it-works").offset().top -50;
+            } else {
+                var scrollPoint = jQuery(".how-it-works").offset().top -70;
+            }
+        
+        jQuery('body,html').animate({
+            scrollTop: scrollPoint
+        }, 500);
     });
 
     var TxtType = function(el, toRotate, period) {

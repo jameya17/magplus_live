@@ -1255,13 +1255,19 @@ ol {
   top: 0;
   height: 28px; }
 
-.breadcrumb ul {
-  list-style-type: none;
-  padding: 20px 0; }
+.breadcrumb {
+  height: 70px; }
   @media only screen and (max-width: 1024px) {
-    .breadcrumb ul {
-      padding: 10px 15px;
-      margin-bottom: 0; } }
+    .breadcrumb {
+      height: 42px; } }
+  .breadcrumb ul {
+    list-style-type: none;
+    padding: 20px 0;
+    display: none; }
+    @media only screen and (max-width: 1024px) {
+      .breadcrumb ul {
+        padding: 10px 15px;
+        margin-bottom: 0; } }
 
 .breadcrumb-item {
   display: inline-block;
@@ -2369,7 +2375,8 @@ input:-webkit-autofill:focus {
   .owl-carousel p {
     line-height: 24px;
     color: #595656;
-    font-weight: 400; }
+    font-weight: 400;
+    letter-spacing: 0; }
   .owl-carousel .owl-bg-image {
     min-height: 320px; }
     @media only screen and (max-width: 1024px) {
