@@ -17,7 +17,7 @@ get_header();
                     <div class="one-half">
                         <h1 class="mag-plus-now-head">What is <img class="megplus-now-img" src="<?php bloginfo('template_directory'); ?>/images/megaplus-now.svg" alt="Megplus Now" title="Megplus Now"></h1>
                         <p>mag+ Now empowers you to author HTML content and upgrade PDFs for touch enabled smart devices.</p>
-                        <a href="javascript:void()" class="primary-btn home-contact-click" title="Contact Us">Know More
+                        <a href="javascript:void()" class="primary-btn gotoprog" title="Contact Us">Know More
                             <span class="span1">Know More</span>
                             <span class="span2">Know More</span>
                         </a>
@@ -30,12 +30,12 @@ get_header();
             </div>
         </section>
         
-        <section class="l-section sec-pad grey-bg">
+        <section class="l-section sec-pad grey-bg how-it-works">
             <div class="l-section-wrap" data-aos="fade-up">
                 <div class="g-col align-center">  
                     <h3>How it Works</h3>
                     <p class="small-wrap">mag+ Now combines a CMS, a content authoring tool and mag+ into a single platform so that you can either create brand new HTML content or search your organisation’s CMS for documents and edit them in the authoring tool. Once finished, you can seamlessly publish this content to a mag+ powered mobile app. </p>
-                    <a href="https://youtu.be/QiknaxhsVqo" target="_blank" rel="noopener noreferrer" data-fancybox class="primary-btn" title="Schedule a Demo">Schedule a Demo
+                    <a href="javascript:void()" class="primary-btn home-contact-click" title="Schedule a Demo">Schedule a Demo
                         <span class="span1">Schedule a Demo</span>
                         <span class="span2">Schedule a Demo</span>
                     </a>
